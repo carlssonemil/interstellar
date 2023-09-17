@@ -5,7 +5,6 @@ const capitalize = (str) => {
 
 const convertToSlug = (str) => {
 	if (typeof str !== 'string') return ''
-	// "-Hello----world-" => "hello-world
 	return str
 		.toLowerCase()
 		.trim()

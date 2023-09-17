@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+body {
+	background: $background-color;
+	color: $text-color;
+	font-family: $font-family;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: $container-width;
+	width: 90%;
+}
+

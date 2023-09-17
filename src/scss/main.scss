@@ -1,0 +1,25 @@
+/**
+ * Main SCSS file
+ */
+
+// Reset CSS, by Eric Meyer:
+@import './vendors/reset';
+
+// Abstracts
+@import './abstracts/variables';
+@import './abstracts/mixins';
+@import './abstracts/functions';
+
+// Base
+@import './base/animations';
+@import './base/base';
+@import './base/transitions';
+@import './base/typography';
+
+// Components
+@import './components/notifications';
+@import './components/tables';
+@import './components/tooltips';
+
+// Layout
+@import './layout/header';

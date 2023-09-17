@@ -1,0 +1,84 @@
+{
+	"general": {
+		"about": "About",
+		"calling_cards": "Calling Card | Calling Cards",
+		"camouflage": "Camouflage | Camouflages",
+		"change_language": "Change language",
+		"coming_soon": "Coming soon",
+		"made_by": "Made by {0}",
+		"mastery": "Mastery",
+		"report_an_issue": "Report an issue",
+		"requirement": "Requirement | Requirements",
+		"setting": "Setting | Settings",
+		"translated_by": ", translated by {0}",
+		"weapon": "Weapon | Weapons"
+	},
+	"locales": {
+		"en-US": "English"
+	},
+	"pages": {
+		"404": {
+			"description": "Dang, looks like you {0}.",
+			"scenarios": [
+				"took a wrong turn at Nuketown and ended up on a missing page 🏘️",
+				"got stuck respawning and ended up on a missing page 💥",
+				"tried to quick-scope the URL and ended up on a missing page 🔭",
+				"used Dead Silence too effectively and ended up on a missing page 🚫🔊",
+				"dove into a glitch and ended up on a missing page 🕳️",
+				"got flashbanged in the menus and ended up on a missing page ⚡",
+				"were last seen dropping into Verdansk and ended up on a missing page 🪂",
+				"got trapped in a Gulag and ended up on a missing page 🚿",
+				"tried to wall-run on a flat page and ended up on a missing page 🏃‍♂️",
+				"hit the wrong loadout drop and ended up on a missing page 📦",
+				"got caught in a crossfire between pages and ended up on a missing page 🔫",
+				"followed Captain Price into a secret mission and ended up on a missing page 🕵️",
+				"didn't use your UAV and got lost and ended up on a missing page 🛰️",
+				"tried to exfil without a chopper and ended up on a missing page 🚁",
+				"took the secret tunnel to Zombies and ended up on a missing page 🧟‍♂️",
+				"missed the Call... of Duty and ended up on a missing page 📞",
+				"tried to loot a non-existent cache and ended up on a missing page 💼",
+				"parachuted into an uncharted territory and ended up on a missing page 🗺️",
+				"mistakenly tried to rendezvous with Ghost and ended up on a missing page 👻",
+				"looked for Easter eggs in the wrong spot and ended up on a missing page 🥚"
+			],
+			"link": "Return to home"
+		},
+		"about": {
+			"features": {
+				"autosaving": {
+					"title": "Autosaving",
+					"description": "Your progress is automatically saved and stored. No account needed."
+				},
+				"responsive": {
+					"title": "Responsive",
+					"description": "The tracker works on all devices, from desktop to mobile."
+				},
+				"export_import": {
+					"title": "Export/Import",
+					"description": "Export your progress to a file and import it on another device."
+				},
+				"filterable": {
+					"title": "Filterable",
+					"description": "Easily switch between weapon categories and toggle completed on/off."
+				},
+				"ad_free": {
+					"title": "Ad-free",
+					"description": "No annoying ads cluttering the site. Not now, not ever."
+				}
+			},
+			"open_source_description": "Built with {0}, hosted on {1} and analytics by {2}. The code to this site is available on {3}.",
+			"open_source": "Open source",
+			"previous_trackers_description": "Looking for camouflage trackers for the previous Call of Duty games going back to 2019?",
+			"previous_trackers": "Previous trackers",
+			"subtitle": "Keep track of your progress to the TBD camouflage with this easy-to-use tracker.",
+			"support_me_description": "You can support me by {0} 🍺, it'd be greatly appreciated!",
+			"support_me_link": "buying me a beer",
+			"support_me": "Support me",
+			"title": "Simple, lightweight & intuitive"
+		},
+		"requirements": {
+			"description": "🤷",
+			"title": "How do I unlock the TBD camouflage?"
+		}
+	}
+}

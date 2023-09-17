@@ -1,0 +1,62 @@
+// Colors
+$background-color: #121212;
+$elevation-0-color: darken(white, 95%);
+$elevation-1-color: darken(white, 90%);
+$elevation-2-color: darken(white, 87.5%);
+$elevation-3-color: darken(white, 85%);
+$elevation-4-color: darken(white, 82.5%);
+$elevation-5-color: darken(white, 80%);
+$elevation-6-color: darken(white, 77.5%);
+$elevation-7-color: darken(white, 75%);
+$elevation-8-color: darken(white, 72.5%);
+$elevation-9-color: darken(white, 70%);
+$text-color: white;
+
+// Palette
+$green: #10ac84;
+$red: #ee5253;
+$yellow: #feca57;
+$orange: #ff9f43;
+$pink: #f368e0;
+$purple: #5f27cd;
+$blue: #2e86de;
+$silver: #d7d7d7;
+
+// Alias
+$primary: $green;
+$secondary: $blue;
+$tertiary: $red;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$info: $blue;
+
+
+$border-radius: 3px;
+$transition: 0.25s ease;
+$font-family: Inter, sans-serif;
+$container-width: 1100px;
+
+// Breakpoints
+$mobile: 480px;
+$tablet: 1000px;
+
+// Z-index values
+$z-index: (
+  notice: 3
+);
+
+// Gradients
+$gray-gradient: linear-gradient(
+  45deg,
+  hsl(0deg 0% 32%) 0%,
+  hsl(0deg 0% 35%) 20%,
+  hsl(0deg 0% 39%) 35%,
+  hsl(0deg 0% 42%) 48%,
+  hsl(0deg 0% 45%) 58%,
+  hsl(0deg 0% 49%) 66%,
+  hsl(0deg 0% 52%) 74%,
+  hsl(0deg 0% 56%) 82%,
+  hsl(0deg 0% 59%) 90%,
+  hsl(0deg 0% 63%) 100%
+);

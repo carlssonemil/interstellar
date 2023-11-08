@@ -19,13 +19,13 @@ app.use(Notifications)
 app.use(router)
 app.use(i18n)
 app.use(VueTippy, {
-	defaultProps: {
-		animation: 'shift-away',
-	},
+  defaultProps: {
+    animation: 'shift-away',
+  },
 })
 
 defineGlobalComponents(app)
 
 router.isReady().then(() => {
-	app.mount('#app')
+  app.mount('#app')
 })

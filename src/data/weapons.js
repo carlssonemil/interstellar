@@ -11,14 +11,14 @@ import melee from '@/data/weapons/melee'
 
 // The order of this array determines the order of the weapon categories
 export default [
-	...assaultRifles,
-	...battleRifles,
-	...subMachineGuns,
-	...shotguns,
-	...lightMachineGuns,
-	...marksman,
-	...sniperRifles,
-	...handguns,
-	...launchers,
-	...melee,
+  ...assaultRifles,
+  ...battleRifles,
+  ...subMachineGuns,
+  ...shotguns,
+  ...lightMachineGuns,
+  ...marksman,
+  ...sniperRifles,
+  ...handguns,
+  ...launchers,
+  ...melee,
 ]

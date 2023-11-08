@@ -1,29 +1,29 @@
 import { defineStore } from 'pinia'
 
 const defaultPreferences = {
-	locale: 'en-US',
+  locale: 'en-US',
 }
 
 export const usePreferencesStore = defineStore('preferences', {
-	state: () => ({
-		...defaultPreferences,
-	}),
+  state: () => ({
+    ...defaultPreferences,
+  }),
 
-	getters: {
-		getLocale: (state) => state.locale,
-	},
+  getters: {
+    getLocale: (state) => state.locale,
+  },
 
-	actions: {
-		setLocale(locale) {
-			this.locale = locale
-		},
+  actions: {
+    setLocale(locale) {
+      this.locale = locale
+    },
 
-		setPreferences(preferences) {
-			this.locale = preferences.locale
-		},
+    setPreferences(preferences) {
+      this.locale = preferences.locale
+    },
 
-		resetPreferences() {
-			this.$state = { ...defaultPreferences }
-		},
-	},
+    resetPreferences() {
+      this.$state = { ...defaultPreferences }
+    },
+  },
 })

@@ -10,14 +10,14 @@ import sniperRifles from '@/data/requirements/weapons/sniperRifles'
 import subMachineGuns from '@/data/requirements/weapons/subMachineGuns'
 
 export default {
-	...assaultRifles,
-	...battleRifles,
-	...handguns,
-	...launchers,
-	...lightMachineGuns,
-	...marksmanRifles,
-	...melee,
-	...shotguns,
-	...sniperRifles,
-	...subMachineGuns,
+  ...assaultRifles,
+  ...battleRifles,
+  ...handguns,
+  ...launchers,
+  ...lightMachineGuns,
+  ...marksmanRifles,
+  ...melee,
+  ...shotguns,
+  ...sniperRifles,
+  ...subMachineGuns,
 }

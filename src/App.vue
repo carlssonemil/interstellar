@@ -1,26 +1,26 @@
 <template>
-	<div id="app">
-		<Header />
+  <div id="app">
+    <Header />
 
-		<Main>
-			<router-view v-slot="{ Component }">
-				<transition name="page-fade" mode="out-in">
-					<component :is="Component" />
-				</transition>
-			</router-view>
-		</Main>
+    <Main>
+      <router-view v-slot="{ Component }">
+        <transition name="page-fade" mode="out-in">
+          <component :is="Component" />
+        </transition>
+      </router-view>
+    </Main>
 
-		<notifications position="top center">
-			<template #body="props">
-				<div class="notification" :class="props.item.type" @click="props.close">
-					<p class="title">{{ props.item.title }}</p>
-					<Icon class="remove" name="times" width="18" height="18" />
-				</div>
-			</template>
-		</notifications>
+    <notifications position="top center">
+      <template #body="props">
+        <div class="notification" :class="props.item.type" @click="props.close">
+          <p class="title">{{ props.item.title }}</p>
+          <Icon class="remove" name="times" width="18" height="18" />
+        </div>
+      </template>
+    </notifications>
 
-		<Footer />
-	</div>
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -29,11 +29,11 @@ import Header from '@/components/layout/Header.vue'
 import Main from '@/components/layout/Main.vue'
 
 export default {
-	components: {
-		Footer,
-		Header,
-		Main,
-	},
+  components: {
+    Footer,
+    Header,
+    Main,
+  },
 }
 </script>
 
@@ -42,8 +42,8 @@ export default {
 @import '@/scss/main';
 
 #app {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 </style>

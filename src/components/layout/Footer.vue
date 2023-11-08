@@ -12,7 +12,7 @@
 		<div>
 			<router-link to="/about">{{ $t('general.about') }}</router-link>
 			<router-link to="/requirements">{{ $tc('general.requirement') }}</router-link>
-			<a href="https://github.com/carlssonemil/mw3">GitHub</a>
+			<a href="https://github.com/carlssonemil/interstellar">GitHub</a>
 			<LocaleSwitcher />
 		</div>
 	</footer>

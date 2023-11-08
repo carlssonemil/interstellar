@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { getStoredLocale } from '@/utils/locale'
 
-const token = import.meta.env.MODE === 'production' ? 'mw3' : 'mw3-dev'
+const token = import.meta.env.MODE === 'production' ? 'interstellar' : 'interstellar-dev'
 
 describe('utils/locale', () => {
 	describe('getStoredLocale', () => {

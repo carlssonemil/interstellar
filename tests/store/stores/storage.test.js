@@ -2,7 +2,7 @@ import { describe, it, expect, beforeEach } from 'vitest'
 import { setActivePinia, createPinia } from 'pinia'
 import { useStorageStore } from '@/store/stores/storage'
 
-const token = import.meta.env.MODE === 'production' ? 'mw3' : 'mw3-dev'
+const token = import.meta.env.MODE === 'production' ? 'interstellar' : 'interstellar-dev'
 
 describe('store/stores/storage', () => {
 	beforeEach(() => {

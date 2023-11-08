@@ -60,3 +60,8 @@ $gray-gradient: linear-gradient(
   hsl(0deg 0% 59%) 90%,
   hsl(0deg 0% 63%) 100%
 );
+$interstellar-gradient: linear-gradient(
+  45deg,
+  $pink,
+  $purple,
+)

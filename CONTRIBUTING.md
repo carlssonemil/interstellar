@@ -9,13 +9,13 @@ Fork this repository by clicking on the fork button on the top of this page. Thi
 ### 2. Clone the repository
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the clone button and choose a way of cloning. If you go with the HTTPS option, it will look like this:
 ```bash
-git clone https://github.com/[your username]/mw3.git
+git clone https://github.com/[your username]/interstellar.git
 ```
 
 ### 3. Create a branch
 First change to the repository directory on your computer (if you're not already there):
 ```bash
-cd orion
+cd interstellar
 ```
 Create a branch using the `git checkout` command:
 ```bash
@@ -61,7 +61,7 @@ All languages are welcome and to contribute a new language just follow these ste
 2. Create a new `.json` file in `./src/i18n/locales/` with the desired locale.
 3. Copy the contents of the `en-US.json` file in the same directory.
 4. Translate all values to the desired language.
-5. Add your new locale file in [./i18n/locales.js](https://github.com/carlssonemil/orion/blob/main/src/i18n/locales.js):
+5. Add your new locale file in [./i18n/locales.js](https://github.com/carlssonemil/interstellar/blob/main/src/i18n/locales.js):
 ```javascript
 import enUs from './locales/en-US.json'
 import svSE from './locales/sv-SE.json'
@@ -95,4 +95,4 @@ If you don't have access to any image editing software (besides Paint), [Photope
 
 ## License
 
-By contributing your code, you agree to license your contribution under the [MIT License](https://github.com/carlssonemil/orion/blob/main/LICENSE).
+By contributing your code, you agree to license your contribution under the [MIT License](https://github.com/carlssonemil/interstellar/blob/main/LICENSE).

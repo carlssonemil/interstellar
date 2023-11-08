@@ -3,7 +3,7 @@ import { notify } from '@kyvg/vue3-notification'
 
 import { usePreferencesStore } from './preferences'
 
-const token = import.meta.env.MODE === 'production' ? 'mw3' : 'mw3-dev'
+const token = import.meta.env.MODE === 'production' ? 'interstellar' : 'interstellar-dev'
 
 export const useStorageStore = defineStore('storage', {
 	state: () => ({

@@ -1,5 +1,5 @@
 const getStoredLocale = () => {
-	const token = import.meta.env.MODE === 'production' ? 'mw3' : 'mw3-dev'
+	const token = import.meta.env.MODE === 'production' ? 'interstellar' : 'interstellar-dev'
 	const storage = window.localStorage.getItem(token)
 
 	if (storage) {

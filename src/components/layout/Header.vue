@@ -3,7 +3,7 @@
 		<nav class="container">
 			<router-link to="/" class="logo">
 				<div class="icon" />
-				<p><span>TBD</span></p>
+				<p><span>Interstellar</span></p>
 			</router-link>
 
 			<div>
@@ -25,7 +25,7 @@
 				</router-link>
 
 				<a
-					href="https://github.com/carlssonemil/mw3/issues/new?title=[Bug]%20"
+					href="https://github.com/carlssonemil/interstellar/issues/new?title=[Bug]%20"
 					target="_blank"
 					class="icon bug"
 					:content="$t('general.report_an_issue')"
@@ -76,7 +76,7 @@ header {
 
 			.icon {
 				$size: 35px;
-				@include tbd-camouflage-background;
+				@include interstellar-camouflage-background;
 				border-radius: $border-radius * 2;
 				display: block;
 				height: $size;

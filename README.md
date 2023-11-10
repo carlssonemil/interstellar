@@ -1,6 +1,6 @@
 # Interstellar
 
-> **WIP:** This tracker is still a work in progress as more information about how the new camouflage system will work is revealed. Join the [discussions](https://github.com/carlssonemil/interstellar/discussions/landing) if you want to help finish it faster!
+> **WIP:** This tracker is still a work in progress as more information about how the new camouflage system will work is revealed. Join the [discussions](https://github.com/carlssonemil/interstellar/discussions/) if you want to help finish it faster!
 
 ## Simple, lightweight & intuitive camouflage tracker
 

@@ -1,6 +1,6 @@
 import { createI18n } from 'vue-i18n'
-import { getStoredLocale } from '../utils/locale'
-import locales from './locales'
+import { getStoredLocale } from '../utils/utils'
+import locales from './locales.js'
 
 const locale = getStoredLocale()
 const DEFAULT_LOCALE = 'en-US'

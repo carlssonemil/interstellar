@@ -1,38 +1,80 @@
 <template>
   <div id="app">
-    <Header />
+    <NoticeComponent />
+    <NavigationComponent @toggleMobileNavigation="toggleMobileNavigation" />
+    <MobileNavigationComponent
+      :show="showMobileNavigation"
+      @toggleMobileNavigation="toggleMobileNavigation" />
 
-    <Main>
+    <div class="container" style="margin-bottom: 50px">
+      <AlertComponent type="danger" icon="exclamation-triangle">
+        <p>
+          The app is still under development. You can use it, but there might be bugs and missing
+          features. The progress you make might be lost.
+        </p>
+      </AlertComponent>
+    </div>
+
+    <main>
       <router-view v-slot="{ Component }">
         <transition name="page-fade" mode="out-in">
           <component :is="Component" />
         </transition>
       </router-view>
-    </Main>
+    </main>
 
     <notifications position="top center">
       <template #body="props">
         <div class="notification" :class="props.item.type" @click="props.close">
           <p class="title">{{ props.item.title }}</p>
-          <Icon class="remove" name="times" width="18" height="18" />
+          <IconComponent class="remove" name="times" width="18" height="18" />
         </div>
       </template>
     </notifications>
 
-    <Footer />
+    <FooterComponent />
   </div>
 </template>
 
 <script>
-import Footer from '@/components/layout/Footer.vue'
-import Header from '@/components/layout/Header.vue'
-import Main from '@/components/layout/Main.vue'
+import { useStore } from '@/stores/store'
+
+import FooterComponent from '@/components/layout/FooterComponent.vue'
+import MobileNavigationComponent from '@/components/layout/MobileNavigationComponent.vue'
+import NavigationComponent from '@/components/layout/NavigationComponent.vue'
+import NoticeComponent from './components/NoticeComponent.vue'
+import AlertComponent from '@/components/AlertComponent.vue'
 
 export default {
   components: {
-    Footer,
-    Header,
-    Main,
+    FooterComponent,
+    MobileNavigationComponent,
+    NavigationComponent,
+    NoticeComponent,
+    AlertComponent,
+  },
+
+  data() {
+    return {
+      showMobileNavigation: false,
+    }
+  },
+
+  async beforeCreate() {
+    const store = useStore()
+    await store.getStoredProgress()
+  },
+
+  watch: {
+    $route() {
+      this.showMobileNavigation = false
+    },
+  },
+
+  methods: {
+    toggleMobileNavigation() {
+      this.showMobileNavigation = !this.showMobileNavigation
+    },
   },
 }
 </script>

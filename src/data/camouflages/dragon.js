@@ -1,31 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import dragon from '../requirements/camouflages/dragon'
+const base = Object.keys(dragon)
 
-const camouflages = [
-  'Dirt',
-  'Moss',
-  'Tagged',
-  'Black Top',
-  'Asphalt',
-  'Crime Scene',
-  'Neon Pink',
-  'Trailblazer',
-  'Foliage',
-  'Reptilian',
-  'Dark Leaves',
-  'Internal Flame',
-  'Omnihex',
-  'Tessellation',
-  'Moon Shadow',
-  'Burned Edges',
-  'Diabolical',
-  'H20',
-  'Cracking Onyx',
-  'Dark Croc',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Dragon',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

@@ -1,30 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import tiger from '../requirements/camouflages/tiger'
+const base = Object.keys(tiger)
 
-const camouflages = [
-  'Overgrown',
-  'Mudslide',
-  'Dank Forest',
-  'Abominable',
-  'Faded Veil',
-  'Feral Beast',
-  'Tiger Stripes',
-  'Desert Cat',
-  'Red Tiger',
-  'Blue Tiger',
-  'Desert Wave',
-  'Neon Shards',
-  'Teal Tiger',
-  'Intoxicate',
-  'Shadow Tiger',
-  'Sunlit Croc',
-  'Ethereal Rampage',
-  'Velvet Midnight',
-  'Acrid Drift',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Tiger',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

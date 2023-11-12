@@ -1,40 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import sprayPaint from '../requirements/camouflages/sprayPaint'
+const base = Object.keys(sprayPaint)
 
-const camouflages = [
-  'Desert Snake',
-  'Sponge Tac',
-  'Forest Shadow',
-  'Surface Tension',
-  'Gladiator',
-  'Dead Hive',
-  'Scratch',
-  'Scales',
-  'Darkfall',
-  'Shark Net',
-  'Day Marsh',
-  'Sand Viper',
-  "Rip N' Tear",
-  'China Lake',
-  'Ripple Effect',
-  'Unearthed',
-  'Tarnished',
-  'Grass Snake',
-  'Gaseous',
-  'Sandfall',
-  'Arctic Growth',
-  'Vapor Storm',
-  'Sandpaper',
-  'Snake Oil',
-  'Tunnels',
-  'Cloud Static',
-  'Mud Snake',
-  'Deserted',
-  'Veldt',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
-  category: 'Classic',
-  completed: false,
+export default [...base, ...dlc].map((camouflage) => ({
+  category: 'Spray Paint',
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

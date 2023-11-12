@@ -1,27 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import solidColors from '../requirements/camouflages/solidColors'
+const base = Object.keys(solidColors)
 
-const camouflages = [
-  'Sand',
-  'Olive',
-  'Clay',
-  'Slate',
-  'Pine',
-  'Neon Loud',
-  'Hunting Orange',
-  'Azul',
-  'Aqua',
-  'Scarlet',
-  'Navy',
-  'Pinkish',
-  'Whiteout',
-  'Charcoal',
-  'Unplumbed',
-  'Ghastly Green',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Solid Colors',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

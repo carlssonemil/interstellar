@@ -22,8 +22,4 @@ export default {
   'Dual Kamas': {
     'Cyber Plateau': false,
   },
-
-  'Gutter Knife': {},
-
-  'Karambit': {},
 }

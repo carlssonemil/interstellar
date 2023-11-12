@@ -82,16 +82,4 @@ export default {
     'Snow Tiger': false,
     'Neon Peaks': false,
   },
-
-  'Striker': {},
-
-  'WSP Swarm': {},
-
-  'AMR9': {},
-
-  'WSP-9': {},
-
-  'Rival-9': {},
-
-  'Striker 9': {},
 }

@@ -54,12 +54,4 @@ export default {
     'Dire Growth': false,
     'Sandfall': false,
   },
-
-  'KVD Enforcer': {},
-
-  'MCW 6.8': {},
-
-  'DM56': {},
-
-  'MTZ Interceptor': {},
 }

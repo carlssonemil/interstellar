@@ -1,25 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import foliage from '../requirements/camouflages/foliage'
+const base = Object.keys(foliage)
 
-const camouflages = [
-  'Deep Jungle',
-  'Autumnal',
-  'Dry Field',
-  'Countryside',
-  'Snow Grass',
-  'Aspen',
-  'Bamboo',
-  'Mosswood',
-  'Ferns',
-  'Leafless',
-  'Urban Dusk',
-  'Fibrous',
-  'Birch',
-  'Scratched Up',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Foliage',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

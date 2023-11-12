@@ -40,10 +40,4 @@ export default {
     'Red Smoke': false,
     'Green Edges': false,
   },
-
-  'Lockwood 680': {},
-
-  'Haymaker': {},
-
-  'Riveter': {},
 }

@@ -103,16 +103,4 @@ export default {
     'Scratched Up': false,
     'Light Revisited': false,
   },
-
-  'SVA 545': {},
-
-  'MTZ-556': {},
-
-  'Holger 556': {},
-
-  'MCW': {},
-
-  'DG-50': {},
-
-  'FR 5.56': {},
 }

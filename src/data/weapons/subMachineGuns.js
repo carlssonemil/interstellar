@@ -1,5 +1,7 @@
 import defaultProgress from '@/data/defaults/progress/subMachineGuns'
-import zombiesProgress from '@/data/defaults/progress/zombies'
+import defaultCompletionistProgress from '@/data/defaults/progress/completionist'
+import defaultMasteryProgress from '@/data/defaults/progress/mastery'
+import defaultZombiesProgress from '@/data/defaults/progress/zombies'
 
 // The order of the weapons in this array is the order they will appear in the app
 const weapons = [
@@ -31,12 +33,14 @@ export default weapons.map((weapon) => ({
 
   progress: {
     ...defaultProgress[weapon.name],
-    Gilded: false,
-    Forged: false,
-    Priceless: false,
+    ...defaultCompletionistProgress[weapon.game],
+  },
+
+  masteryProgress: {
+    ...defaultMasteryProgress[weapon.game],
   },
 
   zombiesProgress: {
-    ...zombiesProgress[weapon.game],
+    ...defaultZombiesProgress[weapon.game],
   },
 }))

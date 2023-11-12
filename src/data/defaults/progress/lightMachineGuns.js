@@ -40,14 +40,4 @@ export default {
     'Quarry': false,
     'Blue Tiger': false,
   },
-
-  'Pulemyot 762': {},
-
-  'DG-58 LSW': {},
-
-  'Holger 26': {},
-
-  'Bruen MK9': {},
-
-  'TAQ Eradicator': {},
 }

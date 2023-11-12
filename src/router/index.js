@@ -1,27 +1,48 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import NotFound from '../views/NotFound.vue'
+
+import HomeView from '../views/HomeView.vue'
+import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'home',
+    component: HomeView,
   },
   {
     path: '/:pathMatch(.*)*',
-    name: 'NotFound',
-    component: NotFound,
+    name: '404',
+    component: NotFoundView,
+  },
+  {
+    path: '/camouflages',
+    name: 'camouflages',
+    component: () => import('../views/CamouflagesView.vue'),
+  },
+  {
+    path: '/calling-cards',
+    name: 'calling-cards',
+    component: () => import('../views/CallingCardsView.vue'),
+  },
+  {
+    path: '/mastery',
+    name: 'mastery',
+    component: () => import('../views/MasteryView.vue'),
   },
   {
     path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    name: 'about',
+    component: () => import('../views/AboutView.vue'),
   },
   {
     path: '/requirements',
-    name: 'Requirements',
-    component: () => import(/* webpackChunkName: "requirements" */ '../views/Requirements.vue'),
+    name: 'requirements',
+    component: () => import('../views/RequirementsView.vue'),
+  },
+  {
+    path: '/settings',
+    name: 'settings',
+    component: () => import('../views/SettingsView.vue'),
   },
 ]
 

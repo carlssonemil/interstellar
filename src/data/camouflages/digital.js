@@ -1,43 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import digital from '../requirements/camouflages/digital'
+const base = Object.keys(digital)
 
-const camouflages = [
-  'Desert Oil Digital',
-  'Arid Digital',
-  'Bio Static Digital',
-  'Urban Digital',
-  'Sandstorm Digital',
-  'Jungle Digital (RPG)',
-  'Snowstorm Digital',
-  'Snow Melt Digital',
-  'Commando Digital',
-  'Jungle Digital',
-  'Arctic Digital',
-  'Forest Digital',
-  'Dark Tiger Digital',
-  'Petri Digital',
-  'Stonewall Digital',
-  'Chemist Digital',
-  'Asphalt Digital',
-  'Magma Digital',
-  'Red Cell',
-  'Green Digital',
-  'Marsh Digital',
-  'Blue Digital',
-  'Classic Digital',
-  'Desert Digital',
-  'Bark Digital',
-  'Aztec',
-  'Conflagration',
-  'Digital Wilds',
-  'Alien Waves',
-  'Connected Dots',
-  'Blood and Mud',
-  'Digital Boulder',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Digital',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

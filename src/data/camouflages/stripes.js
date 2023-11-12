@@ -1,31 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import stripes from '../requirements/camouflages/stripes'
+const base = Object.keys(stripes)
 
-const camouflages = [
-  'Commando Paint',
-  'Marshland',
-  'Savannah',
-  'Mud Bath',
-  'Dark Rainforest',
-  'Shadow Stalker',
-  'Ground Cover',
-  'Urban Zebra',
-  'Wild Zebra',
-  'Tendrils',
-  'Beached',
-  'Timber',
-  'Snowed In',
-  'Stalking Cat',
-  'Field Ops',
-  'Paths Of Light',
-  'Dire Growth',
-  'Sky Cover',
-  'Wet Sands',
-  'Zany Zebra',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Stripes',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

@@ -4,7 +4,7 @@ import digital from '@/data/requirements/camouflages/digital'
 import dragon from '@/data/requirements/camouflages/dragon'
 import foliage from '@/data/requirements/camouflages/foliage'
 import fun from '@/data/requirements/camouflages/fun'
-import geometrics from '@/data/requirements/camouflages/geometrics'
+import geometric from '@/data/requirements/camouflages/geometric'
 import reptile from '@/data/requirements/camouflages/reptile'
 import skulls from '@/data/requirements/camouflages/skulls'
 import solidColors from '@/data/requirements/camouflages/solidColors'
@@ -20,7 +20,7 @@ export default {
   ...dragon,
   ...foliage,
   ...fun,
-  ...geometrics,
+  ...geometric,
   ...reptile,
   ...skulls,
   ...solidColors,

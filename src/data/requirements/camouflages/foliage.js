@@ -7,7 +7,6 @@ export default {
       type: 'kills',
     },
   },
-
   'Autumnal': {
     weapon: 'LM-S',
     level: '9',
@@ -16,7 +15,6 @@ export default {
       type: 'one_shot',
     },
   },
-
   'Dry Field': {
     weapon: 'SP-X 80',
     level: '7',
@@ -25,7 +23,6 @@ export default {
       type: 'mounted',
     },
   },
-
   'Countryside': {
     weapon: 'Basilisk',
     level: '11',
@@ -34,7 +31,6 @@ export default {
       type: 'ads',
     },
   },
-
   'Snow Grass': {
     weapon: 'MCPR-300',
     level: '10',
@@ -45,7 +41,6 @@ export default {
       times: 10,
     },
   },
-
   'Aspen': {
     weapon: 'SP-X 80',
     level: '13',
@@ -54,7 +49,6 @@ export default {
       type: 'one_shot',
     },
   },
-
   'Bamboo': {
     weapon: 'Bryson 800',
     level: '8',
@@ -63,7 +57,6 @@ export default {
       type: 'hipfire',
     },
   },
-
   'Mosswood': {
     weapon: 'Lockwood 300',
     level: '2',
@@ -72,7 +65,6 @@ export default {
       type: 'kills',
     },
   },
-
   'Ferns': {
     weapon: 'SP-R 208',
     level: '11',
@@ -81,7 +73,6 @@ export default {
       type: 'prone',
     },
   },
-
   'Leafless': {
     weapon: 'LA-B 330',
     level: '15',
@@ -90,7 +81,6 @@ export default {
       type: 'one_shot',
     },
   },
-
   'Urban Dusk': {
     weapon: 'BAS-P',
     level: '11',
@@ -99,7 +89,6 @@ export default {
       type: 'behind',
     },
   },
-
   'Fibrous': {
     weapon: 'FR Avancer',
     level: '2',
@@ -108,7 +97,6 @@ export default {
       type: 'kills',
     },
   },
-
   'Birch': {
     weapon: 'Carrack .300',
     level: '2',
@@ -117,7 +105,6 @@ export default {
       type: 'kills',
     },
   },
-
   'Scratched Up': {
     weapon: 'TR-76 Geist',
     level: '14',

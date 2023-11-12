@@ -1,5 +1,7 @@
 import defaultProgress from '@/data/defaults/progress/assaultRifles'
-import zombiesProgress from '@/data/defaults/progress/zombies'
+import defaultCompletionistProgress from '@/data/defaults/progress/completionist'
+import defaultMasteryProgress from '@/data/defaults/progress/mastery'
+import defaultZombiesProgress from '@/data/defaults/progress/zombies'
 
 // The order of the weapons in this array is the order they will appear in the app
 const weapons = [
@@ -34,19 +36,14 @@ export default weapons.map((weapon) => ({
 
   progress: {
     ...defaultProgress[weapon.name],
+    ...defaultCompletionistProgress[weapon.game],
+  },
 
-    // MW2 Completionist Camouflages
-    Gold: false,
-    Platinum: false,
-    Polyatomic: false,
-
-    // MW3 Completionist Camouflages
-    Gilded: false,
-    Forged: false,
-    Priceless: false,
+  masteryProgress: {
+    ...defaultMasteryProgress[weapon.game],
   },
 
   zombiesProgress: {
-    ...zombiesProgress[weapon.game],
+    ...defaultZombiesProgress[weapon.game],
   },
 }))

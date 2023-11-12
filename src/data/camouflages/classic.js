@@ -1,17 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import classic from '../requirements/camouflages/classic'
+const base = Object.keys(classic)
 
-const camouflages = [
-  'New Urban',
-  'Autumn Return',
-  'Back in Blue',
-  'Hexed',
-  'Spectrums',
-  '80s Fever',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Classic',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

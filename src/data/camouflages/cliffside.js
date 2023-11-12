@@ -1,21 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import cliffside from '../requirements/camouflages/cliffside'
+const base = Object.keys(cliffside)
 
-const camouflages = [
-  'Forest Rain',
-  'Desert Rain',
-  'Quarry',
-  'Night Quarry',
-  'Rupture',
-  'Chemical Reaction',
-  'Fractal Mud',
-  'Slime Time',
-  'Violent Orchid',
-  'Earthbound',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Cliffside',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

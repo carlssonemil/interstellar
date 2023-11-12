@@ -54,12 +54,4 @@ export default {
     'Hunter': false,
     'Deserted': false,
   },
-
-  'COR-45': {},
-
-  'Renetti': {},
-
-  'TYR': {},
-
-  'WSP Stinger': {},
 }

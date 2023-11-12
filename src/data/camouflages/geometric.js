@@ -1,34 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import geometric from '../requirements/camouflages/geometric'
+const base = Object.keys(geometric)
 
-const camouflages = [
-  'Blades',
-  'Motley',
-  'Dune Sea',
-  'Forest Ice',
-  'Stone Guard',
-  'Icepick',
-  'Shale',
-  'Uncheckered',
-  'Canary Stone',
-  'Stoked Flame',
-  'Autumn Dazzle',
-  'Poison',
-  'Granite',
-  'Chrysolite',
-  'Splintered Asphalt',
-  'Sunset',
-  'Deciduous',
-  'Stone Ridge',
-  'Ziggurat',
-  'Green Edges',
-  'Scattered Lines',
-  'Fractal Lapse',
-  'Foundation',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Geometric',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

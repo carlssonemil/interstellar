@@ -1,18 +1,11 @@
-import requirements from '@/data/requirements/camouflages'
+import skulls from '../requirements/camouflages/skulls'
+const base = Object.keys(skulls)
 
-const camouflages = [
-  'What Skulls?',
-  'Necropolis',
-  'Cthulhu',
-  'Lichyard',
-  'Haunting',
-  'Styx',
-  'Postmortem',
-]
+const dlc = []
 
-export default camouflages.map((camouflage) => ({
+export default [...base, ...dlc].map((camouflage) => ({
   category: 'Skulls',
-  completed: false,
   name: camouflage,
-  requirement: requirements[camouflage],
+  dlc: dlc.includes(camouflage),
+  isCompleted: false,
 }))

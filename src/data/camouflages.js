@@ -1,19 +1,18 @@
-import classic from '@/data/camouflages/classic'
-import cliffside from '@/data/camouflages/cliffside'
-import digital from '@/data/camouflages/digital'
-import dragon from '@/data/camouflages/dragon'
-import foliage from '@/data/camouflages/foliage'
-import fun from '@/data/camouflages/fun'
-import geometric from '@/data/camouflages/geometric'
-import reptile from '@/data/camouflages/reptile'
-import skulls from '@/data/camouflages/skulls'
-import solidColors from '@/data/camouflages/solidColors'
-import sprayPaint from '@/data/camouflages/sprayPaint'
-import stripes from '@/data/camouflages/stripes'
-import tiger from '@/data/camouflages/tiger'
-import woodland from '@/data/camouflages/woodland'
+import classic from './camouflages/classic'
+import cliffside from './camouflages/cliffside'
+import digital from './camouflages/digital'
+import dragon from './camouflages/dragon'
+import foliage from './camouflages/foliage'
+import fun from './camouflages/fun'
+import geometric from './camouflages/geometric'
+import reptile from './camouflages/reptile'
+import skulls from './camouflages/skulls'
+import solidColors from './camouflages/solidColors'
+import sprayPaint from './camouflages/sprayPaint'
+import stripes from './camouflages/stripes'
+import tiger from './camouflages/tiger'
+import woodland from './camouflages/woodland'
 
-// The order of this array determines the order of the camouflage categories
 export default [
   ...sprayPaint,
   ...woodland,

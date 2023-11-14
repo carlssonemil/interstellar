@@ -30,6 +30,34 @@
     <WeaponsComponent :weapons="filteredWeapons" :favorites="favorites" />
 
     <ProgressComponent
+      :progress="interstellarProgress"
+      :label="$t('pages.weapons.progress.label')"
+      :tooltip="$t('pages.weapons.progress.tooltip')">
+      <template #modal-header>{{ $t('pages.weapons.completed_modal.title') }}</template>
+      <template #modal-body>
+        <i18n-t keypath="pages.weapons.completed_modal.body" tag="p" scope="global">
+          <template #duration>
+            <b>{{ daysSinceStart }} {{ $tc('general.days_ago', daysSinceStart) }}</b>
+          </template>
+
+          <template #date>
+            <b>{{ new Date(getBeganGrind).toLocaleDateString('en-US') }}</b>
+          </template>
+        </i18n-t>
+
+        <i18n-t
+          keypath="pages.mastery.completed_modal.support"
+          tag="p"
+          style="margin-top: 15px; font-size: 14px; color: #aaa"
+          scope="global">
+          <a href="https://www.buymeacoffee.com/emilcarlsson" target="_blank">
+            {{ $t('pages.mastery.completed_modal.support_link') }}
+          </a>
+        </i18n-t>
+      </template>
+    </ProgressComponent>
+
+    <ProgressComponent
       :progress="orionProgress"
       :label="$t('pages.weapons.progress.label')"
       :tooltip="$t('pages.weapons.progress.tooltip')">
@@ -163,12 +191,32 @@ export default {
       return this.weapons.filter((weapon) => favorites.includes(weapon.name))
     },
 
+    interstellarProgress() {
+      const weapons = this.weapons.filter((weapon) => weapon.game === 'MW3')
+      return this.calculateProgress(weapons)
+    },
+
     orionProgress() {
+      const weapons = this.weapons.filter((weapon) => weapon.game === 'MW2')
+      return this.calculateProgress(weapons)
+    },
+
+    overallProgress() {
+      return {
+        Gold: this.weapons.filter((weapon) => weapon.progress.Gold).length,
+        Platinum: this.weapons.filter((weapon) => weapon.progress.Platinum).length,
+        Polyatomic: this.weapons.filter((weapon) => weapon.progress.Polyatomic).length,
+      }
+    },
+  },
+
+  methods: {
+    calculateProgress(weapons) {
       // Set the amount of required weapons to complete the Orion camouflage
-      const requiredWeapons = this.weapons.filter((weapon) => !weapon.dlc).length
+      const requiredWeapons = weapons.filter((weapon) => !weapon.dlc).length
 
       // Sort and filter out the weapons with the most progress
-      const mostProgressedWeapons = this.weapons
+      const mostProgressedWeapons = weapons
         .map((weapon) => {
           let totalCamouflages = Object.keys(weapon.progress).length
           let completedCamouflages = Object.values(weapon.progress).reduce((a, b) => a + b, 0)
@@ -191,14 +239,6 @@ export default {
       }, 0)
 
       return roundToTwoDecimals((totalCamouflagesCompleted / requiredCamouflages) * 100)
-    },
-
-    overallProgress() {
-      return {
-        Gold: this.weapons.filter((weapon) => weapon.progress.Gold).length,
-        Platinum: this.weapons.filter((weapon) => weapon.progress.Platinum).length,
-        Polyatomic: this.weapons.filter((weapon) => weapon.progress.Polyatomic).length,
-      }
     },
   },
 }

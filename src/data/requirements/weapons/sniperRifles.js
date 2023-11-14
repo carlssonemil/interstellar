@@ -16,12 +16,6 @@ const completionistChallenges = {
       type: 'headshot',
     },
   },
-
-  MW3: {
-    Gilded: {},
-    Forged: {},
-    Priceless: {},
-  },
 }
 
 export default {
@@ -117,14 +111,69 @@ export default {
   },
 
   'KATT-AMR': {
-    ...completionistChallenges['MW3'],
+    'Death 3D': requirements['Death 3D'],
+    'Topo Boulder (KATT-AMR)': requirements['Topo Boulder (KATT-AMR)'],
+    'Palette Neapolitan': requirements['Palette Neapolitan'],
+    'Art Glass': requirements['Art Glass'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'laser_attachment',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'penetration',
+    },
+
+    'Priceless': {
+      amount: 3,
+      type: 'suppressed_headshots',
+    },
   },
 
   'Longbow': {
-    ...completionistChallenges['MW3'],
+    'Crimson Skulls': requirements['Crimson Skulls'],
+    'Topo Arid': requirements['Topo Arid'],
+    'Palette Sunrise': requirements['Palette Sunrise'],
+    'Rippled': requirements['Rippled'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'laser_attachment',
+    },
+
+    'Forged': {
+      amount: 3,
+      times: 10,
+      type: 'one_mag',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'one_shot',
+    },
   },
 
   'KV Inhibitor': {
-    ...completionistChallenges['MW3'],
+    'Deathparency': requirements['Deathparency'],
+    'Tactical Colors': requirements['Tactical Colors'],
+    'Palette Dusk': requirements['Palette Dusk'],
+    'Puzzling Tiles': requirements['Puzzling Tiles'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'laser_attachment',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'headshots',
+    },
+
+    'Priceless': {
+      amount: 5,
+      type: 'headshots_moving',
+    },
   },
 }

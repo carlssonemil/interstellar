@@ -16,12 +16,6 @@ const completionistChallenges = {
       type: 'double',
     },
   },
-
-  MW3: {
-    Gilded: {},
-    Forged: {},
-    Priceless: {},
-  },
 }
 
 export default {
@@ -59,6 +53,21 @@ export default {
   },
 
   'RGL-80': {
-    ...completionistChallenges['MW3'],
+    Strain: requirements['Strain'],
+
+    Gilded: {
+      amount: 10,
+      type: 'direct_impact',
+    },
+
+    Forged: {
+      amount: 25,
+      type: 'destroy_equipment',
+    },
+
+    Priceless: {
+      amount: 25,
+      type: 'double_kills',
+    },
   },
 }

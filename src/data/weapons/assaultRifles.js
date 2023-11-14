@@ -24,7 +24,7 @@ const weapons = [
   { name: 'MTZ-556', game: 'MW3' },
   { name: 'Holger 556', game: 'MW3' },
   { name: 'MCW', game: 'MW3' },
-  { name: 'DG-50', game: 'MW3' },
+  { name: 'DG-58', game: 'MW3' },
   { name: 'FR 5.56', game: 'MW3' },
 ]
 

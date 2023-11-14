@@ -13,6 +13,8 @@ import stripes from '@/data/requirements/camouflages/stripes'
 import tiger from '@/data/requirements/camouflages/tiger'
 import woodland from '@/data/requirements/camouflages/woodland'
 
+import unknown from '@/data/requirements/camouflages/unknown'
+
 export default {
   ...classic,
   ...cliffside,
@@ -28,4 +30,6 @@ export default {
   ...stripes,
   ...tiger,
   ...woodland,
+
+  ...unknown,
 }

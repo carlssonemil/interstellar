@@ -7,7 +7,9 @@
       v-tippy="{ placement: 'bottom' }">
       <div :class="['inner', this.isCompleted ? 'completed' : '']">
         <img
-          :src="`https://emilcarlsson.se/orion/calling-cards/${convertToKebabCase(card.name)}.png`"
+          :src="`https://emilcarlsson.se/interstellar/calling-cards/${convertToKebabCase(
+            card.name
+          )}.png`"
           :alt="card.name"
           onerror="javascript:console.log(this.src);this.src='/base-gradient.svg';" />
         <IconComponent class="complete" name="check" fill="#10ac84" size="30" />

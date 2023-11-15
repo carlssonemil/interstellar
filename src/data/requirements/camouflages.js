@@ -1,35 +1,49 @@
-import classic from '@/data/requirements/camouflages/classic'
-import cliffside from '@/data/requirements/camouflages/cliffside'
-import digital from '@/data/requirements/camouflages/digital'
-import dragon from '@/data/requirements/camouflages/dragon'
-import foliage from '@/data/requirements/camouflages/foliage'
-import fun from '@/data/requirements/camouflages/fun'
-import geometric from '@/data/requirements/camouflages/geometric'
-import reptile from '@/data/requirements/camouflages/reptile'
-import skulls from '@/data/requirements/camouflages/skulls'
-import solidColors from '@/data/requirements/camouflages/solidColors'
-import sprayPaint from '@/data/requirements/camouflages/sprayPaint'
-import stripes from '@/data/requirements/camouflages/stripes'
-import tiger from '@/data/requirements/camouflages/tiger'
-import woodland from '@/data/requirements/camouflages/woodland'
-
-import unknown from '@/data/requirements/camouflages/unknown'
+import blur from './camouflages/blur'
+import bold from './camouflages/bold'
+import butterfly from './camouflages/butterfly'
+import digital from './camouflages/digital'
+import fun from './camouflages/fun'
+import geometric from './camouflages/geometric'
+import glitchMilspec from './camouflages/glitchMilspec'
+import glitteryFlats from './camouflages/glitteryFlats'
+import graphical from './camouflages/graphical'
+import highContrast from './camouflages/highContrast'
+import neapolitan from './camouflages/neapolitan'
+import perfectSymmetry from './camouflages/perfectSymmetry'
+import poisonFrogs from './camouflages/poisonFrogs'
+import psychedelics from './camouflages/psychedelics'
+import puzzle from './camouflages/puzzle'
+import retro from './camouflages/retro'
+import skeletal from './camouflages/skeletal'
+import sprayPaint from './camouflages/sprayPaint'
+import topographic from './camouflages/topographic'
+import twoToneBrushstrokes from './camouflages/twoToneBrushstrokes'
+import underTheMicroscope from './camouflages/underTheMicroscope'
+import wavelength from './camouflages/wavelength'
+import woodland from './camouflages/woodland'
 
 export default {
-  ...classic,
-  ...cliffside,
+  ...blur,
+  ...bold,
+  ...butterfly,
   ...digital,
-  ...dragon,
-  ...foliage,
   ...fun,
   ...geometric,
-  ...reptile,
-  ...skulls,
-  ...solidColors,
+  ...glitchMilspec,
+  ...glitteryFlats,
+  ...graphical,
+  ...highContrast,
+  ...neapolitan,
+  ...perfectSymmetry,
+  ...poisonFrogs,
+  ...psychedelics,
+  ...puzzle,
+  ...retro,
+  ...skeletal,
   ...sprayPaint,
-  ...stripes,
-  ...tiger,
+  ...topographic,
+  ...twoToneBrushstrokes,
+  ...underTheMicroscope,
+  ...wavelength,
   ...woodland,
-
-  ...unknown,
 }

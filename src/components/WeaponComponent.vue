@@ -1,14 +1,14 @@
 <template>
   <div :class="['weapon-wrapper', { favorite: isFavorite }]">
-    <div :class="['weapon', label.toLowerCase(), { label, 'coming-soon': weapon.comingSoon }]">
+    <div :class="['weapon', { label, 'coming-soon': weapon.comingSoon }]">
       <div
         :class="[
           'name',
           layout,
           {
-            gold: goldCompleted,
-            platinum: platinumCompleted,
-            polyatomic: polyatomicCompleted,
+            gilded: gildedCompleted,
+            forged: forgedCompleted,
+            priceless: pricelessCompleted,
           },
         ]"
         :data-label="label"
@@ -45,7 +45,7 @@
           v-tippy="{ placement: 'bottom' }">
           <div :class="['inner', { completed: camouflage.completed }]">
             <img
-              :src="`https://emilcarlsson.se/orion/camouflages/${convertToKebabCase(
+              :src="`https://emilcarlsson.se/interstellar/camouflages/${convertToKebabCase(
                 camouflage.name
               )}.png`"
               :alt="camouflage.name"
@@ -98,7 +98,7 @@ export default {
       default: false,
     },
 
-    polyatomicUnlocked: {
+    pricelessUnlocked: {
       type: Boolean,
       required: false,
       default: false,
@@ -126,16 +126,16 @@ export default {
       return Object.values(this.progress).every(Boolean)
     },
 
-    goldCompleted() {
-      return this.progress['Gold']
+    gildedCompleted() {
+      return this.progress['Gilded']
     },
 
-    platinumCompleted() {
-      return this.progress['Platinum']
+    forgedCompleted() {
+      return this.progress['Forged']
     },
 
-    polyatomicCompleted() {
-      return this.progress['Polyatomic']
+    pricelessCompleted() {
+      return this.progress['Priceless']
     },
 
     isFavorite() {
@@ -148,7 +148,7 @@ export default {
       if (this.weapon.comingSoon) {
         return this.$t('general.coming_soon')
       } else {
-        return this.weapon.game
+        return null
       }
     },
   },
@@ -270,14 +270,6 @@ export default {
         }
       }
 
-      &.mw2 .name::after {
-        background: $blue;
-      }
-
-      &.mw3 .name::after {
-        background: $red;
-      }
-
       .name {
         &::after {
           background: $purple;
@@ -316,18 +308,18 @@ export default {
         padding: $list-padding;
       }
 
-      &.gold {
-        @include gold-camouflage-background;
+      &.gilded {
+        @include gilded-camouflage-background;
         color: black;
       }
 
-      &.platinum {
-        @include platinum-camouflage-background;
+      &.forged {
+        @include forged-camouflage-background;
         color: black;
       }
 
-      &.polyatomic {
-        @include polyatomic-camouflage-background;
+      &.priceless {
+        @include priceless-camouflage-background;
         color: white;
       }
 

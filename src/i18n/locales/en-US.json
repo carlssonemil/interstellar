@@ -11,7 +11,6 @@
     "coming_soon": "Coming soon",
     "complete": "Complete",
     "days_ago": "{0} day ago | {0} days ago",
-    "dlc": "DLC",
     "favorites": "Favorites",
     "filters": "Filters",
     "grid": "Grid",
@@ -37,11 +36,10 @@
   },
   "filters": {
     "hide_completed": "Hide completed",
-    "hide_dlc": "Hide DLC",
-    "hide_gold": "Hide Gold",
-    "hide_orion": "Hide Orion",
-    "hide_platinum": "Hide Platinum",
-    "hide_polyatomic": "Hide Polyatomic",
+    "hide_gilded": "Hide Gilded",
+    "hide_forged": "Hide Forged",
+    "hide_priceless": "Hide Priceless",
+    "hide_interstellar": "Hide Interstellar",
     "toggle_favorite": "{state} favorites",
     "toggle_favorites": "Toggle favorites",
     "toggle_layout": "Toggle layout"
@@ -86,7 +84,7 @@
       "open_source": "Open source",
       "previous_trackers_description": "Looking for camouflage trackers for the previous Call of Duty games going back to 2019?",
       "previous_trackers": "Previous trackers",
-      "subtitle": "Keep track of your progress to the Orion camouflage with this easy-to-use tracker.",
+      "subtitle": "Keep track of your progress to the Interstellar camouflage with this easy-to-use tracker.",
       "support_me_description": "You can support me by {0} 🍺, it'd be greatly appreciated!",
       "support_me_link": "buying me a beer",
       "support_me": "Support me",
@@ -118,18 +116,18 @@
     },
     "requirements": {
       "checklist": {
-        "base": "Base camouflages on 51 weapons",
-        "gold": "Gold camouflage on 51 weapons",
-        "platinum": "Platinum camouflage on 51 weapons",
-        "polyatomic": "Polyatomic camouflage on 51 weapons"
+        "base": "Base camouflages on 36 weapons",
+        "gilded": "Gilded camouflage on 36 weapons",
+        "forged": "Forged camouflage on 36 weapons",
+        "priceless": "Priceless camouflage on 36 weapons"
       },
-      "description": "The new camouflage system implemented in Modern Warfare II is quite different from the most recent Call of Duty games and it can be quite hard to get a grasp and understand it at first, at least I thought so. However, it seems to be much easier to grind through compared to the previous games. To unlock the Orion camouflage the following requirements must be met: {checklist} As you progress through the camouflage stages you will unlock the next stage:",
+      "description": "The camouflage system for Modern Warfare III is basically exactly the same as the one in Modern Warfare II. To unlock the Interstellar camouflage the following requirements must be met: {checklist} As you progress through the camouflage stages you will unlock the next stage:",
       "stages": {
         "base": "Base",
-        "gold": "Gold",
-        "orion": "Orion",
-        "platinum": "Platinum",
-        "polyatomic": "Polyatomic"
+        "forged": "Forged",
+        "gilded": "Gilded",
+        "interstellar": "Interstellar",
+        "priceless": "Priceless"
       },
       "table": {
         "headers": {
@@ -138,15 +136,15 @@
         },
         "stage_requirements": {
           "base": "Base camouflages are awarded per their associated weapon base challenge, unlocked by leveling the specific weapon.",
-          "gold": "Once the Base camouflages has been unlocked you unlock the Gold camouflage challenge for that specific weapon.",
-          "orion": "Orion camouflage will automatically unlock when you have unlocked the Polyatomic camouflage on 51 weapons.",
-          "platinum": "After completing all Gold camouflage challenges for a specific category, you unlock the Platinum camouflage challenge for that specific weapon.",
-          "polyatomic": "Once you've unlocked the Platinum camouflage for all categories and weapons you then unlock the Polyatomic camouflage challenge for each weapon."
+          "gilded": "Once the Base camouflages has been unlocked you unlock the Gilded camouflage challenge for that specific weapon.",
+          "interstellar": "Interstellar camouflage will automatically unlock when you have unlocked the Priceless camouflage on 36 weapons.",
+          "forged": "After completing all Gilded camouflage challenges for a specific category, you unlock the Forged camouflage challenge for that specific weapon.",
+          "priceless": "Once you've unlocked the Forged camouflage for all categories and weapons you then unlock the Priceless camouflage challenge for each weapon."
         },
         "subtitle": "To get to the next camouflage stage you need to first unlock the previous stage:",
         "title": "How do I unlock each camouflage stage?"
       },
-      "title": "How do I unlock the Orion camouflage?"
+      "title": "How do I unlock the Interstellar camouflage?"
     },
     "settings": {
       "export": {
@@ -179,19 +177,19 @@
     "weapons": {
       "completed_in_category": "Weapons completed in category",
       "completed_modal": {
-        "body": "Congratulations on finishing the Orion camouflage grind! It's been a long ride! You first started tracking your grind here {duration} on {date}.",
+        "body": "Congratulations on finishing the Interstellar camouflage grind! It's been a long ride! You first started tracking your grind here {duration} on {date}.",
         "support_link": "buying me a beer",
         "support": "If you liked this tracker, show your appreciation by spreading the word about it and if you're feeling generous please consider {0} as a thanks. Hope I see you on the battlefield! Cheers! 🍺",
-        "title": "Orion unlocked! 👏🥳"
+        "title": "Interstellar unlocked! 👏🥳"
       },
       "double_click_tooltip": "Double-click to {state} weapon",
       "finished_placeholder": "You have completed all camouflage challenges 👏",
       "info_link": "here",
-      "info_tooltip": "You only need to complete the number of base guns there are for each category to earn the Platinum camouflage challenge. For example, the Assault Rifles requires a total of 8 Gold camouflages to unlock the Platinum camouflage challenge for all weapons in that category. Press this icon to read more.",
-      "info": "You only need to complete the number of base guns there are for each category to earn the Platinum camouflage challenge. For example, the Assault Rifles requires a total of 8 Gold camouflages to unlock the Platinum camouflage challenge for all weapons in that category. Read more {link}.",
+      "info_tooltip": "You only need to complete the number of base guns there are for each category to earn the Forged camouflage challenge. For example, the Assault Rifles requires a total of 8 Gilded camouflages to unlock the Forged camouflage challenge for all weapons in that category. Press this icon to read more.",
+      "info": "You only need to complete the number of base guns there are for each category to earn the Forged camouflage challenge. For example, the Assault Rifles requires a total of 8 Gilded camouflages to unlock the Forged camouflage challenge for all weapons in that category. Read more {link}.",
       "progress": {
-        "label": "Orion progress",
-        "tooltip": "Progress towards the Orion camouflage"
+        "label": "Interstellar progress",
+        "tooltip": "Progress towards the Interstellar camouflage"
       }
     }
   },
@@ -528,32 +526,35 @@
       "underbarrel_attachments": "{amount} kills with underbarrel attachments",
       "longshots_mounted": "{amount} longshot kills while mounted",
       "one_burst": "{amount} one-burst kills",
-      "ads_strafing": "{amount} kills while aiming down sights and strafing"
-    },
-    "Launchers": "Launchers",
-    "Light Machine Guns": "Light Machine Guns",
-    "Marksman Rifles": "Marksman Rifles",
-    "Melee": "Melee",
-    "Shotguns": "Shotguns",
-    "Sniper Rifles": "Sniper Rifles",
-    "Sub Machine Guns": "Sub Machine Guns"
+      "ads_strafing": "{amount} kills while aiming down sights and strafing",
+      "moving_tac_stance": "{amount} kills while moving and in Tac Stance",
+      "hipfire_moving": "{amount} hipfire kills while moving"
+    }
   },
   "camouflage_categories": {
-    "Spray Paint": "Spray Paint",
-    "Woodland": "Woodland",
+    "Blur": "Blur",
+    "Bold": "Bold",
+    "Butterfly": "Butterfly",
     "Digital": "Digital",
-    "Dragon": "Dragon",
-    "Geometric": "Geometric",
     "Fun": "Fun",
-    "Foliage": "Foliage",
-    "Skulls": "Skulls",
-    "Tiger": "Tiger",
-    "Stripes": "Stripes",
-    "Reptile": "Reptile",
-    "Solid Colors": "Solid Colors",
-    "Classic": "Classic",
-    "Cliffside": "Cliffside",
-    "Unknown": "Unknown"
+    "Geometric": "Geometric",
+    "Glitch Milspec": "Glitch Milspec",
+    "Glittery Flats": "Glittery Flats",
+    "Graphical": "Graphical",
+    "High Contrast": "High Contrast",
+    "Neapolitan": "Neapolitan",
+    "Perfect Symmetry": "Perfect Symmetry",
+    "Poison Frogs": "Poison Frogs",
+    "Psychedelics": "Psychedelics",
+    "Puzzle": "Puzzle",
+    "Retro": "Retro",
+    "Skeletal": "Skeletal",
+    "Spray Paint": "Spray Paint",
+    "Topographic": "Topographic",
+    "Two Tone Brushstrokes": "Two Tone Brushstrokes",
+    "Under the Microscope": "Under the Microscope",
+    "Wavelength": "Wavelength",
+    "Woodland": "Woodland"
   },
   "calling_card_categories": {
     "campaign": "Campaign",
@@ -620,5 +621,17 @@
     "warzone_contracts": "Contracts",
     "warzone_kills": "Kills",
     "warzone_wins": "Wins"
+  },
+  "weapon_categories": {
+    "Assault Rifles": "Assault Rifles",
+    "Battle Rifles": "Battle Rifles",
+    "Handguns": "Handguns",
+    "Launchers": "Launchers",
+    "Light Machine Guns": "Light Machine Guns",
+    "Marksman Rifles": "Marksman Rifles",
+    "Melee": "Melee",
+    "Shotguns": "Shotguns",
+    "Sniper Rifles": "Sniper Rifles",
+    "Sub Machine Guns": "Sub Machine Guns"
   }
 }

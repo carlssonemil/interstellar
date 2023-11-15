@@ -1,11 +1,6 @@
-import geometric from '../requirements/camouflages/geometric'
-const base = Object.keys(geometric)
+const camouflages = ['Get Stony', 'Shuffle']
 
-const dlc = []
-
-export default [...base, ...dlc].map((camouflage) => ({
+export default camouflages.map((camouflage) => ({
   category: 'Geometric',
   name: camouflage,
-  dlc: dlc.includes(camouflage),
-  isCompleted: false,
 }))

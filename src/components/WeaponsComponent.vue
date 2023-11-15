@@ -16,7 +16,7 @@
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
             :mastery="mastery"
-            :polyatomicUnlocked="mastery ? null : polyatomicUnlocked" />
+            :pricelessUnlocked="mastery ? null : pricelessUnlocked" />
         </transition-group>
 
         <AlertComponent
@@ -54,7 +54,7 @@
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
             :mastery="mastery"
-            :polyatomicUnlocked="mastery ? null : polyatomicUnlocked" />
+            :pricelessUnlocked="mastery ? null : pricelessUnlocked" />
         </transition-group>
       </div>
     </transition-group>
@@ -104,13 +104,13 @@ export default {
       return this.preferences.favorites
     },
 
-    polyatomicUnlocked() {
-      const required = 51
+    pricelessUnlocked() {
+      const required = 36
       const completed = Object.values(this.weapons)
         .flat()
         .reduce(
           (a, weapon) =>
-            a + Object.values(filterObject(weapon.progress, ['Polyatomic'])).every(Boolean),
+            a + Object.values(filterObject(weapon.progress, ['Priceless'])).every(Boolean),
           0
         )
 

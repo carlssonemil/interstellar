@@ -17,11 +17,13 @@
       </div>
       <div class="footer">
         <router-link to="/settings">{{ $tc('general.setting', 2) }}</router-link>
-        <a href="https://github.com/carlssonemil/orion/issues/new?title=[Bug]%20" target="_blank">
+        <a
+          href="https://github.com/carlssonemil/interstellar/issues/new?title=[Bug]%20"
+          target="_blank">
           {{ $t('general.report_an_issue') }}
         </a>
         <router-link to="/about">{{ $t('general.about') }}</router-link>
-        <a href="https://github.com/carlssonemil/orion">GitHub</a>
+        <a href="https://github.com/carlssonemil/interstellar">GitHub</a>
 
         <a href="https://www.buymeacoffee.com/emilcarlsson" class="button">
           {{ $t('general.mobile_nav_support_link') }}

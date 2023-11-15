@@ -7,10 +7,10 @@ import defaultFilters from '../data/defaults/filters'
 import defaultPreferences from '../data/defaults/preferences'
 import weaponRequirements from '../data/requirements/weapons'
 import masteryRequirements from '../data/masteryRequirements'
-import camouflageRequirements from '../data/camouflageRequirements'
+import camouflageRequirements from '../data/requirements/camouflages'
 import camouflageNameChanges from '../data/camouflageNameChanges'
 
-const token = import.meta.env.MODE === 'production' ? 'orion' : 'orion-dev'
+const token = import.meta.env.MODE === 'production' ? 'interstellar' : 'interstellar-dev'
 
 export const useStore = defineStore({
   id: 'store',
@@ -178,7 +178,7 @@ export const useStore = defineStore({
       const progress = mastery ? 'masteryProgress' : 'progress'
       this.weapons.find((w) => w.name === weaponName)[progress][camouflage] = !current
 
-      if (camouflage === 'Gold' && !mastery) {
+      if (camouflage === 'Gilded' && !mastery) {
         this.completeBaseCamouflages(weaponName)
       }
 
@@ -188,7 +188,7 @@ export const useStore = defineStore({
     completeBaseCamouflages(weaponName) {
       const weapon = this.weapons.find((w) => w.name === weaponName)
       const baseCamouflages = Object.keys(
-        filterObject(weapon.progress, ['Gold', 'Platinum', 'Polyatomic'])
+        filterObject(weapon.progress, ['Gilded', 'Forged', 'Priceless'])
       )
 
       baseCamouflages.forEach((camouflage) => (weapon.progress[camouflage] = true))
@@ -211,7 +211,7 @@ export const useStore = defineStore({
         if (current) {
           camouflages = Object.keys(weapon.progress)
         } else {
-          camouflages = Object.keys(filterObject(weapon.progress, ['Polyatomic']))
+          camouflages = Object.keys(filterObject(weapon.progress, ['Priceless']))
         }
 
         camouflages.forEach((camouflage) => (weapon.progress[camouflage] = !current))

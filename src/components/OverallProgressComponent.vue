@@ -2,7 +2,7 @@
   <div class="overall-progress-component">
     <div class="counter" v-for="(counter, name) in options" :key="name">
       <img
-        :src="`https://emilcarlsson.se/orion/camouflages/${name.toLowerCase()}.png`"
+        :src="`https://emilcarlsson.se/interstellar/camouflages/${name.toLowerCase()}.png`"
         :alt="name"
         onerror="javascript:this.src='/base-gradient.svg'" />
       <p>

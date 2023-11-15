@@ -1,31 +1,49 @@
-import classic from './camouflages/classic'
-import cliffside from './camouflages/cliffside'
+import blur from './camouflages/blur'
+import bold from './camouflages/bold'
+import butterfly from './camouflages/butterfly'
 import digital from './camouflages/digital'
-import dragon from './camouflages/dragon'
-import foliage from './camouflages/foliage'
 import fun from './camouflages/fun'
 import geometric from './camouflages/geometric'
-import reptile from './camouflages/reptile'
-import skulls from './camouflages/skulls'
-import solidColors from './camouflages/solidColors'
+import glitchMilspec from './camouflages/glitchMilspec'
+import glitteryFlats from './camouflages/glitteryFlats'
+import graphical from './camouflages/graphical'
+import highContrast from './camouflages/highContrast'
+import neapolitan from './camouflages/neapolitan'
+import perfectSymmetry from './camouflages/perfectSymmetry'
+import poisonFrogs from './camouflages/poisonFrogs'
+import psychedelics from './camouflages/psychedelics'
+import puzzle from './camouflages/puzzle'
+import retro from './camouflages/retro'
+import skeletal from './camouflages/skeletal'
 import sprayPaint from './camouflages/sprayPaint'
-import stripes from './camouflages/stripes'
-import tiger from './camouflages/tiger'
+import topographic from './camouflages/topographic'
+import twoToneBrushstrokes from './camouflages/twoToneBrushstrokes'
+import underTheMicroscope from './camouflages/underTheMicroscope'
+import wavelength from './camouflages/wavelength'
 import woodland from './camouflages/woodland'
 
 export default [
-  ...sprayPaint,
-  ...woodland,
+  ...blur,
+  ...bold,
+  ...butterfly,
   ...digital,
-  ...dragon,
-  ...geometric,
   ...fun,
-  ...foliage,
-  ...skulls,
-  ...tiger,
-  ...stripes,
-  ...reptile,
-  ...solidColors,
-  ...classic,
-  ...cliffside,
+  ...geometric,
+  ...glitchMilspec,
+  ...glitteryFlats,
+  ...graphical,
+  ...highContrast,
+  ...neapolitan,
+  ...perfectSymmetry,
+  ...poisonFrogs,
+  ...psychedelics,
+  ...puzzle,
+  ...retro,
+  ...skeletal,
+  ...sprayPaint,
+  ...topographic,
+  ...twoToneBrushstrokes,
+  ...underTheMicroscope,
+  ...wavelength,
+  ...woodland,
 ]

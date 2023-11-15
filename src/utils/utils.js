@@ -29,7 +29,7 @@ const daysBetweenDates = (date1, date2) => {
 }
 
 const downloadJsonFile = (json, token) => {
-  if (!token) token = 'orion'
+  if (!token) token = 'interstellar'
   const dataStr = json
   const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr)
   const date = new Date().toLocaleDateString('sv-SE')
@@ -69,7 +69,7 @@ const roundToTwoDecimals = (num) => {
 }
 
 const getStoredLocale = () => {
-  const token = import.meta.env.MODE === 'production' ? 'orion' : 'orion-dev'
+  const token = import.meta.env.MODE === 'production' ? 'interstellar' : 'interstellar-dev'
   const storage = localStorage.getItem(token)
 
   if (!storage) return 'en-US'

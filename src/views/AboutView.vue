@@ -21,7 +21,7 @@
         <a href="https://vuejs.org/">Vue</a>
         <a href="https://vercel.com/">Vercel</a>
         <a href="https://plausible.io/">Plausible</a>
-        <a href="https://github.com/carlssonemil/orion">GitHub</a>
+        <a href="https://github.com/carlssonemil/interstellar">GitHub</a>
       </i18n-t>
     </p>
 
@@ -55,6 +55,7 @@
 import vanguardIcon from '@/assets/vanguard.png'
 import coldWarIcon from '@/assets/coldwar.png'
 import damascusIcon from '@/assets/damascus.png'
+import orionIcon from '@/assets/orion.png'
 
 export default {
   data() {
@@ -88,6 +89,11 @@ export default {
       ],
 
       trackers: [
+        {
+          title: 'Modern Warfare II',
+          icon: orionIcon,
+          url: 'https://orion.emca.app',
+        },
         {
           title: 'Vanguard',
           icon: vanguardIcon,
@@ -175,7 +181,7 @@ a {
 .trackers {
   display: grid;
   gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: 30px 0;
 
   @media (max-width: $tablet) {
@@ -213,7 +219,7 @@ a {
     }
 
     img {
-      $size: 30px;
+      $size: 24px;
       height: $size;
       margin-right: 15px;
       width: $size;
@@ -221,7 +227,7 @@ a {
 
     h5 {
       color: white;
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 400;
       position: relative;
       z-index: 2;

@@ -1,11 +1,6 @@
-import fun from '../requirements/camouflages/fun'
-const base = Object.keys(fun)
+const camouflages = ['Drip', 'Gaggle', 'Tiger Blood']
 
-const dlc = []
-
-export default [...base, ...dlc].map((camouflage) => ({
+export default camouflages.map((camouflage) => ({
   category: 'Fun',
   name: camouflage,
-  dlc: dlc.includes(camouflage),
-  isCompleted: false,
 }))

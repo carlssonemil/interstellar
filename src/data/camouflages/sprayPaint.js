@@ -1,11 +1,6 @@
-import sprayPaint from '../requirements/camouflages/sprayPaint'
-const base = Object.keys(sprayPaint)
+const camouflages = ['Dusted']
 
-const dlc = []
-
-export default [...base, ...dlc].map((camouflage) => ({
+export default camouflages.map((camouflage) => ({
   category: 'Spray Paint',
   name: camouflage,
-  dlc: dlc.includes(camouflage),
-  isCompleted: false,
 }))

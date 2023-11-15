@@ -7,7 +7,7 @@
       v-tippy="{ placement: 'bottom' }">
       <div :class="['inner', this.isCompleted ? 'completed' : '']">
         <img
-          :src="`https://emilcarlsson.se/orion/camouflages/${convertToKebabCase(
+          :src="`https://emilcarlsson.se/interstellar/camouflages/${convertToKebabCase(
             camouflage.name
           )}.png`"
           :alt="camouflage.name"
@@ -44,12 +44,6 @@ import { mapActions, mapState } from 'pinia'
 const store = useStore()
 
 export default {
-  data() {
-    return {
-      isCompleted: this.camouflage.isCompleted,
-    }
-  },
-
   props: {
     camouflage: {
       type: Object,
@@ -58,27 +52,33 @@ export default {
   },
 
   computed: {
-    ...mapState(useStore, ['camouflageRequirements', 'preferences']),
+    ...mapState(useStore, ['camouflageRequirements', 'preferences', 'weapons']),
 
     layout() {
       return this.preferences.layout
     },
 
+    isCompleted() {
+      return this.weapons.find((weapon) => weapon.name === this.weapon).progress[
+        this.camouflage.name
+      ]
+    },
+
     isFavorite() {
       return store.isFavorite('camouflages', this.camouflage.name)
+    },
+
+    weapon() {
+      return this.camouflageRequirements[this.camouflage.name].weapon
     },
   },
 
   methods: {
     convertToKebabCase,
-    ...mapActions(useStore, [
-      'toggleCamouflageCompleted',
-      'toggleGoldCamouflageCompleted',
-      'toggleFavorite',
-    ]),
+    ...mapActions(useStore, ['toggleCamouflageCompleted', 'toggleFavorite']),
 
     requirementTooltip(camouflage) {
-      const requirement = this.camouflageRequirements[camouflage.category][camouflage.name]
+      const requirement = this.camouflageRequirements[camouflage.name]
 
       return this.$t('pages.camouflages.requirement_tooltip', {
         weapon: requirement.weapon,
@@ -88,13 +88,7 @@ export default {
     },
 
     handleToggleCompleted(camouflage) {
-      const weaponName = this.camouflageRequirements[camouflage.category][camouflage.name].weapon
-      this.toggleCamouflageCompleted(weaponName, camouflage.name, this.isCompleted)
-      this.toggleIsCompleted()
-    },
-
-    toggleIsCompleted() {
-      this.isCompleted = !this.isCompleted
+      this.toggleCamouflageCompleted(this.weapon, camouflage.name, this.isCompleted)
     },
 
     translateChallenge(challenge) {

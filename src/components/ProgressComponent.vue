@@ -96,7 +96,7 @@ export default {
 
 <style lang="scss" scoped>
 :deep(.modal-header) {
-  background-image: $orion-gradient-alt;
+  background-image: $interstellar-gradient-alt;
 }
 
 .bars {
@@ -116,7 +116,7 @@ export default {
     width: 100%;
 
     .bar {
-      background-image: $orion-gradient-alt;
+      background-image: $interstellar-gradient-alt;
       display: block;
       height: 100%;
       transition: $transition;

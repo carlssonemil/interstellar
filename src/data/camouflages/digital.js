@@ -1,11 +1,6 @@
-import digital from '../requirements/camouflages/digital'
-const base = Object.keys(digital)
+const camouflages = ['Digital Bloodbath']
 
-const dlc = []
-
-export default [...base, ...dlc].map((camouflage) => ({
+export default camouflages.map((camouflage) => ({
   category: 'Digital',
   name: camouflage,
-  dlc: dlc.includes(camouflage),
-  isCompleted: false,
 }))

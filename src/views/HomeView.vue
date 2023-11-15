@@ -56,34 +56,6 @@
         </i18n-t>
       </template>
     </ProgressComponent>
-
-    <ProgressComponent
-      :progress="orionProgress"
-      :label="$t('pages.weapons.progress.label')"
-      :tooltip="$t('pages.weapons.progress.tooltip')">
-      <template #modal-header>{{ $t('pages.weapons.completed_modal.title') }}</template>
-      <template #modal-body>
-        <i18n-t keypath="pages.weapons.completed_modal.body" tag="p" scope="global">
-          <template #duration>
-            <b>{{ daysSinceStart }} {{ $tc('general.days_ago', daysSinceStart) }}</b>
-          </template>
-
-          <template #date>
-            <b>{{ new Date(getBeganGrind).toLocaleDateString('en-US') }}</b>
-          </template>
-        </i18n-t>
-
-        <i18n-t
-          keypath="pages.mastery.completed_modal.support"
-          tag="p"
-          style="margin-top: 15px; font-size: 14px; color: #aaa"
-          scope="global">
-          <a href="https://www.buymeacoffee.com/emilcarlsson" target="_blank">
-            {{ $t('pages.mastery.completed_modal.support_link') }}
-          </a>
-        </i18n-t>
-      </template>
-    </ProgressComponent>
   </div>
 </template>
 
@@ -136,23 +108,18 @@ export default {
           options: this.weaponCategories,
         },
         {
-          label: this.$t('filters.hide_gold'),
-          key: 'hideGold',
+          label: this.$t('filters.hide_gilded'),
+          key: 'hideGilded',
           type: 'checkbox',
         },
         {
-          label: this.$t('filters.hide_platinum'),
-          key: 'hidePlatinum',
+          label: this.$t('filters.hide_forged'),
+          key: 'hideForged',
           type: 'checkbox',
         },
         {
-          label: this.$t('filters.hide_polyatomic'),
-          key: 'hidePolyatomic',
-          type: 'checkbox',
-        },
-        {
-          label: this.$t('filters.hide_dlc'),
-          key: 'hideDlc',
+          label: this.$t('filters.hide_priceless'),
+          key: 'hidePriceless',
           type: 'checkbox',
         },
       ]
@@ -160,22 +127,18 @@ export default {
 
     filteredWeapons() {
       let filteredWeapons = this.weapons
-      const { hideGold, hidePlatinum, hidePolyatomic, hideDlc, weaponCategory } = this.filters
+      const { hideGilded, hideForged, hidePriceless, weaponCategory } = this.filters
 
-      if (hideGold) {
-        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.progress['Gold'])
+      if (hideGilded) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.progress['Gilded'])
       }
 
-      if (hidePlatinum) {
-        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.progress['Platinum'])
+      if (hideForged) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.progress['Forged'])
       }
 
-      if (hidePolyatomic) {
-        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.progress['Polyatomic'])
-      }
-
-      if (hideDlc) {
-        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.dlc)
+      if (hidePriceless) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.progress['Priceless'])
       }
 
       if (weaponCategory && weaponCategory !== 'null') {
@@ -192,28 +155,21 @@ export default {
     },
 
     interstellarProgress() {
-      const weapons = this.weapons.filter((weapon) => weapon.game === 'MW3')
-      return this.calculateProgress(weapons)
-    },
-
-    orionProgress() {
-      const weapons = this.weapons.filter((weapon) => weapon.game === 'MW2')
-      return this.calculateProgress(weapons)
+      return this.calculateProgress(this.weapons)
     },
 
     overallProgress() {
       return {
-        Gold: this.weapons.filter((weapon) => weapon.progress.Gold).length,
-        Platinum: this.weapons.filter((weapon) => weapon.progress.Platinum).length,
-        Polyatomic: this.weapons.filter((weapon) => weapon.progress.Polyatomic).length,
+        Gilded: this.weapons.filter((weapon) => weapon.progress.Gilded).length,
+        Forged: this.weapons.filter((weapon) => weapon.progress.Forged).length,
+        Priceless: this.weapons.filter((weapon) => weapon.progress.Priceless).length,
       }
     },
   },
 
   methods: {
     calculateProgress(weapons) {
-      // Set the amount of required weapons to complete the Orion camouflage
-      const requiredWeapons = weapons.filter((weapon) => !weapon.dlc).length
+      const requiredWeapons = 36
 
       // Sort and filter out the weapons with the most progress
       const mostProgressedWeapons = weapons
@@ -233,7 +189,7 @@ export default {
       // Count the amount of camouflages completed for the most progress weapons
       const totalCamouflagesCompleted = mostProgressedWeapons.reduce((a, b) => a + b.completed, 0)
 
-      // Count the required amount of camouflages to complete the Orion camouflage
+      // Count the required amount of camouflages to complete the Interstellar camouflage
       const requiredCamouflages = mostProgressedWeapons.reduce((a, b) => {
         return a + Object.keys(b.progress).length
       }, 0)

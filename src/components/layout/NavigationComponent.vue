@@ -9,6 +9,7 @@
       <router-link to="/camouflages">{{ $tc('general.camouflage', 2) }}</router-link>
       <router-link to="/calling-cards">{{ $tc('general.calling_cards', 2) }}</router-link>
       <router-link to="/mastery">{{ $t('general.mastery') }}</router-link>
+      <a href="https://orion.emca.app/">Orion</a>
       <router-link
         to="/settings"
         class="icon settings"
@@ -17,7 +18,7 @@
         <IconComponent name="cog" />
       </router-link>
       <a
-        href="https://github.com/carlssonemil/orion/issues/new?title=[Bug]%20"
+        href="https://github.com/carlssonemil/interstellar/issues/new?title=[Bug]%20"
         target="_blank"
         :content="$t('general.report_an_issue')"
         v-tippy="{ placement: 'bottom' }">

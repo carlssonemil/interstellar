@@ -4,7 +4,7 @@
     <i18n-t keypath="pages.requirements.description" tag="p" scope="global">
       <template #checklist>
         <ul>
-          <li v-for="stage in stages.filter((s) => s !== 'orion')" :key="stage">
+          <li v-for="stage in stages.filter((s) => s !== 'interstellar')" :key="stage">
             <IconComponent name="check" size="26" color="#10ac84" />
             <span>{{ $t(`pages.requirements.checklist.${stage}`) }}</span>
           </li>
@@ -16,16 +16,16 @@
       <div class="stage base">{{ $t('pages.requirements.stages.base') }}</div>
       <IconComponent name="arrow-right" />
       <IconComponent name="arrow-down" class="mobile" />
-      <div class="stage gold">{{ $t('pages.requirements.stages.gold') }}</div>
+      <div class="stage gilded">{{ $t('pages.requirements.stages.gilded') }}</div>
       <IconComponent name="arrow-right" />
       <IconComponent name="arrow-down" class="mobile" />
-      <div class="stage platinum">{{ $t('pages.requirements.stages.platinum') }}</div>
+      <div class="stage forged">{{ $t('pages.requirements.stages.forged') }}</div>
       <IconComponent name="arrow-right" />
       <IconComponent name="arrow-down" class="mobile" />
-      <div class="stage polyatomic">{{ $t('pages.requirements.stages.polyatomic') }}</div>
+      <div class="stage priceless">{{ $t('pages.requirements.stages.priceless') }}</div>
       <IconComponent name="arrow-right" />
       <IconComponent name="arrow-down" class="mobile" />
-      <div class="stage orion">{{ $t('pages.requirements.stages.orion') }}</div>
+      <div class="stage interstellar">{{ $t('pages.requirements.stages.interstellar') }}</div>
     </div>
 
     <h4>{{ $t('pages.requirements.table.title') }}</h4>
@@ -56,7 +56,7 @@
 export default {
   data() {
     return {
-      stages: ['base', 'gold', 'platinum', 'polyatomic', 'orion'],
+      stages: ['base', 'gilded', 'forged', 'priceless', 'interstellar'],
     }
   },
 }
@@ -119,23 +119,23 @@ ul {
       color: white;
     }
 
-    &.gold {
-      @include gold-camouflage-background;
+    &.gilded {
+      @include gilded-camouflage-background;
       color: black;
     }
 
-    &.platinum {
-      @include platinum-camouflage-background;
+    &.forged {
+      @include forged-camouflage-background;
       color: black;
     }
 
-    &.polyatomic {
-      @include polyatomic-camouflage-background;
+    &.priceless {
+      @include priceless-camouflage-background;
       color: white;
     }
 
-    &.orion {
-      @include orion-camouflage-background;
+    &.interstellar {
+      @include interstellar-camouflage-background;
       color: white;
     }
   }
@@ -207,20 +207,20 @@ table > tbody > tr {
             @include base-camouflage-background;
           }
 
-          &.gold {
-            @include gold-camouflage-background;
+          &.gilded {
+            @include gilded-camouflage-background;
           }
 
-          &.platinum {
-            @include platinum-camouflage-background;
+          &.forged {
+            @include forged-camouflage-background;
           }
 
-          &.polyatomic {
-            @include polyatomic-camouflage-background;
+          &.priceless {
+            @include priceless-camouflage-background;
           }
 
-          &.orion {
-            @include orion-camouflage-background;
+          &.interstellar {
+            @include interstellar-camouflage-background;
           }
         }
       }

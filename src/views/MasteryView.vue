@@ -99,23 +99,23 @@ export default {
           options: this.weaponCategories,
         },
         {
-          label: this.$t('filters.hide_gold'),
-          key: 'hideGold',
+          label: this.$t('filters.hide_gilded'),
+          key: 'hideGilded',
           type: 'checkbox',
         },
         {
-          label: this.$t('filters.hide_platinum'),
-          key: 'hidePlatinum',
+          label: this.$t('filters.hide_forged'),
+          key: 'hideForged',
           type: 'checkbox',
         },
         {
-          label: this.$t('filters.hide_polyatomic'),
-          key: 'hidePolyatomic',
+          label: this.$t('filters.hide_priceless'),
+          key: 'hidePriceless',
           type: 'checkbox',
         },
         {
-          label: this.$t('filters.hide_orion'),
-          key: 'hideOrion',
+          label: this.$t('filters.hide_interstellar'),
+          key: 'hideInterstellar',
           type: 'checkbox',
         },
       ]
@@ -123,22 +123,25 @@ export default {
 
     filteredWeapons() {
       let filteredWeapons = this.weapons
-      const { hideGold, hidePlatinum, hidePolyatomic, hideOrion, weaponCategory } = this.filters
+      const { hideGilded, hideForged, hidePriceless, hideInterstellar, weaponCategory } =
+        this.filters
 
-      if (hideGold) {
-        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.masteryProgress['Gold'])
+      if (hideGilded) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.masteryProgress['Gilded'])
       }
 
-      if (hidePlatinum) {
-        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.masteryProgress['Platinum'])
+      if (hideForged) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.masteryProgress['Forged'])
       }
 
-      if (hidePolyatomic) {
-        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.masteryProgress['Polyatomic'])
+      if (hidePriceless) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.masteryProgress['Priceless'])
       }
 
-      if (hideOrion) {
-        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.masteryProgress['Orion'])
+      if (hideInterstellar) {
+        filteredWeapons = filteredWeapons.filter(
+          (weapon) => !weapon.masteryProgress['Interstellar']
+        )
       }
 
       if (weaponCategory && weaponCategory !== 'null') {

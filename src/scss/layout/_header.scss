@@ -29,7 +29,7 @@ nav {
 
 		.icon {
 			$size: 35px;
-			@include orion-camouflage-background;
+			@include interstellar-camouflage-background;
 			border-radius: $border-radius * 2;
 			display: block;
 			height: $size;

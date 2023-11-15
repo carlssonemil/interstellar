@@ -1,18 +1,18 @@
 export default {
-  Gold: {
-    amount: 100,
-    camouflage: 'Gold',
+  Gilded: {
+    amount: '?',
+    camouflage: 'Gilded',
   },
-  Platinum: {
-    amount: 200,
-    camouflage: 'Platinum',
+  Forged: {
+    amount: '?',
+    camouflage: 'Forged',
   },
-  Polyatomic: {
-    amount: 300,
-    camouflage: 'Polyatomic',
+  Priceless: {
+    amount: '?',
+    camouflage: 'Priceless',
   },
-  Orion: {
-    amount: 400,
-    camouflage: 'Orion',
+  Interstellar: {
+    amount: '?',
+    camouflage: 'Interstellar',
   },
 }

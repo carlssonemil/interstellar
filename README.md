@@ -36,7 +36,7 @@ Want to contribute to this project? Read our [contributing guidelines](https://g
 
 ### I18n - Internationalization and localization
 
-Want to help add more languages to the tracker? See [this section](https://github.com/carlssonemil/interstellar/blob/main/CONTRIBUTING.md#I18n) in the [contributing guidelines](https://github.com/carlssonemil/interstellar/blob/main/CONTRIBUTING.md).
+Want to help add more languages to the tracker? See [this section](https://github.com/carlssonemil/interstellar/blob/main/CONTRIBUTING.md#i18n---internationalization-and-localization) in the [contributing guidelines](https://github.com/carlssonemil/interstellar/blob/main/CONTRIBUTING.md).
 
 ### Camouflage images
 

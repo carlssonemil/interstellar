@@ -1,7 +1,7 @@
 export default {
   'Blue Tones': {
     weapon: 'SVA 545',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -10,7 +10,7 @@ export default {
 
   'Topo Muddy': {
     weapon: 'SVA 545',
-    level: '?',
+    level: '13',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -19,7 +19,7 @@ export default {
 
   'Cinders': {
     weapon: 'SVA 545',
-    level: '?',
+    level: '20',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -28,7 +28,7 @@ export default {
 
   'Monarch': {
     weapon: 'SVA 545',
-    level: '?',
+    level: '30',
     challenge: {
       amount: 25,
       type: 'tac_stance',
@@ -37,7 +37,7 @@ export default {
 
   'Orange Tones': {
     weapon: 'MTZ-556',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -46,7 +46,7 @@ export default {
 
   'Iris Glitch': {
     weapon: 'MTZ-556',
-    level: '?',
+    level: '11',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -55,7 +55,7 @@ export default {
 
   'Germ Factory': {
     weapon: 'MTZ-556',
-    level: '?',
+    level: '17',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -64,7 +64,7 @@ export default {
 
   'Purple': {
     weapon: 'MTZ-556',
-    level: '?',
+    level: '26',
     challenge: {
       amount: 25,
       type: 'tac_stance',
@@ -73,7 +73,7 @@ export default {
 
   'Fractical Dirt': {
     weapon: 'Holger 556',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -82,7 +82,7 @@ export default {
 
   'Topo Glitch': {
     weapon: 'Holger 556',
-    level: '?',
+    level: '10',
     challenge: {
       amount: 40,
       type: 'ads',
@@ -91,7 +91,7 @@ export default {
 
   'Palette Rosemary': {
     weapon: 'Holger 556',
-    level: '?',
+    level: '16',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -100,7 +100,7 @@ export default {
 
   'Magma Heat': {
     weapon: 'Holger 556',
-    level: '?',
+    level: '24',
     challenge: {
       amount: 25,
       type: 'tac_stance',
@@ -109,7 +109,7 @@ export default {
 
   'Razor Feather': {
     weapon: 'MCW',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -118,7 +118,7 @@ export default {
 
   'Skullflagration': {
     weapon: 'MCW',
-    level: '?',
+    level: '12',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -127,7 +127,7 @@ export default {
 
   'Abyssal Fox': {
     weapon: 'MCW',
-    level: '?',
+    level: '19',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -136,7 +136,7 @@ export default {
 
   'Menelaus Blue': {
     weapon: 'MCW',
-    level: '?',
+    level: '28',
     challenge: {
       amount: 25,
       type: 'tac_stance',
@@ -145,7 +145,7 @@ export default {
 
   'Heat Map': {
     weapon: 'DG-58',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -154,7 +154,7 @@ export default {
 
   'Creeplines': {
     weapon: 'DG-58',
-    level: '?',
+    level: '11',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -163,7 +163,7 @@ export default {
 
   'Twilight Glitch': {
     weapon: 'DG-58',
-    level: '?',
+    level: '17',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -172,7 +172,7 @@ export default {
 
   'Oakleaf': {
     weapon: 'DG-58',
-    level: '?',
+    level: '25',
     challenge: {
       amount: 25,
       type: 'tac_stance',
@@ -181,7 +181,7 @@ export default {
 
   'Get Stony': {
     weapon: 'FR 5.56',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -190,7 +190,7 @@ export default {
 
   'Digital Bloodbath': {
     weapon: 'FR 5.56',
-    level: '?',
+    level: '8',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -199,7 +199,7 @@ export default {
 
   'Nightshade': {
     weapon: 'FR 5.56',
-    level: '?',
+    level: '13',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -208,7 +208,7 @@ export default {
 
   'Tiger Blood': {
     weapon: 'FR 5.56',
-    level: '?',
+    level: '19',
     challenge: {
       amount: 25,
       type: 'tac_stance',
@@ -217,7 +217,7 @@ export default {
 
   'Sunset Blur': {
     weapon: 'BAS-B',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -226,7 +226,7 @@ export default {
 
   'Phantom Glitch': {
     weapon: 'BAS-B',
-    level: '?',
+    level: '12',
     challenge: {
       amount: 50,
       type: 'full_auto',
@@ -235,7 +235,7 @@ export default {
 
   'Orange Sands': {
     weapon: 'BAS-B',
-    level: '?',
+    level: '19',
     challenge: {
       amount: 10,
       type: 'magnification_scope',
@@ -244,7 +244,7 @@ export default {
 
   'White Satin': {
     weapon: 'BAS-B',
-    level: '?',
+    level: '29',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -253,7 +253,7 @@ export default {
 
   'Solar Flare': {
     weapon: 'Sidewinder',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -262,7 +262,7 @@ export default {
 
   'Sandzone': {
     weapon: 'Sidewinder',
-    level: '?',
+    level: '12',
     challenge: {
       amount: 50,
       type: 'full_auto',
@@ -271,7 +271,7 @@ export default {
 
   'Mind Peak': {
     weapon: 'Sidewinder',
-    level: '?',
+    level: '19',
     challenge: {
       amount: 10,
       type: 'magnification_scope',
@@ -280,7 +280,7 @@ export default {
 
   'Purple Satin': {
     weapon: 'Sidewinder',
-    level: '?',
+    level: '28',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -289,7 +289,7 @@ export default {
 
   'Aquatic Blue': {
     weapon: 'MTZ-762',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -298,7 +298,7 @@ export default {
 
   'Topo Caustic': {
     weapon: 'MTZ-762',
-    level: '?',
+    level: '10',
     challenge: {
       amount: 50,
       type: 'full_auto',
@@ -307,7 +307,7 @@ export default {
 
   'Heatwave': {
     weapon: 'MTZ-762',
-    level: '?',
+    level: '15',
     challenge: {
       amount: 10,
       type: 'magnification_scope',
@@ -316,7 +316,7 @@ export default {
 
   'Blue Satin': {
     weapon: 'MTZ-762',
-    level: '?',
+    level: '23',
     challenge: {
       amount: 15,
       type: 'headshots',
@@ -325,7 +325,7 @@ export default {
 
   'Ameerga': {
     weapon: 'Striker',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -334,7 +334,7 @@ export default {
 
   'Topo Regal': {
     weapon: 'Striker',
-    level: '?',
+    level: '10',
     challenge: {
       amount: 25,
       type: 'hipfire',
@@ -343,7 +343,7 @@ export default {
 
   'Absorption': {
     weapon: 'Striker',
-    level: '?',
+    level: '15',
     challenge: {
       amount: 10,
       type: 'crouching_sliding',
@@ -352,7 +352,7 @@ export default {
 
   'Viral Invasion': {
     weapon: 'Striker',
-    level: '?',
+    level: '23',
     challenge: {
       amount: 14,
       type: 'enemy_tactical_affected',
@@ -361,7 +361,7 @@ export default {
 
   'Phantasmal': {
     weapon: 'WSP Swarm',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -370,7 +370,7 @@ export default {
 
   'Granite Pass': {
     weapon: 'WSP Swarm',
-    level: '?',
+    level: '11',
     challenge: {
       amount: 25,
       type: 'hipfire',
@@ -379,7 +379,7 @@ export default {
 
   'Red': {
     weapon: 'WSP Swarm',
-    level: '?',
+    level: '18',
     challenge: {
       amount: 10,
       type: 'crouching_sliding',
@@ -388,7 +388,7 @@ export default {
 
   'Fritillary': {
     weapon: 'WSP Swarm',
-    level: '?',
+    level: '27',
     challenge: {
       amount: 14,
       type: 'enemy_tactical_affected',
@@ -397,7 +397,7 @@ export default {
 
   'Dart': {
     weapon: 'AMR9',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -406,7 +406,7 @@ export default {
 
   'Amaranth Sands': {
     weapon: 'AMR9',
-    level: '?',
+    level: '12',
     challenge: {
       amount: 25,
       type: 'hipfire',
@@ -415,7 +415,7 @@ export default {
 
   'Microscopic': {
     weapon: 'AMR9',
-    level: '?',
+    level: '19',
     challenge: {
       amount: 10,
       type: 'crouching_sliding',
@@ -424,7 +424,7 @@ export default {
 
   'Rainfall Glitch': {
     weapon: 'AMR9',
-    level: '?',
+    level: '29',
     challenge: {
       amount: 14,
       type: 'enemy_tactical_affected',
@@ -433,7 +433,7 @@ export default {
 
   'Golden Poison': {
     weapon: 'WSP-9',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -442,7 +442,7 @@ export default {
 
   'Shattered Rock': {
     weapon: 'WSP-9',
-    level: '?',
+    level: '12',
     challenge: {
       amount: 25,
       type: 'hipfire',
@@ -451,7 +451,7 @@ export default {
 
   'Orange': {
     weapon: 'WSP-9',
-    level: '?',
+    level: '19',
     challenge: {
       amount: 10,
       type: 'crouching_sliding',
@@ -460,7 +460,7 @@ export default {
 
   'Orange Sulphur': {
     weapon: 'WSP-9',
-    level: '?',
+    level: '28',
     challenge: {
       amount: 14,
       type: 'enemy_tactical_affected',
@@ -469,7 +469,7 @@ export default {
 
   'Rock Stone': {
     weapon: 'Rival-9',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -478,7 +478,7 @@ export default {
 
   'Rock Glow': {
     weapon: 'Rival-9',
-    level: '?',
+    level: '9',
     challenge: {
       amount: 25,
       type: 'hipfire',
@@ -487,7 +487,7 @@ export default {
 
   'Deluge Glitch': {
     weapon: 'Rival-9',
-    level: '?',
+    level: '14',
     challenge: {
       amount: 10,
       type: 'crouching_sliding',
@@ -496,7 +496,7 @@ export default {
 
   'Bacterial Decay': {
     weapon: 'Rival-9',
-    level: '?',
+    level: '20',
     challenge: {
       amount: 14,
       type: 'enemy_tactical_affected',
@@ -505,7 +505,7 @@ export default {
 
   'Marbled': {
     weapon: 'Striker 9',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -514,7 +514,7 @@ export default {
 
   'Topo Hardpan': {
     weapon: 'Striker 9',
-    level: '?',
+    level: '11',
     challenge: {
       amount: 25,
       type: 'hipfire',
@@ -523,7 +523,7 @@ export default {
 
   'Yellow Sands': {
     weapon: 'Striker 9',
-    level: '?',
+    level: '17',
     challenge: {
       amount: 10,
       type: 'crouching_sliding',
@@ -532,7 +532,7 @@ export default {
 
   'Desolate Ops': {
     weapon: 'Striker 9',
-    level: '?',
+    level: '25',
     challenge: {
       amount: 14,
       type: 'enemy_tactical_affected',
@@ -540,8 +540,8 @@ export default {
   },
 
   'Blue Sands': {
-    weapon: 'Lockkwood 680',
-    level: '?',
+    weapon: 'Lockwood 680',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -549,8 +549,8 @@ export default {
   },
 
   'Palette Navy': {
-    weapon: 'Lockkwood 680',
-    level: '?',
+    weapon: 'Lockwood 680',
+    level: '11',
     challenge: {
       amount: 50,
       type: 'hipfire',
@@ -558,8 +558,8 @@ export default {
   },
 
   'Descent': {
-    weapon: 'Lockkwood 680',
-    level: '?',
+    weapon: 'Lockwood 680',
+    level: '18',
     challenge: {
       amount: 10,
       type: 'ads',
@@ -567,8 +567,8 @@ export default {
   },
 
   'Overwhelmed': {
-    weapon: 'Lockkwood 680',
-    level: '?',
+    weapon: 'Lockwood 680',
+    level: '27',
     challenge: {
       amount: 15,
       type: 'double_kills',
@@ -577,7 +577,7 @@ export default {
 
   'Pink Sands': {
     weapon: 'Haymaker',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -586,7 +586,7 @@ export default {
 
   'Guts': {
     weapon: 'Haymaker',
-    level: '?',
+    level: '9',
     challenge: {
       amount: 50,
       type: 'hipfire',
@@ -595,7 +595,7 @@ export default {
 
   'Palette Tropics': {
     weapon: 'Haymaker',
-    level: '?',
+    level: '15',
     challenge: {
       amount: 10,
       type: 'ads',
@@ -604,7 +604,7 @@ export default {
 
   'Smooth Satin': {
     weapon: 'Haymaker',
-    level: '?',
+    level: '22',
     challenge: {
       amount: 15,
       type: 'double_kills',
@@ -613,7 +613,7 @@ export default {
 
   'Purple Sands': {
     weapon: 'Riveter',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -622,7 +622,7 @@ export default {
 
   '80s Spheres': {
     weapon: 'Riveter',
-    level: '?',
+    level: '10',
     challenge: {
       amount: 50,
       type: 'hipfire',
@@ -631,7 +631,7 @@ export default {
 
   'Palette Grasses': {
     weapon: 'Riveter',
-    level: '?',
+    level: '16',
     challenge: {
       amount: 10,
       type: 'ads',
@@ -640,7 +640,7 @@ export default {
 
   'Upward Reverb': {
     weapon: 'Riveter',
-    level: '?',
+    level: '24',
     challenge: {
       amount: 15,
       type: 'double_kills',
@@ -649,7 +649,7 @@ export default {
 
   'Cosmic Filaments': {
     weapon: 'Pulemyot 762',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -658,7 +658,7 @@ export default {
 
   'Ember Glitch': {
     weapon: 'Pulemyot 762',
-    level: '?',
+    level: '12',
     challenge: {
       amount: 10,
       type: 'penetration',
@@ -667,7 +667,7 @@ export default {
 
   'Sunset Retro': {
     weapon: 'Pulemyot 762',
-    level: '?',
+    level: '19',
     challenge: {
       amount: 10,
       type: 'full_attachments',
@@ -676,7 +676,7 @@ export default {
 
   'B&W Fuzz': {
     weapon: 'Pulemyot 762',
-    level: '?',
+    level: '28',
     challenge: {
       amount: 10,
       type: 'double_kills',
@@ -685,7 +685,7 @@ export default {
 
   'Psychedelic Sky': {
     weapon: 'DG-58 LSW',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -694,7 +694,7 @@ export default {
 
   'Topo Reverb': {
     weapon: 'DG-58 LSW',
-    level: '?',
+    level: '12',
     challenge: {
       amount: 10,
       type: 'penetration',
@@ -703,7 +703,7 @@ export default {
 
   'Cold Fall': {
     weapon: 'DG-58 LSW',
-    level: '?',
+    level: '19',
     challenge: {
       amount: 10,
       type: 'full_attachments',
@@ -712,7 +712,7 @@ export default {
 
   'B&W Re-Fuzz': {
     weapon: 'DG-58 LSW',
-    level: '?',
+    level: '29',
     challenge: {
       amount: 10,
       type: 'double_kills',
@@ -721,7 +721,7 @@ export default {
 
   'Ghastly': {
     weapon: 'Holger 26',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -730,7 +730,7 @@ export default {
 
   'Cobalt Sands': {
     weapon: 'Holger 26',
-    level: '?',
+    level: '9',
     challenge: {
       amount: 10,
       type: 'penetration',
@@ -739,7 +739,7 @@ export default {
 
   'Green Field': {
     weapon: 'Holger 26',
-    level: '?',
+    level: '14',
     challenge: {
       amount: 10,
       type: 'full_attachments',
@@ -748,7 +748,7 @@ export default {
 
   'Warbled': {
     weapon: 'Holger 26',
-    level: '?',
+    level: '20',
     challenge: {
       amount: 10,
       type: 'double_kills',
@@ -757,7 +757,7 @@ export default {
 
   'Dusted': {
     weapon: 'Bruen MK9',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -766,7 +766,7 @@ export default {
 
   'Shuffle': {
     weapon: 'Bruen MK9',
-    level: '?',
+    level: '9',
     challenge: {
       amount: 10,
       type: 'penetration',
@@ -775,7 +775,7 @@ export default {
 
   'Drip': {
     weapon: 'Bruen MK9',
-    level: '?',
+    level: '14',
     challenge: {
       amount: 10,
       type: 'full_attachments',
@@ -784,7 +784,7 @@ export default {
 
   'Gaggle': {
     weapon: 'Bruen MK9',
-    level: '?',
+    level: '20',
     challenge: {
       amount: 10,
       type: 'double_kills',
@@ -793,16 +793,16 @@ export default {
 
   'Viral': {
     weapon: 'KVD Enforcer',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
     },
   },
 
-  'Topo Boulder (KVD Enforcer)': {
+  'Palette Garden': {
     weapon: 'KVD Enforcer',
-    level: '?',
+    level: '13',
     challenge: {
       amount: 50,
       type: 'headshots',
@@ -811,7 +811,7 @@ export default {
 
   'Clouded Mind': {
     weapon: 'KVD Enforcer',
-    level: '?',
+    level: '20',
     challenge: {
       amount: 10,
       type: 'no_attachments',
@@ -820,7 +820,7 @@ export default {
 
   'Skull-o-Vision': {
     weapon: 'KVD Enforcer',
-    level: '?',
+    level: '30',
     challenge: {
       amount: 2,
       times: 15,
@@ -830,7 +830,7 @@ export default {
 
   'Sharp Brush': {
     weapon: 'MCW 6.8',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -839,7 +839,7 @@ export default {
 
   'Topo Lithic': {
     weapon: 'MCW 6.8',
-    level: '?',
+    level: '10',
     challenge: {
       amount: 50,
       type: 'headshots',
@@ -848,7 +848,7 @@ export default {
 
   'Dry Heat': {
     weapon: 'MCW 6.8',
-    level: '?',
+    level: '16',
     challenge: {
       amount: 10,
       type: 'no_attachments',
@@ -857,7 +857,7 @@ export default {
 
   'Insectoid': {
     weapon: 'MCW 6.8',
-    level: '?',
+    level: '24',
     challenge: {
       amount: 2,
       times: 15,
@@ -867,7 +867,7 @@ export default {
 
   'Microbiology': {
     weapon: 'DM56',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -876,7 +876,7 @@ export default {
 
   'Woods Brush': {
     weapon: 'DM56',
-    level: '?',
+    level: '10',
     challenge: {
       amount: 50,
       type: 'headshots',
@@ -885,7 +885,7 @@ export default {
 
   'Red Sands': {
     weapon: 'DM56',
-    level: '?',
+    level: '15',
     challenge: {
       amount: 10,
       type: 'no_attachments',
@@ -894,7 +894,7 @@ export default {
 
   'Bone Shaker': {
     weapon: 'DM56',
-    level: '?',
+    level: '23',
     challenge: {
       amount: 2,
       times: 15,
@@ -904,7 +904,7 @@ export default {
 
   'Psychedelic Loops': {
     weapon: 'MTZ Interceptor',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -913,7 +913,7 @@ export default {
 
   'Thick Brush': {
     weapon: 'MTZ Interceptor',
-    level: '?',
+    level: '8',
     challenge: {
       amount: 50,
       type: 'headshots',
@@ -922,7 +922,7 @@ export default {
 
   'Oil Slick Glitch': {
     weapon: 'MTZ Interceptor',
-    level: '?',
+    level: '12',
     challenge: {
       amount: 10,
       type: 'no_attachments',
@@ -931,7 +931,7 @@ export default {
 
   'Skullish': {
     weapon: 'MTZ Interceptor',
-    level: '?',
+    level: '18',
     challenge: {
       amount: 2,
       times: 15,
@@ -941,7 +941,7 @@ export default {
 
   'Death 3D': {
     weapon: 'KATT-AMR',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -950,7 +950,7 @@ export default {
 
   'Topo Boulder (KATT-AMR)': {
     weapon: 'KATT-AMR',
-    level: '?',
+    level: '11',
     challenge: {
       amount: 50,
       type: 'quickscope',
@@ -959,7 +959,7 @@ export default {
 
   'Palette Neapolitan': {
     weapon: 'KATT-AMR',
-    level: '?',
+    level: '17',
     challenge: {
       amount: 3,
       times: 10,
@@ -969,7 +969,7 @@ export default {
 
   'Art Glass': {
     weapon: 'KATT-AMR',
-    level: '?',
+    level: '27',
     challenge: {
       amount: 15,
       type: 'one_shot',
@@ -978,7 +978,7 @@ export default {
 
   'Crimson Skulls': {
     weapon: 'Longbow',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -987,7 +987,7 @@ export default {
 
   'Topo Arid': {
     weapon: 'Longbow',
-    level: '?',
+    level: '13',
     challenge: {
       amount: 50,
       type: 'quickscope',
@@ -996,7 +996,7 @@ export default {
 
   'Palette Sunrise': {
     weapon: 'Longbow',
-    level: '?',
+    level: '21',
     challenge: {
       amount: 3,
       times: 10,
@@ -1006,7 +1006,7 @@ export default {
 
   'Rippled': {
     weapon: 'Longbow',
-    level: '?',
+    level: '31',
     challenge: {
       amount: 15,
       type: 'one_shot',
@@ -1015,7 +1015,7 @@ export default {
 
   'Deathparency': {
     weapon: 'KV Inhibitor',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -1024,7 +1024,7 @@ export default {
 
   'Tactical Colors': {
     weapon: 'KV Inhibitor',
-    level: '?',
+    level: '14',
     challenge: {
       amount: 50,
       type: 'quickscope',
@@ -1033,7 +1033,7 @@ export default {
 
   'Palette Dusk': {
     weapon: 'KV Inhibitor',
-    level: '?',
+    level: '22',
     challenge: {
       amount: 3,
       times: 10,
@@ -1043,7 +1043,7 @@ export default {
 
   'Puzzling Tiles': {
     weapon: 'KV Inhibitor',
-    level: '?',
+    level: '33',
     challenge: {
       amount: 15,
       type: 'one_shot',
@@ -1052,7 +1052,7 @@ export default {
 
   'Deconstructed': {
     weapon: 'COR-45',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -1061,7 +1061,7 @@ export default {
 
   'Alert Glitch': {
     weapon: 'COR-45',
-    level: '?',
+    level: '9',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -1070,7 +1070,7 @@ export default {
 
   'Acid Drop': {
     weapon: 'COR-45',
-    level: '?',
+    level: '14',
     challenge: {
       amount: 10,
       type: 'moving',
@@ -1079,7 +1079,7 @@ export default {
 
   'Red Admiral': {
     weapon: 'COR-45',
-    level: '?',
+    level: '21',
     challenge: {
       amount: 15,
       type: 'akimbo',
@@ -1088,7 +1088,7 @@ export default {
 
   'Pyro Filaments': {
     weapon: 'Renetti',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -1097,7 +1097,7 @@ export default {
 
   'Red Cells': {
     weapon: 'Renetti',
-    level: '?',
+    level: '9',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -1106,7 +1106,7 @@ export default {
 
   'Psychotropic': {
     weapon: 'Renetti',
-    level: '?',
+    level: '14',
     challenge: {
       amount: 10,
       type: 'moving',
@@ -1115,7 +1115,7 @@ export default {
 
   'Pabels': {
     weapon: 'Renetti',
-    level: '?',
+    level: '21',
     challenge: {
       amount: 15,
       type: 'akimbo',
@@ -1124,7 +1124,7 @@ export default {
 
   'Satin Swirl': {
     weapon: 'TYR',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -1133,7 +1133,7 @@ export default {
 
   'Topo Sandrock': {
     weapon: 'TYR',
-    level: '?',
+    level: '11',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -1142,7 +1142,7 @@ export default {
 
   'Cherry Blossom': {
     weapon: 'TYR',
-    level: '?',
+    level: '17',
     challenge: {
       amount: 10,
       type: 'moving',
@@ -1151,7 +1151,7 @@ export default {
 
   'Corrugated': {
     weapon: 'TYR',
-    level: '?',
+    level: '26',
     challenge: {
       amount: 15,
       type: 'akimbo',
@@ -1160,7 +1160,7 @@ export default {
 
   'Green Sands': {
     weapon: 'WSP Stinger',
-    level: '?',
+    level: '2',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -1169,7 +1169,7 @@ export default {
 
   'Arctic Filaments': {
     weapon: 'WSP Stinger',
-    level: '?',
+    level: '7',
     challenge: {
       amount: 50,
       type: 'ads',
@@ -1178,7 +1178,7 @@ export default {
 
   'Geofunk': {
     weapon: 'WSP Stinger',
-    level: '?',
+    level: '10',
     challenge: {
       amount: 10,
       type: 'moving',
@@ -1187,7 +1187,7 @@ export default {
 
   'Mind Test': {
     weapon: 'WSP Stinger',
-    level: '?',
+    level: '15',
     challenge: {
       amount: 15,
       type: 'akimbo',
@@ -1196,7 +1196,7 @@ export default {
 
   'Strain': {
     weapon: 'RGL-80',
-    level: '?',
+    level: '4',
     challenge: {
       amount: 25,
       type: 'kills',
@@ -1205,7 +1205,7 @@ export default {
 
   'Sea Green Sands': {
     weapon: 'Gutter Knife',
-    level: '?',
+    level: '4',
     challenge: {
       amount: 50,
       type: 'kills',
@@ -1214,7 +1214,7 @@ export default {
 
   'Dark Vision': {
     weapon: 'Karambit',
-    level: '?',
+    level: '4',
     challenge: {
       amount: 50,
       type: 'kills',

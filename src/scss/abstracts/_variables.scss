@@ -17,10 +17,15 @@ $green: #10ac84;
 $red: #ee5253;
 $yellow: #feca57;
 $orange: #ff9f43;
-$pink: #f368e0;
 $purple: #5f27cd;
 $blue: #2e86de;
 $silver: #d7d7d7;
+
+$pink: #d11f91;
+$cyan: #417281;
+$dark_cyan: #134855;
+$maroon: #54021a;
+$dark_grey: #171d1f;
 
 $border-radius: 3px;
 $transition: 0.25s ease;
@@ -40,8 +45,8 @@ $tablet: 1100px;
 //);
 
 $base-gradient: url('/base-gradient.svg');
-$gilded-gradient: url('/gold-gradient.svg');
-$forged-gradient: url('/platinum-gradient.svg');
-$priceless-gradient: url('/polyatomic-gradient.svg');
-$interstellar-gradient: url('/orion-gradient.svg');
-$interstellar-gradient-alt: radial-gradient(circle farthest-corner at 10% 20%, $orange 0%, $purple 70%);
+$gilded-gradient: url('/gilded-gradient.svg');
+$forged-gradient: url('/forged-gradient.svg');
+$priceless-gradient: url('/priceless-gradient.svg');
+$interstellar-gradient: url('/interstellar-gradient.svg');
+$interstellar-gradient-alt: radial-gradient(circle farthest-corner at 10% 20%, $pink 0%, $cyan 75%);

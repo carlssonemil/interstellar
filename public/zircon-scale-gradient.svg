@@ -8,13 +8,13 @@
             <feGaussianBlur result="effect1_foregroundBlur" stdDeviation="189"/>
         </filter>
     </defs>
-    <rect width="900" height="900" fill="#650808"/>
+    <rect width="900" height="900" fill="#671414"/>
     <g filter="url(#blur1)">
-        <circle cx="378" cy="320" r="420" fill="#ac1010"/>
-        <circle cx="151" cy="352" r="420" fill="#650808"/>
-        <circle cx="612" cy="280" r="420" fill="#ac1010"/>
-        <circle cx="214" cy="13" r="420" fill="#ac1010"/>
-        <circle cx="152" cy="831" r="420" fill="#650808"/>
-        <circle cx="730" cy="790" r="420" fill="#ac1010"/>
+        <circle cx="633" cy="274" r="420" fill="#cd2727"/>
+        <circle cx="850" cy="888" r="420" fill="#671414"/>
+        <circle cx="370" cy="430" r="420" fill="#cd2727"/>
+        <circle cx="47" cy="878" r="420" fill="#cd2727"/>
+        <circle cx="42" cy="247" r="420" fill="#671414"/>
+        <circle cx="488" cy="97" r="420" fill="#cd2727"/>
     </g>
 </svg>

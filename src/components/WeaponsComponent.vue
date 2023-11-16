@@ -15,7 +15,7 @@
             :key="weapon.name"
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
-            :progress="progress"
+            :mastery="progress"
             :pricelessUnlocked="progress !== 'progress' ? null : pricelessUnlocked" />
         </transition-group>
 
@@ -53,7 +53,7 @@
             :key="weapon.name"
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
-            :progress="progress"
+            :mastery="progress"
             :pricelessUnlocked="progress !== 'progress' ? null : pricelessUnlocked" />
         </transition-group>
       </div>

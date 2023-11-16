@@ -99,12 +99,6 @@ export default {
       required: false,
       default: 'progress',
     },
-
-    pricelessUnlocked: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
   },
 
   data() {

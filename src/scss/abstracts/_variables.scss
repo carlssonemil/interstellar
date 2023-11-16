@@ -12,7 +12,7 @@ $elevation-8-color: darken(white, 72.5%);
 $elevation-9-color: darken(white, 70%);
 $text-color: white;
 
-// Palette
+// Basic Palette
 $green: #10ac84;
 $red: #ee5253;
 $yellow: #feca57;
@@ -21,11 +21,19 @@ $purple: #5f27cd;
 $blue: #2e86de;
 $silver: #d7d7d7;
 
+// Interstellar
 $pink: #d11f91;
-$cyan: #417281;
-$dark_cyan: #134855;
+$teal: #417281;
+$dark_teal: #134855;
 $maroon: #54021a;
 $dark_grey: #171d1f;
+
+// Borealis
+$cyan: #1fd1d1;
+$aquamarine: #1fd1a5;
+$indigo: #6556db;
+$lavender: #8456db;
+
 
 $border-radius: 3px;
 $transition: 0.25s ease;
@@ -45,8 +53,17 @@ $tablet: 1100px;
 //);
 
 $base-gradient: url('/base-gradient.svg');
+
 $gilded-gradient: url('/gilded-gradient.svg');
 $forged-gradient: url('/forged-gradient.svg');
 $priceless-gradient: url('/priceless-gradient.svg');
 $interstellar-gradient: url('/interstellar-gradient.svg');
-$interstellar-gradient-alt: radial-gradient(circle farthest-corner at 10% 20%, $pink 0%, $cyan 75%);
+
+
+$golden-enigma-gradient: url('/golden-enigma-gradient.svg');
+$zircon-scale-gradient: url('/zircon-scale-gradient.svg');
+$serpentinite-gradient: url('/serpentinite-gradient.svg');
+$borealis-gradient: url('/borealis-gradient.svg');
+
+$interstellar-gradient-alt: radial-gradient(circle farthest-corner at 10% 20%, $pink 0%, $teal 75%);
+$borealis-gradient-alt: radial-gradient(circle farthest-corner at 10% 20%, $aquamarine 0%, $lavender 75%);

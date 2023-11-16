@@ -15,14 +15,13 @@
             :key="weapon.name"
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
-            :progressKey="progress"
-            :pricelessUnlocked="progress !== 'progress' ? null : pricelessUnlocked" />
+            :progressKey="progressKey" />
         </transition-group>
 
         <AlertComponent
           v-else
           type="empty-state"
-          :style="{ padding: progress === 'progressKey' ? '42px 15px' : '32px 15px 31px' }">
+          :style="{ padding: progressKey === 'progress' ? '42px 15px' : '32px 15px 31px' }">
           <i18n-t keypath="general.no_favorites_placeholder" scope="global">
             <template #star>
               <IconComponent name="star" fill="#feca57" icon-style="solid" size="20" />
@@ -53,8 +52,7 @@
             :key="weapon.name"
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
-            :progressKey="progress"
-            :pricelessUnlocked="progress !== 'progress' ? null : pricelessUnlocked" />
+            :progressKey="progressKey" />
         </transition-group>
       </div>
     </transition-group>
@@ -90,7 +88,7 @@ export default {
       required: true,
     },
 
-    progress: {
+    progressKey: {
       type: String,
       required: false,
       default: 'progress',
@@ -110,7 +108,7 @@ export default {
         .flat()
         .reduce(
           (a, weapon) =>
-            a + Object.values(filterObject(weapon.progress, ['Priceless'])).every(Boolean),
+            a + Object.values(filterObject(weapon[this.progressKey], ['Priceless'])).every(Boolean),
           0
         )
 
@@ -122,7 +120,7 @@ export default {
     ...mapActions(useStore, ['toggleCategoryCompleted', 'unfavoriteAll']),
 
     categoryProgress(title) {
-      const progress = this.progress === 'progress' ? this.progress : `${this.progress}Progress`
+      const progress = this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
       const categoryWeapons = this.weapons[title]
       const total = categoryWeapons.filter((weapon) => !weapon.comingSoon).length
       const completed = categoryWeapons.reduce(
@@ -134,7 +132,7 @@ export default {
     },
 
     categoryCompleted(category) {
-      const progress = this.progress === 'progress' ? this.progress : `${this.progress}Progress}`
+      const progress = this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
       const total = category.filter((weapon) => !weapon.comingSoon).length
       const completed = category.reduce(
         (a, weapon) => a + Object.values(weapon[progress]).every(Boolean),
@@ -152,7 +150,7 @@ export default {
         return []
       }
 
-      const progressType = this.progress === 'progress' ? this.progress : `${this.progress}Progress`
+      const progressType = this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
       const progress = weapon[progressType]
       const camouflages = Object.keys(progress)
         .map((camouflage) => {

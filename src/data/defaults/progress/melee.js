@@ -1,9 +1,21 @@
 export default {
   'Gutter Knife': {
-    'Sea Green Sands': false,
+    multiplayer: {
+      'Sea Green Sands': false,
+    },
+
+    zombies: {
+      'Foam Sands': false,
+    },
   },
 
   'Karambit': {
-    'Dark Vision': false,
+    multiplayer: {
+      'Dark Vision': false,
+    },
+
+    zombies: {
+      Ripped: false,
+    },
   },
 }

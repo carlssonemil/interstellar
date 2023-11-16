@@ -1,4 +1,4 @@
-const camouflages = [
+const multiplayer = [
   'Acid Drip',
   'Cherry Blossom',
   'Cinders',
@@ -13,7 +13,26 @@ const camouflages = [
   'Tactical Colors',
 ]
 
+const zombies = [
+  'Below Zero',
+  'Cartilage',
+  'Caustic River',
+  'Decay',
+  'Haunted',
+  'Illusions',
+  'Patchwork',
+  'Sludge',
+  'Spoiled Eggs',
+  'Stonework',
+  'Sunstroke',
+  'Tide Surge',
+]
+
+const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))
+
 export default camouflages.map((camouflage) => ({
   category: 'Retro',
   name: camouflage,
+  multiplayer: multiplayer.includes(camouflage),
+  zombies: zombies.includes(camouflage),
 }))

@@ -4,7 +4,7 @@ export default {
     level: '10',
     challenge: {
       amount: 50,
-      type: 'hipfire',
+      type: 'hipfire_kills',
     },
   },
 
@@ -13,7 +13,7 @@ export default {
     level: '19',
     challenge: {
       amount: 10,
-      type: 'magnification_scope',
+      type: 'kills_with_magnification_scope',
     },
   },
 
@@ -22,7 +22,7 @@ export default {
     level: '15',
     challenge: {
       amount: 10,
-      type: 'magnification_scope',
+      type: 'kills_with_magnification_scope',
     },
   },
 
@@ -31,7 +31,7 @@ export default {
     level: '19',
     challenge: {
       amount: 10,
-      type: 'full_attachments',
+      type: 'kills_with_full_attachments',
     },
   },
 
@@ -40,7 +40,7 @@ export default {
     level: '14',
     challenge: {
       amount: 10,
-      type: 'moving',
+      type: 'moving_kills',
     },
   },
 
@@ -49,7 +49,62 @@ export default {
     level: '10',
     challenge: {
       amount: 10,
-      type: 'moving',
+      type: 'moving_kills',
+    },
+  },
+
+  'Global Panic': {
+    weapon: 'Riveter',
+    level: '10',
+    challenge: {
+      amount: 10,
+      times: 10,
+      type: 'time_limit_kills',
+    },
+  },
+
+  'Cacophony': {
+    weapon: 'Sidewinder',
+    level: '19',
+    challenge: {
+      amount: 200,
+      type: 'critical_kills',
+    },
+  },
+
+  'Alert': {
+    weapon: 'MTZ-762',
+    level: '15',
+    challenge: {
+      amount: 50,
+      type: 'mercenary_kills',
+    },
+  },
+
+  'Purple Ooze': {
+    weapon: 'Pulemyot 762',
+    level: '19',
+    challenge: {
+      amount: 250,
+      type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
+
+  'Radio Waves': {
+    weapon: 'Renetti',
+    level: '14',
+    challenge: {
+      amount: 250,
+      type: 'point_blank_kills',
+    },
+  },
+
+  'Lost Transmission': {
+    weapon: 'WSP Stinger',
+    level: '10',
+    challenge: {
+      amount: 250,
+      type: 'hipfire_kills',
     },
   },
 }

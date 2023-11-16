@@ -1,5 +1,11 @@
 export default {
   'RGL-80': {
-    Strain: false,
+    multiplayer: {
+      Strain: false,
+    },
+
+    zombies: {
+      Pathosis: false,
+    },
   },
 }

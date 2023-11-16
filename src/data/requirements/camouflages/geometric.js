@@ -13,7 +13,25 @@ export default {
     level: '9',
     challenge: {
       amount: 10,
-      type: 'penetration',
+      type: 'penetration_kills',
+    },
+  },
+
+  'Puncture': {
+    weapon: 'FR 5.56',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Jagged Edges': {
+    weapon: 'Bruen MK9',
+    level: '9',
+    challenge: {
+      amount: 250,
+      type: 'kills_at_rare_or_higher_rarity',
     },
   },
 }

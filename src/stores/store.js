@@ -1,14 +1,14 @@
 import { defineStore } from 'pinia'
 import { notify } from '@kyvg/vue3-notification'
-import { filterObject } from '../utils/utils'
-import defaultWeapons from '../data/weapons'
-import defaultCallingCards from '../data/defaults/calling_cards'
-import defaultFilters from '../data/defaults/filters'
-import defaultPreferences from '../data/defaults/preferences'
-import weaponRequirements from '../data/requirements/weapons'
-import masteryRequirements from '../data/masteryRequirements'
-import camouflageRequirements from '../data/requirements/camouflages'
-import camouflageNameChanges from '../data/camouflageNameChanges'
+import { filterObject } from '@/utils/utils'
+import defaultWeapons from '@/data/weapons'
+import defaultCallingCards from '@/data/defaults/calling_cards'
+import defaultFilters from '@/data/defaults/filters'
+import defaultPreferences from '@/data/defaults/preferences'
+import weaponRequirements from '@/data/requirements/weapons'
+import masteryRequirements from '@/data/masteryRequirements'
+import camouflageRequirements from '@/data/requirements/camouflages'
+import camouflageNameChanges from '@/data/camouflageNameChanges'
 
 const token = import.meta.env.MODE === 'production' ? 'interstellar' : 'interstellar-dev'
 
@@ -23,6 +23,7 @@ export const useStore = defineStore({
       weapons: [],
       mastery: [],
       callingCards: [],
+      zombies: [],
     },
     filters: {},
     weaponRequirements: { ...weaponRequirements },
@@ -80,10 +81,12 @@ export const useStore = defineStore({
       }
     },
 
-    setFavorites({ camouflages, weapons, callingCards }) {
-      this.favorites.camouflages = camouflages || []
-      this.favorites.weapons = weapons || []
-      this.favorites.callingCards = callingCards || []
+    setFavorites(favorites) {
+      Object.keys(favorites).forEach((key) => {
+        if (key in this.favorites) {
+          this.favorites[key] = favorites[key]
+        }
+      })
     },
 
     setFilters(filters) {
@@ -174,11 +177,11 @@ export const useStore = defineStore({
       this.storeProgress()
     },
 
-    toggleCamouflageCompleted(weaponName, camouflage, current, mastery) {
-      const progress = mastery ? 'masteryProgress' : 'progress'
-      this.weapons.find((w) => w.name === weaponName)[progress][camouflage] = !current
+    toggleCamouflageCompleted(weaponName, camouflage, current, progress) {
+      const progressType = progress === 'progress' ? 'progress' : `${progress}Progress`
+      this.weapons.find((w) => w.name === weaponName)[progressType][camouflage] = !current
 
-      if (camouflage === 'Gilded' && !mastery) {
+      if (camouflage === 'Gilded' && progress === 'progress') {
         this.completeBaseCamouflages(weaponName)
       }
 
@@ -194,11 +197,11 @@ export const useStore = defineStore({
       baseCamouflages.forEach((camouflage) => (weapon.progress[camouflage] = true))
     },
 
-    toggleWeaponCompleted(weapon, current, mastery) {
-      const progress = mastery ? 'masteryProgress' : 'progress'
+    toggleWeaponCompleted(weapon, current, progress) {
+      const progressType = progress === 'progress' ? 'progress' : `${progress}Progress`
       const selectedWeapon = this.weapons.find((w) => w.name === weapon.name)
-      Object.keys(selectedWeapon[progress]).forEach(
-        (camouflage) => (selectedWeapon[progress][camouflage] = !current)
+      Object.keys(selectedWeapon[progressType]).forEach(
+        (camouflage) => (selectedWeapon[progressType][camouflage] = !current)
       )
 
       this.storeProgress()

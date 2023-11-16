@@ -1,29 +1,65 @@
 export default {
   'KVD Enforcer': {
-    'Viral': false,
-    'Palette Garden': false,
-    'Clouded Mind': false,
-    'Skull-o-Vision': false,
+    multiplayer: {
+      'Viral': false,
+      'Palette Garden': false,
+      'Clouded Mind': false,
+      'Skull-o-Vision': false,
+    },
+
+    zombies: {
+      'Symptomatic': false,
+      'Palette Cursed': false,
+      'Grim Reaper': false,
+      'Thanatos': false,
+    },
   },
 
   'MCW 6.8': {
-    'Sharp Brush': false,
-    'Topo Lithic': false,
-    'Dry Heat': false,
-    'Insectoid': false,
+    multiplayer: {
+      'Sharp Brush': false,
+      'Topo Lithic': false,
+      'Dry Heat': false,
+      'Insectoid': false,
+    },
+
+    zombies: {
+      'Spirit Brush': false,
+      'Topo Ooze': false,
+      'Decay': false,
+      'Unyielding': false,
+    },
   },
 
   'DM56': {
-    'Microbiology': false,
-    'Woods Brush': false,
-    'Red Sands': false,
-    'Bone Shaker': false,
+    multiplayer: {
+      'Microbiology': false,
+      'Woods Brush': false,
+      'Red Sands': false,
+      'Bone Shaker': false,
+    },
+
+    zombies: {
+      'Black Plague': false,
+      'Rusted Brush': false,
+      'Golden Sands': false,
+      'Damned Souls': false,
+    },
   },
 
   'MTZ Interceptor': {
-    'Psychedelic Loops': false,
-    'Thick Brush': false,
-    'Oil Slick Glitch': false,
-    'Skullish': false,
+    multiplayer: {
+      'Psychedelic Loops': false,
+      'Thick Brush': false,
+      'Oil Slick Glitch': false,
+      'Skullish': false,
+    },
+
+    zombies: {
+      'Psychedelic Misery': false,
+      'Blood Brush': false,
+      'Slash Glitch': false,
+      'Destiny': false,
+    },
   },
 }

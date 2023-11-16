@@ -4,7 +4,7 @@ export default {
     level: '12',
     challenge: {
       amount: 50,
-      type: 'full_auto',
+      type: 'kills_while_using_full_auto',
     },
   },
 
@@ -13,7 +13,7 @@ export default {
     level: '9',
     challenge: {
       amount: 25,
-      type: 'hipfire',
+      type: 'hipfire_kills',
     },
   },
 
@@ -22,7 +22,7 @@ export default {
     level: '9',
     challenge: {
       amount: 50,
-      type: 'hipfire',
+      type: 'hipfire_kills',
     },
   },
 
@@ -31,7 +31,7 @@ export default {
     level: '14',
     challenge: {
       amount: 50,
-      type: 'quickscope',
+      type: 'quickscope_kills',
     },
   },
 
@@ -40,7 +40,7 @@ export default {
     level: '20',
     challenge: {
       amount: 15,
-      type: 'headshot',
+      type: 'headshot_kills',
     },
   },
 
@@ -49,7 +49,7 @@ export default {
     level: '24',
     challenge: {
       amount: 25,
-      type: 'tac_stance',
+      type: 'kills_while_in_tac_stance',
     },
   },
 
@@ -58,7 +58,7 @@ export default {
     level: '25',
     challenge: {
       amount: 14,
-      type: 'enemy_tactical_affected',
+      type: 'kills_while_enemy_affected_by_tactical',
     },
   },
 
@@ -67,7 +67,7 @@ export default {
     level: '19',
     challenge: {
       amount: 10,
-      type: 'full_attachments',
+      type: 'kills_with_full_attachments',
     },
   },
 
@@ -76,7 +76,7 @@ export default {
     level: '14',
     challenge: {
       amount: 10,
-      type: 'full_attachments',
+      type: 'kills_with_full_attachments',
     },
   },
 
@@ -85,7 +85,7 @@ export default {
     level: '16',
     challenge: {
       amount: 10,
-      type: 'no_attachments',
+      type: 'kills_with_no_attachments',
     },
   },
 
@@ -94,7 +94,7 @@ export default {
     level: '14',
     challenge: {
       amount: 10,
-      type: 'moving',
+      type: 'moving_kills',
     },
   },
 
@@ -103,7 +103,116 @@ export default {
     level: '17',
     challenge: {
       amount: 10,
-      type: 'moving',
+      type: 'moving_kills',
+    },
+  },
+
+  'Tide Surge': {
+    weapon: 'Sidewinder',
+    level: '12',
+    challenge: {
+      amount: 10,
+      type: 'mangler_kills',
+    },
+  },
+
+  'Cartilage': {
+    weapon: 'Sidewinder',
+    level: '9',
+    challenge: {
+      amount: 5,
+      type: 'mimic_kills',
+    },
+  },
+
+  'Below Zero': {
+    weapon: 'Haymaker',
+    level: '9',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_four_active_perks',
+    },
+  },
+
+  'Spoiled Eggs': {
+    weapon: 'KV Inhibitor',
+    level: '14',
+    challenge: {
+      amount: 5,
+      type: 'mimic_kills',
+    },
+  },
+
+  'Sludge': {
+    weapon: 'SVA 545',
+    level: '20',
+    challenge: {
+      amount: 250,
+      type: 'kills_in_medium_or_high_threat_zone',
+    },
+  },
+
+  'Stonework': {
+    weapon: 'DG-58 LSW',
+    level: '19',
+    challenge: {
+      amount: 250,
+      type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
+
+  'Patchwork': {
+    weapon: 'Holger 26',
+    level: '14',
+    challenge: {
+      amount: 10,
+      times: 10,
+      type: 'time_limit_kills',
+    },
+  },
+
+  'Decay': {
+    weapon: 'MCW 6.8',
+    level: '16',
+    challenge: {
+      amount: 250,
+      type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
+
+  'Haunted': {
+    weapon: 'COR-45',
+    level: '14',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_four_active_perks',
+    },
+  },
+
+  'Sunstroke': {
+    weapon: 'TYR',
+    level: '17',
+    challenge: {
+      amount: 30,
+      type: 'hellhound_kills',
+    },
+  },
+
+  'Caustic River': {
+    weapon: 'Holger 556',
+    level: '24',
+    challenge: {
+      amount: 200,
+      type: 'critical_kills',
+    },
+  },
+
+  'Illusions': {
+    weapon: 'Striker 9',
+    level: '25',
+    challenge: {
+      amount: 250,
+      type: 'kills_while_in_tac_stance',
     },
   },
 }

@@ -1,43 +1,97 @@
 export default {
   'Striker': {
-    'Ameerga': false,
-    'Topo Regal': false,
-    'Absorption': false,
-    'Viral Invasion': false,
+    multiplayer: {
+      'Ameerga': false,
+      'Topo Regal': false,
+      'Absorption': false,
+      'Viral Invasion': false,
+    },
+
+    zombies: {
+      'Nocuous': false,
+      'Topo Blaze': false,
+      'Inner Demon': false,
+      'Living Tissue': false,
+    },
   },
 
   'WSP Swarm': {
-    'Phantasmal': false,
-    'Granite Pass': false,
-    'Red': false,
-    'Fritillary': false,
+    multiplayer: {
+      'Phantasmal': false,
+      'Granite Pass': false,
+      'Red': false,
+      'Fritillary': false,
+    },
+
+    zombies: {
+      'Familiar': false,
+      'Unmarked Grave': false,
+      'Terracotta': false,
+      'Death Form': false,
+    },
   },
 
   'AMR9': {
-    'Dart': false,
-    'Amaranth Sands': false,
-    'Microscopic': false,
-    'Rainfall Glitch': false,
+    multiplayer: {
+      'Dart': false,
+      'Amaranth Sands': false,
+      'Microscopic': false,
+      'Rainfall Glitch': false,
+    },
+
+    zombies: {
+      'Disoriented': false,
+      'Toxic Sands': false,
+      'Ferver': false,
+      'Torment Glitch': false,
+    },
   },
 
   'WSP-9': {
-    'Golden Poison': false,
-    'Shattered Rock': false,
-    'Orange': false,
-    'Orange Sulphur': false,
+    multiplayer: {
+      'Golden Poison': false,
+      'Shattered Rock': false,
+      'Orange': false,
+      'Orange Sulphur': false,
+    },
+
+    zombies: {
+      Perilous: false,
+      Splintered: false,
+      Oracle: false,
+      Decrepit: false,
+    },
   },
 
   'Rival-9': {
-    'Rock Stone': false,
-    'Rock Glow': false,
-    'Deluge Glitch': false,
-    'Bacterial Decay': false,
+    multiplayer: {
+      'Rock Stone': false,
+      'Rock Glow': false,
+      'Deluge Glitch': false,
+      'Bacterial Decay': false,
+    },
+
+    zombies: {
+      'Fading Breath': false,
+      'Cartilage': false,
+      'Tomb Glitch': false,
+      'Cold Snap': false,
+    },
   },
 
   'Striker 9': {
-    'Marbled': false,
-    'Topo Hardpan': false,
-    'Yellow Sands': false,
-    'Desolate Ops': false,
+    multiplayer: {
+      'Marbled': false,
+      'Topo Hardpan': false,
+      'Yellow Sands': false,
+      'Desolate Ops': false,
+    },
+
+    zombies: {
+      'Dire': false,
+      'Topo Gargoyle': false,
+      'Midnight Sands': false,
+      'Illusions': false,
+    },
   },
 }

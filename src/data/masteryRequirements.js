@@ -1,18 +1,18 @@
 export default {
   Gilded: {
-    amount: '?',
+    amount: 100,
     camouflage: 'Gilded',
   },
   Forged: {
-    amount: '?',
+    amount: 200,
     camouflage: 'Forged',
   },
   Priceless: {
-    amount: '?',
+    amount: 300,
     camouflage: 'Priceless',
   },
   Interstellar: {
-    amount: '?',
+    amount: 400,
     camouflage: 'Interstellar',
   },
 }

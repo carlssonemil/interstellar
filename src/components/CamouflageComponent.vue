@@ -59,13 +59,17 @@ export default {
     },
 
     isCompleted() {
-      return this.weapons.find((weapon) => weapon.name === this.weapon).progress[
+      return this.weapons.find((weapon) => weapon.name === this.weapon)[this.progressType][
         this.camouflage.name
       ]
     },
 
     isFavorite() {
       return store.isFavorite('camouflages', this.camouflage.name)
+    },
+
+    progressType() {
+      return this.camouflage.zombies ? 'zombiesProgress' : 'progress'
     },
 
     weapon() {
@@ -88,7 +92,8 @@ export default {
     },
 
     handleToggleCompleted(camouflage) {
-      this.toggleCamouflageCompleted(this.weapon, camouflage.name, this.isCompleted)
+      const progress = camouflage.zombies ? 'zombies' : 'progress'
+      this.toggleCamouflageCompleted(this.weapon, camouflage.name, this.isCompleted, progress)
     },
 
     translateChallenge(challenge) {

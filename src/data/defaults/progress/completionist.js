@@ -1,5 +1,13 @@
 export default {
-  Gilded: false,
-  Forged: false,
-  Priceless: false,
+  multiplayer: {
+    Gilded: false,
+    Forged: false,
+    Priceless: false,
+  },
+
+  zombies: {
+    'Golden Enigma': false,
+    'Zircon Scale': false,
+    'Serpeninite': false,
+  },
 }

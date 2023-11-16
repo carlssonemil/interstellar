@@ -1,4 +1,4 @@
-const camouflages = [
+const multiplayer = [
   'B&W Fuzz',
   'B&W Re-Fuzz',
   'Blue Satin',
@@ -10,7 +10,23 @@ const camouflages = [
   'White Satin',
 ]
 
+const zombies = [
+  'Black Satin',
+  'Blurred Myopia',
+  'Dazed',
+  'Green Satin',
+  'Inkblot',
+  'Orange Satin',
+  'Ripped',
+  'Royale Swirl',
+  'Spectral Sight',
+]
+
+const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))
+
 export default camouflages.map((camouflage) => ({
   category: 'High Contrast',
   name: camouflage,
+  multiplayer: multiplayer.includes(camouflage),
+  zombies: zombies.includes(camouflage),
 }))

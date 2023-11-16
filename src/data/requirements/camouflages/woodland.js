@@ -4,7 +4,7 @@ export default {
     level: '13',
     challenge: {
       amount: 15,
-      type: 'headshot',
+      type: 'headshot_kills',
     },
   },
 }

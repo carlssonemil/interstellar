@@ -4,7 +4,7 @@ export default {
     level: '19',
     challenge: {
       amount: 25,
-      type: 'tac_stance',
+      type: 'kills_while_in_tac_stance',
     },
   },
 
@@ -13,7 +13,7 @@ export default {
     level: '14',
     challenge: {
       amount: 10,
-      type: 'full_attachments',
+      type: 'kills_with_full_attachments',
     },
   },
 
@@ -23,6 +23,24 @@ export default {
     challenge: {
       amount: 10,
       type: 'double_kills',
+    },
+  },
+
+  'Avaricious': {
+    weapon: 'Bruen MK9',
+    level: '14',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_four_active_perks',
+    },
+  },
+
+  'Shin Rippers': {
+    weapon: 'Bruen MK9',
+    level: '20',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_fire_damage',
     },
   },
 }

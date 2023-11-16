@@ -4,7 +4,7 @@ export default {
     level: '11',
     challenge: {
       amount: 50,
-      type: 'hipfire',
+      type: 'hipfire_kills',
     },
   },
 
@@ -13,7 +13,7 @@ export default {
     level: '13',
     challenge: {
       amount: 50,
-      type: 'headshot',
+      type: 'headshot_kills',
     },
   },
 
@@ -22,7 +22,7 @@ export default {
     level: '16',
     challenge: {
       amount: 15,
-      type: 'headshot',
+      type: 'headshot_kills',
     },
   },
 
@@ -31,7 +31,7 @@ export default {
     level: '15',
     challenge: {
       amount: 10,
-      type: 'ads',
+      type: 'kills_while_ads',
     },
   },
 
@@ -40,7 +40,7 @@ export default {
     level: '16',
     challenge: {
       amount: 10,
-      type: 'ads',
+      type: 'kills_while_ads',
     },
   },
 
@@ -50,7 +50,7 @@ export default {
     challenge: {
       amount: 3,
       times: 10,
-      type: 'one_mag',
+      type: 'kills_with_one_mag',
     },
   },
 
@@ -60,7 +60,7 @@ export default {
     challenge: {
       amount: 3,
       times: 10,
-      type: 'one_mag',
+      type: 'kills_with_one_mag',
     },
   },
 
@@ -70,7 +70,79 @@ export default {
     challenge: {
       amount: 3,
       times: 10,
-      type: 'one_mag',
+      type: 'kills_with_one_mag',
+    },
+  },
+
+  'Palette Rage': {
+    weapon: 'Lockwood 680',
+    level: '11',
+    challenge: {
+      amount: 250,
+      type: 'hipfire_kills',
+    },
+  },
+
+  'Palette Cursed': {
+    weapon: 'KVD Enforcer',
+    level: '13',
+    challenge: {
+      amount: 10,
+      type: 'disciple_kills',
+    },
+  },
+
+  'Palette Cyst': {
+    weapon: 'Holger 556',
+    level: '16',
+    challenge: {
+      amount: 250,
+      type: 'kills_while_in_tac_stance',
+    },
+  },
+
+  'Palette Buried': {
+    weapon: 'Haymaker',
+    level: '15',
+    challenge: {
+      amount: 250,
+      type: 'kills_in_medium_or_high_threat_zone',
+    },
+  },
+
+  'Palette Infected': {
+    weapon: 'Riveter',
+    level: '16',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_fire_damage',
+    },
+  },
+
+  'Palette Corpse': {
+    weapon: 'KATT-AMR',
+    level: '17',
+    challenge: {
+      amount: 250,
+      type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
+
+  'Palette Adjudicator': {
+    weapon: 'Longbow',
+    level: '21',
+    challenge: {
+      amount: 250,
+      type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
+
+  'Palette Grove': {
+    weapon: 'KV Inhibitor',
+    level: '22',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_fire_damage',
     },
   },
 }

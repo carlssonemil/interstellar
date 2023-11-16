@@ -58,7 +58,7 @@ export default {
     level: '11',
     challenge: {
       amount: 25,
-      type: 'hipfire',
+      type: 'hipfire_kills',
     },
   },
 
@@ -67,7 +67,79 @@ export default {
     level: '12',
     challenge: {
       amount: 25,
-      type: 'hipfire',
+      type: 'hipfire_kills',
+    },
+  },
+
+  'Wayward': {
+    weapon: 'SVA 545',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Astray': {
+    weapon: 'MTZ-556',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Subterranean': {
+    weapon: 'Holger 556',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Wyvern': {
+    weapon: 'MCW',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Typhoon': {
+    weapon: 'DG-58',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Obsession': {
+    weapon: 'COR-45',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Unmarked Grave': {
+    weapon: 'WSP Swarm',
+    level: '11',
+    challenge: {
+      amount: 250,
+      type: 'point_blank_kills',
+    },
+  },
+
+  'Splintered': {
+    weapon: 'WSP-9',
+    level: '12',
+    challenge: {
+      amount: 100,
+      type: 'kills_in_single_match',
     },
   },
 }

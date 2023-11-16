@@ -1,4 +1,4 @@
-const camouflages = [
+const multiplayer = [
   'Bacterial Decay',
   'Germ Factory',
   'Microbiology',
@@ -10,7 +10,22 @@ const camouflages = [
   'Viral',
 ]
 
+const zombies = [
+  'Black Plague',
+  'Ferver',
+  'Hemoglobin',
+  'Living Tissue',
+  'New Strain',
+  'Pathosis',
+  'Riddled',
+  'Symptomatic',
+]
+
+const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))
+
 export default camouflages.map((camouflage) => ({
   category: 'Under the Microscope',
   name: camouflage,
+  multiplayer: multiplayer.includes(camouflage),
+  zombies: zombies.includes(camouflage),
 }))

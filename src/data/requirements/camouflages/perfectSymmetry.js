@@ -4,7 +4,7 @@ export default {
     level: '11',
     challenge: {
       amount: 50,
-      type: 'ads',
+      type: 'kills_while_ads',
     },
   },
 
@@ -13,7 +13,7 @@ export default {
     level: '19',
     challenge: {
       amount: 15,
-      type: 'headshot',
+      type: 'headshot_kills',
     },
   },
 
@@ -22,7 +22,7 @@ export default {
     level: '15',
     challenge: {
       amount: 10,
-      type: 'crouching_sliding',
+      type: 'kills_while_crouching_or_sliding',
     },
   },
 
@@ -31,7 +31,7 @@ export default {
     level: '18',
     challenge: {
       amount: 10,
-      type: 'ads',
+      type: 'kills_while_ads',
     },
   },
 
@@ -49,7 +49,7 @@ export default {
     level: '20',
     challenge: {
       amount: 10,
-      type: 'no_attachments',
+      type: 'kills_with_no_attachments',
     },
   },
 
@@ -59,7 +59,7 @@ export default {
     challenge: {
       amount: 2,
       times: 15,
-      type: 'without_dying',
+      type: 'kills_without_dying',
     },
   },
 
@@ -68,7 +68,7 @@ export default {
     level: '27',
     challenge: {
       amount: 15,
-      type: 'one_shot',
+      type: 'one_shot_kills',
     },
   },
 
@@ -77,7 +77,7 @@ export default {
     level: '21',
     challenge: {
       amount: 15,
-      type: 'akimbo',
+      type: 'akimbo_kills',
     },
   },
 
@@ -86,7 +86,7 @@ export default {
     level: '26',
     challenge: {
       amount: 15,
-      type: 'akimbo',
+      type: 'akimbo_kills',
     },
   },
 
@@ -95,7 +95,109 @@ export default {
     level: '15',
     challenge: {
       amount: 15,
-      type: 'akimbo',
+      type: 'akimbo_kills',
+    },
+  },
+
+  'Hysteria': {
+    weapon: 'DG-58',
+    level: '11',
+    challenge: {
+      amount: 10,
+      times: 10,
+      type: 'time_limit_kills',
+    },
+  },
+
+  'Tempest Shards': {
+    weapon: 'MCW',
+    level: '19',
+    challenge: {
+      amount: 250,
+      type: 'hipfire_kills',
+    },
+  },
+
+  'Inner Demon': {
+    weapon: 'Striker',
+    level: '15',
+    challenge: {
+      amount: 250,
+      type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
+
+  'Magma Beast': {
+    weapon: 'Lockwood 680',
+    level: '18',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_electric_damage',
+    },
+  },
+
+  'Grim Reaper': {
+    weapon: 'KVD Enforcer',
+    level: '20',
+    challenge: {
+      amount: 10,
+      times: 10,
+      type: 'time_limit_kills',
+    },
+  },
+
+  'Melting Hope': {
+    weapon: 'Riveter',
+    level: '24',
+    challenge: {
+      amount: 10,
+      type: 'mangler_kills',
+    },
+  },
+
+  'Unyielding': {
+    weapon: 'MCW 6.8',
+    level: '24',
+    challenge: {
+      amount: 200,
+      type: 'critical_kills',
+    },
+  },
+
+  'Dimensional Shift': {
+    weapon: 'KATT-AMR',
+    level: '27',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_frost_damage',
+    },
+  },
+
+  'Oxidized': {
+    weapon: 'Renetti',
+    level: '21',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_four_active_perks',
+    },
+  },
+
+  'Crystal Palace': {
+    weapon: 'TYR',
+    level: '26',
+    challenge: {
+      amount: 10,
+      times: 10,
+      type: 'time_limit_kills',
+    },
+  },
+
+  'Apocalyptic': {
+    weapon: 'WSP Stinger',
+    level: '15',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_full_attachments',
     },
   },
 }

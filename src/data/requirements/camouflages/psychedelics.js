@@ -16,4 +16,22 @@ export default {
       type: 'kills',
     },
   },
+
+  'Psychedelic Ridge': {
+    weapon: 'DG-58 LSW',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Psychedelic Misery': {
+    weapon: 'MTZ Interceptor',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

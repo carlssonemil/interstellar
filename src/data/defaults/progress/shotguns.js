@@ -1,22 +1,49 @@
 export default {
   'Lockwood 680': {
-    'Blue Sands': false,
-    'Palette Navy': false,
-    'Descent': false,
-    'Overwhelmed': false,
+    multiplayer: {
+      'Blue Sands': false,
+      'Palette Navy': false,
+      'Descent': false,
+      'Overwhelmed': false,
+    },
+
+    zombies: {
+      'Dark Sands': false,
+      'Palette Rage': false,
+      'Magma Beast': false,
+      'Riddled': false,
+    },
   },
 
   'Haymaker': {
-    'Pink Sands': false,
-    'Guts': false,
-    'Palette Tropics': false,
-    'Smooth Satin': false,
+    multiplayer: {
+      'Pink Sands': false,
+      'Guts': false,
+      'Palette Tropics': false,
+      'Smooth Satin': false,
+    },
+
+    zombies: {
+      'Burnt Sands': false,
+      'Below Zero': false,
+      'Palette Buried': false,
+      'Inkblot': false,
+    },
   },
 
   'Riveter': {
-    'Purple Sands': false,
-    '80s Spheres': false,
-    'Palette Grasses': false,
-    'Upward Reverb': false,
+    multiplayer: {
+      'Purple Sands': false,
+      '80s Spheres': false,
+      'Palette Grasses': false,
+      'Upward Reverb': false,
+    },
+
+    zombies: {
+      'Marrow Sands': false,
+      'Global Panic': false,
+      'Palette Infected': false,
+      'Melting Hope': false,
+    },
   },
 }

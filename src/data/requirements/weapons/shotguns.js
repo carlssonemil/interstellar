@@ -2,10 +2,17 @@ import requirements from '@/data/requirements/camouflages'
 
 export default {
   'Lockwood 680': {
+    // Multiplayer
     'Blue Sands': requirements['Blue Sands'],
     'Palette Navy': requirements['Palette Navy'],
     'Descent': requirements['Descent'],
     'Overwhelmed': requirements['Overwhelmed'],
+
+    // Zombies
+    'Dark Sands': requirements['Dark Sands'],
+    'Palette Rage': requirements['Palette Rage'],
+    'Magma Beast': requirements['Magma Beast'],
+    'Riddled': requirements['Riddled'],
 
     'Gilded': {
       amount: 2,
@@ -14,20 +21,42 @@ export default {
 
     'Forged': {
       amount: 25,
-      type: 'ads_one_shot',
+      type: 'one_shot_kills_while_ads',
     },
 
     'Priceless': {
       amount: 5,
-      type: 'hipfire_moving',
+      type: 'hipfire_kills_while_moving',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpeninite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
     },
   },
 
   'Haymaker': {
+    // Multiplayer
     'Pink Sands': requirements['Pink Sands'],
     'Guts': requirements['Guts'],
     'Palette Tropics': requirements['Palette Tropics'],
     'Smooth Satin': requirements['Smooth Satin'],
+
+    // Zombies
+    'Burnt Sands': requirements['Burnt Sands'],
+    'Below Zero': requirements['Below Zero'],
+    'Palette Buried': requirements['Palette Buried'],
+    'Inkblot': requirements['Inkblot'],
 
     'Gilded': {
       amount: 2,
@@ -37,20 +66,42 @@ export default {
     'Forged': {
       amount: 3,
       times: 15,
-      type: 'hipfire_one_mag',
+      type: 'hipfire_kills_with_one_mag',
     },
 
     'Priceless': {
       amount: 10,
-      type: 'double_kills_tac_stance',
+      type: 'double_kills_while_in_tac_stance',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpeninite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
     },
   },
 
   'Riveter': {
+    // Multiplayer
     'Purple Sands': requirements['Purple Sands'],
     '80s Spheres': requirements['80s Spheres'],
     'Palette Grasses': requirements['Palette Grasses'],
     'Upward Reverb': requirements['Upward Reverb'],
+
+    // Zombies
+    'Marrow Sands': requirements['Marrow Sands'],
+    'Global Panic': requirements['Global Panic'],
+    'Palette Infected': requirements['Palette Infected'],
+    'Melting Hope': requirements['Melting Hope'],
 
     'Gilded': {
       amount: 2,
@@ -65,7 +116,22 @@ export default {
     'Priceless': {
       amount: 5,
       times: 5,
-      type: 'without_dying',
+      type: 'kills_without_dying',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpeninite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
     },
   },
 }

@@ -1,5 +1,12 @@
 <template>
   <div class="container">
+    <AlertComponent type="info" icon="info-circle">
+      <p>
+        Looking for Modern Warfare II camouflages? You can find them in the
+        <a href="https://orion.emca.app/camouflages">Orion tracker</a>.
+      </p>
+    </AlertComponent>
+
     <div class="filter-container">
       <FiltersComponent :options="filterOptions" />
       <div class="toggles">
@@ -16,12 +23,13 @@
 import { mapState } from 'pinia'
 import { useStore } from '@/stores/store'
 import { groupBy } from '@/utils/utils'
-import callingCards from '../data/callingCards'
+import callingCards from '@/data/callingCards'
 
 import CallingCardsComponent from '@/components/CallingCardsComponent.vue'
 import FavoritesToggleComponent from '@/components/FavoritesToggleComponent.vue'
 import FiltersComponent from '@/components/FiltersComponent.vue'
 import LayoutToggleComponent from '@/components/LayoutToggleComponent.vue'
+import AlertComponent from '@/components/AlertComponent.vue'
 
 const store = useStore()
 
@@ -31,6 +39,7 @@ export default {
     FavoritesToggleComponent,
     FiltersComponent,
     LayoutToggleComponent,
+    AlertComponent,
   },
 
   computed: {
@@ -136,6 +145,7 @@ h2 {
 .filter-container {
   align-items: center;
   display: flex;
+  margin-top: 25px;
   width: 100%;
 
   @media (max-width: $tablet) {

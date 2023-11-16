@@ -15,14 +15,14 @@
             :key="weapon.name"
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
-            :mastery="progress"
+            :progressKey="progress"
             :pricelessUnlocked="progress !== 'progress' ? null : pricelessUnlocked" />
         </transition-group>
 
         <AlertComponent
           v-else
           type="empty-state"
-          :style="{ padding: progress === 'mastery' ? '42px 15px' : '32px 15px 31px' }">
+          :style="{ padding: progress === 'progressKey' ? '42px 15px' : '32px 15px 31px' }">
           <i18n-t keypath="general.no_favorites_placeholder" scope="global">
             <template #star>
               <IconComponent name="star" fill="#feca57" icon-style="solid" size="20" />
@@ -53,7 +53,7 @@
             :key="weapon.name"
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
-            :mastery="progress"
+            :progressKey="progress"
             :pricelessUnlocked="progress !== 'progress' ? null : pricelessUnlocked" />
         </transition-group>
       </div>

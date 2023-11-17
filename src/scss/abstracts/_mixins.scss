@@ -27,3 +27,27 @@
 	background-position: center center;
 	background-size: cover;
 }
+
+@mixin golden-enigma-camouflage-background {
+	background: $golden-enigma-gradient;
+	background-position: center center;
+	background-size: cover;
+}
+
+@mixin zircon-scale-camouflage-background {
+	background: $zircon-scale-gradient;
+	background-position: center center;
+	background-size: cover;
+}
+
+@mixin serpentinite-camouflage-background {
+	background: $serpentinite-gradient;
+	background-position: center center;
+	background-size: cover;
+}
+
+@mixin borealis-camouflage-background {
+	background: $borealis-gradient;
+	background-position: center center;
+	background-size: cover;
+}

@@ -6,9 +6,12 @@
           'name',
           layout,
           {
-            gilded: gildedCompleted,
-            forged: forgedCompleted,
-            priceless: pricelessCompleted,
+            'gilded': completionistCamouflageCompleted('Gilded'),
+            'forged': completionistCamouflageCompleted('Forged'),
+            'priceless': completionistCamouflageCompleted('Priceless'),
+            'golden-enigma': completionistCamouflageCompleted('Golden Enigma'),
+            'zircon-scale': completionistCamouflageCompleted('Zircon Scale'),
+            'serpentinite': completionistCamouflageCompleted('Serpentinite'),
           },
         ]"
         :data-label="label"
@@ -132,18 +135,6 @@ export default {
       return Object.values(this.progress).every(Boolean)
     },
 
-    gildedCompleted() {
-      return this.progress['Gilded']
-    },
-
-    forgedCompleted() {
-      return this.progress['Forged']
-    },
-
-    pricelessCompleted() {
-      return this.progress['Priceless']
-    },
-
     isFavorite() {
       if (!this.store) return false
       let type = this.progressKey === 'progress' ? 'weapons' : this.progressKey
@@ -166,6 +157,10 @@ export default {
       'toggleWeaponCompleted',
       'toggleFavorite',
     ]),
+
+    completionistCamouflageCompleted(camouflage) {
+      return this.progress[camouflage]
+    },
 
     requirementTooltip(weapon, camouflage) {
       let requirement = 'TBA'
@@ -328,6 +323,21 @@ export default {
 
       &.priceless {
         @include priceless-camouflage-background;
+        color: white;
+      }
+
+      &.golden-enigma {
+        @include golden-enigma-camouflage-background;
+        color: white;
+      }
+
+      &.zircon-scale {
+        @include zircon-scale-camouflage-background;
+        color: white;
+      }
+
+      &.serpentinite {
+        @include serpentinite-camouflage-background;
         color: white;
       }
 

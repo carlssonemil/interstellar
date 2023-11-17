@@ -222,7 +222,7 @@ export default {
     .weapons {
       display: grid;
       gap: 30px;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       width: 100%;
 
       @media (max-width: $tablet) {

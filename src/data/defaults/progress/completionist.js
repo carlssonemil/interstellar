@@ -8,6 +8,6 @@ export default {
   zombies: {
     'Golden Enigma': false,
     'Zircon Scale': false,
-    'Serpeninite': false,
+    'Serpentinite': false,
   },
 }

@@ -39,7 +39,7 @@ export default {
       type: 'pack_a_punched_kills',
     },
 
-    'Serpeninite': {
+    'Serpentinite': {
       amount: 10,
       type: 'special_or_elite_zombie_kills',
     },
@@ -84,7 +84,7 @@ export default {
       type: 'pack_a_punched_kills',
     },
 
-    'Serpeninite': {
+    'Serpentinite': {
       amount: 10,
       type: 'special_or_elite_zombie_kills',
     },
@@ -128,7 +128,7 @@ export default {
       type: 'pack_a_punched_kills',
     },
 
-    'Serpeninite': {
+    'Serpentinite': {
       amount: 10,
       type: 'special_or_elite_zombie_kills',
     },
@@ -174,7 +174,7 @@ export default {
       type: 'pack_a_punched_kills',
     },
 
-    'Serpeninite': {
+    'Serpentinite': {
       amount: 10,
       type: 'special_or_elite_zombie_kills',
     },

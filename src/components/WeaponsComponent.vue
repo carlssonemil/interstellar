@@ -15,7 +15,7 @@
             :key="weapon.name"
             :weapon="weapon"
             :camouflages="camouflages(weapon)"
-            :progressKey="progressKey" />
+            :progress-key="progressKey" />
         </transition-group>
 
         <AlertComponent
@@ -120,7 +120,8 @@ export default {
     ...mapActions(useStore, ['toggleCategoryCompleted', 'unfavoriteAll']),
 
     categoryProgress(title) {
-      const progress = this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
+      const progress =
+        this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
       const categoryWeapons = this.weapons[title]
       const total = categoryWeapons.filter((weapon) => !weapon.comingSoon).length
       const completed = categoryWeapons.reduce(
@@ -132,7 +133,8 @@ export default {
     },
 
     categoryCompleted(category) {
-      const progress = this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
+      const progress =
+        this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
       const total = category.filter((weapon) => !weapon.comingSoon).length
       const completed = category.reduce(
         (a, weapon) => a + Object.values(weapon[progress]).every(Boolean),
@@ -150,7 +152,8 @@ export default {
         return []
       }
 
-      const progressType = this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
+      const progressType =
+        this.progressKey === 'progress' ? this.progressKey : `${this.progressKey}Progress`
       const progress = weapon[progressType]
       const camouflages = Object.keys(progress)
         .map((camouflage) => {

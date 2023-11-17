@@ -290,7 +290,7 @@ export default {
 
     .name {
       $padding: 25px;
-      $list-padding: 20px 10px;
+      $list-padding: 25px 10px;
       align-items: center;
       background: $elevation-3-color;
       border-radius: $border-radius;

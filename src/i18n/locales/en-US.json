@@ -183,6 +183,7 @@
         "support": "If you liked this tracker, show your appreciation by spreading the word about it and if you're feeling generous please consider {0} as a thanks. Hope I see you on the battlefield! Cheers! 🍺",
         "title": "Interstellar unlocked! 👏🥳"
       },
+      "double_click_category_tooltip": "Double-click to toggle category as completed",
       "double_click_tooltip": "Double-click to {state} weapon",
       "finished_placeholder": "You have completed all camouflage challenges 👏",
       "info_link": "here",

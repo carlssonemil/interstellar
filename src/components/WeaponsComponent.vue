@@ -36,9 +36,10 @@
         :key="title"
         :data-index="index"
         class="category">
-        <!-- TODO: Add double-click functionality -->
         <h2>
-          <span>
+          <span
+            v-tippy="{ content: $t('pages.weapons.double_click_category_tooltip') }"
+            @dblclick="toggleCategoryCompleted(title, progressKey)">
             {{ $t('weapon_categories.' + title) }}
           </span>
           <span v-tippy :content="$t('pages.weapons.completed_in_category')">
@@ -197,6 +198,11 @@ export default {
       font-weight: 600;
       margin-bottom: 25px;
       width: 100%;
+
+      span:first-child {
+        cursor: pointer;
+        user-select: none;
+      }
 
       span:last-child:not(:first-child) {
         color: $elevation-9-color;

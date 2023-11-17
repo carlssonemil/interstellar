@@ -182,9 +182,9 @@ export const useStore = defineStore({
       this.storeProgress()
     },
 
-    toggleCamouflageCompleted(weaponName, camouflage, current, progress) {
-      const progressType = progress === 'progress' ? 'progress' : `${progress}Progress`
-      this.weapons.find((w) => w.name === weaponName)[progressType][camouflage] = !current
+    toggleCamouflageCompleted(weaponName, camouflage, current, progressKey) {
+      const progress = progressKey === 'progress' ? 'progress' : `${progressKey}Progress`
+      this.weapons.find((w) => w.name === weaponName)[progress][camouflage] = !current
 
       if (camouflage === 'Gilded' && progress === 'progress') {
         this.completeBaseCamouflages(weaponName)
@@ -202,27 +202,27 @@ export const useStore = defineStore({
       baseCamouflages.forEach((camouflage) => (weapon.progress[camouflage] = true))
     },
 
-    toggleWeaponCompleted(weapon, current, progress) {
-      const progressType = progress === 'progress' ? 'progress' : `${progress}Progress`
+    toggleWeaponCompleted(weapon, current, progressKey) {
+      const progress = progressKey === 'progress' ? 'progress' : `${progressKey}Progress`
       const selectedWeapon = this.weapons.find((w) => w.name === weapon.name)
-      Object.keys(selectedWeapon[progressType]).forEach(
-        (camouflage) => (selectedWeapon[progressType][camouflage] = !current)
+      Object.keys(selectedWeapon[progress]).forEach(
+        (camouflage) => (selectedWeapon[progress][camouflage] = !current)
       )
 
       this.storeProgress()
     },
 
-    toggleCategoryCompleted(category, current) {
-      category.forEach((weapon) => {
-        let camouflages
+    toggleCategoryCompleted(category, progressKey) {
+      const progress = progressKey === 'progress' ? 'progress' : `${progressKey}Progress`
+      const categoryWeapons = this.weapons.filter((weapon) => weapon.category === category)
+      const categoryCompleted = categoryWeapons.every((weapon) =>
+        Object.values(weapon[progress]).every(Boolean)
+      )
 
-        if (current) {
-          camouflages = Object.keys(weapon.progress)
-        } else {
-          camouflages = Object.keys(filterObject(weapon.progress, ['Priceless']))
-        }
-
-        camouflages.forEach((camouflage) => (weapon.progress[camouflage] = !current))
+      categoryWeapons.forEach((weapon) => {
+        Object.keys(weapon[progress]).forEach((camouflage) => {
+          weapon[progress][camouflage] = !categoryCompleted
+        })
       })
 
       this.storeProgress()

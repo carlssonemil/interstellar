@@ -51,6 +51,13 @@
           "
           :content="requirementTooltip(weapon, camouflage.name)"
           v-tippy="{ placement: 'bottom' }">
+          <IconComponent
+            v-if="camouflageIsFavorite(camouflage.name)"
+            name="star"
+            icon-style="solid"
+            fill="#feca57"
+            size="15"
+            class="favorite-camouflage-icon" />
           <div :class="['inner', { completed: camouflage.completed }]">
             <img
               :src="`https://emilcarlsson.se/interstellar/camouflages/${convertToKebabCase(
@@ -225,6 +232,11 @@ export default {
         return this.$t(`challenges.types.${type}`, { amount })
       }
     },
+
+    camouflageIsFavorite(camouflage) {
+      if (!this.store) return false
+      return this.store.isFavorite('camouflages', camouflage)
+    },
   },
 }
 </script>
@@ -360,6 +372,7 @@ export default {
       margin-top: 5px;
 
       .camouflage {
+        position: relative;
         user-select: none;
 
         &.weapon-layout-grid > .inner {
@@ -440,6 +453,14 @@ export default {
               }
             }
           }
+        }
+
+        .favorite-camouflage-icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+          transform: translate(40%, -40%);
+          z-index: 2;
         }
 
         .inner {

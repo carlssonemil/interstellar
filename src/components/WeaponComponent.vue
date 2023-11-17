@@ -199,12 +199,14 @@ export default {
       } else {
         requirement = this.weaponRequirements[weapon.name][camouflage]
 
-        if (requirement) {
+        if (requirement && Object.keys(requirement).length > 0) {
           if (requirement.challenge) {
-            return this.translateChallenge(requirement.challenge)
+            return `${this.translateChallenge(requirement.challenge)}`
           } else {
-            return this.translateChallenge(requirement)
+            return `${this.translateChallenge(requirement)}`
           }
+        } else {
+          return `TBA`
         }
       }
 

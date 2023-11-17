@@ -12,7 +12,7 @@
           },
         ]"
         :data-label="label"
-        @dblclick="toggleWeaponCompleted(weapon, completed, progress)"
+        @dblclick="toggleWeaponCompleted(weapon, completed, progressKey)"
         v-tippy="{
           content: $t('pages.weapons.double_click_tooltip', {
             state: completed
@@ -39,7 +39,7 @@
           :key="camouflage.name"
           :class="['camouflage', `weapon-layout-${layout}`]"
           @click="
-            toggleCamouflageCompleted(weapon.name, camouflage.name, camouflage.completed, progress)
+            toggleCamouflageCompleted(weapon.name, camouflage.name, camouflage.completed, progressKey)
           "
           :content="requirementTooltip(weapon, camouflage.name)"
           v-tippy="{ placement: 'bottom' }">
@@ -67,7 +67,7 @@
       icon-style="solid"
       size="25"
       @click="
-        toggleFavorite({ type: progress === 'progress' ? 'weapons' : progress, name: weapon.name })
+        toggleFavorite({ type: progressKey === 'progress' ? 'weapons' : progressKey, name: weapon.name })
       "
       v-tippy="{
         content: $t('filters.toggle_favorite', {
@@ -94,16 +94,10 @@ export default {
       required: true,
     },
 
-    progress: {
+    progressKey: {
       type: String,
       required: false,
       default: 'progress',
-    },
-
-    pricelessUnlocked: {
-      type: Boolean,
-      required: false,
-      default: false,
     },
   },
 
@@ -120,9 +114,13 @@ export default {
       return this.preferences.layout
     },
 
+    progress() {
+      const progressType = this.progressKey === 'progress' ? 'progress' : `${this.progressKey}Progress`
+      return this.weapon[progressType]
+    },
+
     completed() {
-      const progressType = this.progress === 'progress' ? 'progress' : `${this.progress}Progress`
-      return Object.values(this.weapon[progressType]).every(Boolean)
+      return Object.values(this.progress).every(Boolean)
     },
 
     gildedCompleted() {
@@ -139,7 +137,7 @@ export default {
 
     isFavorite() {
       if (!this.store) return false
-      let type = this.progress === 'progress' ? 'weapons' : this.progress
+      let type = this.progressKey === 'progress' ? 'weapons' : this.progressKey
       return this.store.isFavorite(type, this.weapon.name)
     },
 
@@ -163,7 +161,7 @@ export default {
     requirementTooltip(weapon, camouflage) {
       let requirement = 'TBA'
 
-      if (this.progress === 'mastery') {
+      if (this.progressKey === 'progress') {
         requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
       } else {
         requirement = this.weaponRequirements[weapon.name][camouflage]
@@ -187,7 +185,7 @@ export default {
     requirementListText(weapon, camouflage) {
       let requirement = 'TBA'
 
-      if (this.progress === 'mastery') {
+      if (this.progressKey === 'progress') {
         requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
       } else {
         requirement = this.weaponRequirements[weapon.name][camouflage]

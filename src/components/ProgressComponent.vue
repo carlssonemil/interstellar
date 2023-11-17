@@ -1,6 +1,6 @@
 <template>
   <div class="progress">
-    <ModalComponent ref="modal">
+    <ModalComponent ref="modal" :style-name="styleName">
       <template #header>
         <slot name="modal-header" />
       </template>
@@ -16,7 +16,7 @@
             content: tooltip,
             maxWidth: 500,
           }">
-          <div class="bar" :style="{ width: progress + '%' }"></div>
+          <div :class="`bar ${styleName}`" :style="{ width: progress + '%' }"></div>
           <label>
             {{ label }}: <span>{{ progress }}%</span>
           </label>
@@ -34,6 +34,12 @@ export default {
     progress: {
       type: Number,
       required: true,
+    },
+
+    styleName: {
+      type: String,
+      required: false,
+      default: "interstellar"
     },
 
     label: {
@@ -95,9 +101,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-:deep(.modal-header) {
-  background-image: $interstellar-gradient-alt;
-}
 
 .bars {
   bottom: 0;
@@ -116,10 +119,17 @@ export default {
     width: 100%;
 
     .bar {
-      background-image: $interstellar-gradient-alt;
       display: block;
       height: 100%;
       transition: $transition;
+
+      &.interstellar {
+        background-image: $interstellar-gradient-alt;
+      }
+
+      &.borealis {
+        background-image: $borealis-gradient-alt;
+      }
     }
 
     label {

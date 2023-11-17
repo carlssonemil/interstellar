@@ -8,12 +8,14 @@
       </div>
     </div>
 
-    <WeaponsComponent :weapons="filteredWeapons" :favorites="favorites" progress="zombies" />
+    <WeaponsComponent :weapons="filteredWeapons" :favorites="favorites" progress-key="zombies" />
 
     <ProgressComponent
       :progress="zombiesProgress"
       :label="$t('pages.zombies.progress.label')"
-      :tooltip="$t('pages.zombies.progress.tooltip')">
+      :tooltip="$t('pages.zombies.progress.tooltip')"
+      style-name="borealis"
+    >
       <template #modal-header>{{ $t('pages.zombies.completed_modal.title') }}</template>
       <template #modal-body>
         <i18n-t keypath="pages.zombies.completed_modal.body" tag="p" scope="global">

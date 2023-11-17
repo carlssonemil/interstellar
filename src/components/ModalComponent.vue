@@ -5,7 +5,7 @@
     </transition>
     <transition name="fadeInUp">
       <div v-show="show" class="modal" :style="{ maxWidth: `${maxWidth}px` }">
-        <div v-if="showHeader" class="modal-header">
+        <div v-if="showHeader" :class="`modal-header ${styleName}`">
           <h5>
             <slot name="header"></slot>
           </h5>
@@ -36,6 +36,11 @@ export default {
       type: Boolean,
       required: false,
       default: true,
+    },
+    styleName: {
+      type: String,
+      required: false,
+      default: "interstellar"
     },
     maxWidth: {
       type: Number,
@@ -105,6 +110,14 @@ export default {
     z-index: 2;
 
     .modal-header {
+
+      &.interstellar {
+        background-image: $interstellar-gradient-alt;
+      }
+      &.borealis {
+        background-image: $borealis-gradient-alt;
+      }
+
       align-items: center;
       border-bottom: 1px solid $elevation-6-color;
       display: flex;

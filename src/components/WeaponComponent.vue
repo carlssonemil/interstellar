@@ -215,7 +215,7 @@ export default {
 
       if (type === 'time_limit') {
         return this.$t(`challenges.types.${type}`, { amount, seconds, times })
-      } else if (type === 'without_dying') {
+      } else if (times) {
         return this.$t(`challenges.types.${type}`, { amount, times })
       } else {
         return this.$t(`challenges.types.${type}`, { amount })

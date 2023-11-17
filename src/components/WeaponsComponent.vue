@@ -1,66 +1,64 @@
 <template>
-  <div>
-    <transition-group name="fade" tag="div" class="container">
-      <div v-if="showFavorites" :key="'favorites'" class="category">
-        <h2>
-          <span>{{ $t('general.favorites') }}</span>
-          <span v-if="favorites.length > 0" @click="unfavoriteAll('weapons')" class="action">
-            {{ $t('general.remove_all') }}
-          </span>
-        </h2>
+  <transition-group name="fade" tag="div" class="container">
+    <div v-if="showFavorites" :key="'favorites'" class="category">
+      <h2>
+        <span>{{ $t('general.favorites') }}</span>
+        <span v-if="favorites.length > 0" @click="unfavoriteAll('weapons')" class="action">
+          {{ $t('general.remove_all') }}
+        </span>
+      </h2>
 
-        <transition-group v-if="favorites.length > 0" name="fade" tag="div" class="weapons">
-          <WeaponComponent
-            v-for="weapon in favorites"
-            :key="weapon.name"
-            :weapon="weapon"
-            :camouflages="camouflages(weapon)"
-            :progress-key="progressKey" />
-        </transition-group>
+      <transition-group v-if="favorites.length > 0" name="fade" tag="div" class="weapons">
+        <WeaponComponent
+          v-for="weapon in favorites"
+          :key="weapon.name"
+          :weapon="weapon"
+          :camouflages="camouflages(weapon)"
+          :progress-key="progressKey" />
+      </transition-group>
 
-        <AlertComponent
-          v-else
-          type="empty-state"
-          :style="{ padding: progressKey === 'progress' ? '42px 15px' : '32px 15px 31px' }">
-          <i18n-t keypath="general.no_favorites_placeholder" scope="global">
-            <template #star>
-              <IconComponent name="star" fill="#feca57" icon-style="solid" size="20" />
-            </template>
-            <template #type>{{ $tc('general.weapon').toLowerCase() }}</template>
-          </i18n-t>
-        </AlertComponent>
-      </div>
-
-      <div
-        v-for="(category, title, index) in weapons"
-        :key="title"
-        :data-index="index"
-        class="category">
-        <h2>
-          <span
-            v-tippy="{ content: $t('pages.weapons.double_click_category_tooltip') }"
-            @dblclick="toggleCategoryCompleted(title, progressKey)">
-            {{ $t('weapon_categories.' + title) }}
-          </span>
-          <span v-tippy :content="$t('pages.weapons.completed_in_category')">
-            {{ categoryProgress(title) }}
-          </span>
-        </h2>
-
-        <transition-group name="fade" tag="div" class="weapons">
-          <WeaponComponent
-            v-for="weapon in category"
-            :key="weapon.name"
-            :weapon="weapon"
-            :camouflages="camouflages(weapon)"
-            :progressKey="progressKey" />
-        </transition-group>
-      </div>
-    </transition-group>
-
-    <div v-if="Object.keys(weapons).length === 0" class="finished-placeholder">
-      <p>{{ $t('pages.weapons.finished_placeholder') }}</p>
+      <AlertComponent
+        v-else
+        type="empty-state"
+        :style="{ padding: progressKey === 'progress' ? '42px 15px' : '32px 15px 31px' }">
+        <i18n-t keypath="general.no_favorites_placeholder" scope="global">
+          <template #star>
+            <IconComponent name="star" fill="#feca57" icon-style="solid" size="20" />
+          </template>
+          <template #type>{{ $tc('general.weapon').toLowerCase() }}</template>
+        </i18n-t>
+      </AlertComponent>
     </div>
+
+    <div
+      v-for="(category, title, index) in weapons"
+      :key="title"
+      :data-index="index"
+      class="category">
+      <h2>
+        <span
+          v-tippy="{ content: $t('pages.weapons.double_click_category_tooltip') }"
+          @dblclick="toggleCategoryCompleted(title, progressKey)">
+          {{ $t('weapon_categories.' + title) }}
+        </span>
+        <span v-tippy :content="$t('pages.weapons.completed_in_category')">
+          {{ categoryProgress(title) }}
+        </span>
+      </h2>
+
+      <transition-group name="fade" tag="div" class="weapons">
+        <WeaponComponent
+          v-for="weapon in category"
+          :key="weapon.name"
+          :weapon="weapon"
+          :camouflages="camouflages(weapon)"
+          :progressKey="progressKey" />
+      </transition-group>
+    </div>
+  </transition-group>
+
+  <div v-if="Object.keys(weapons).length === 0" class="finished-placeholder">
+    <p>{{ $t('pages.weapons.finished_placeholder') }}</p>
   </div>
 </template>
 

@@ -8,9 +8,12 @@
       <router-link to="/">{{ $tc('general.weapon', 2) }}</router-link>
       <router-link to="/camouflages">{{ $tc('general.camouflage', 2) }}</router-link>
       <router-link to="/zombies">{{ $t('general.zombies') }}</router-link>
-      <router-link to="/calling-cards">{{ $tc('general.calling_cards', 2) }}</router-link>
+      <router-link to="/calling-cards" class="coming-soon">
+        <span>{{ $tc('general.calling_cards', 2) }}</span>
+      </router-link>
       <router-link to="/mastery">{{ $t('general.mastery') }}</router-link>
       <a href="https://orion.emca.app/">Orion</a>
+
       <router-link
         to="/settings"
         class="icon settings"
@@ -18,9 +21,11 @@
         v-tippy="{ placement: 'bottom' }">
         <IconComponent name="cog" />
       </router-link>
+
       <a
         href="https://github.com/carlssonemil/interstellar/issues/new?title=[Bug]%20"
         target="_blank"
+        class="icon bug"
         :content="$t('general.report_an_issue')"
         v-tippy="{ placement: 'bottom' }">
         <IconComponent name="bug" />

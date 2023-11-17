@@ -64,6 +64,10 @@ nav {
 			&.settings .icon-component {
 				transform: rotate(45deg);
 			}
+
+			&.bug .icon-component {
+				animation: tilt-shaking 0.5s ease-in-out infinite;
+			}
 		}
 
 		&.router-link-exact-active {

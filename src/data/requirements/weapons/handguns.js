@@ -5,7 +5,7 @@ export default {
     // Multiplayer
     'Deconstructed': requirements['Deconstructed'],
     'Alert Glitch': requirements['Alert Glitch'],
-    'Acid Drop': requirements['Acid Drop'],
+    'Acid Drip': requirements['Acid Drip'],
     'Red Admiral': requirements['Red Admiral'],
 
     // Zombies

@@ -3,7 +3,7 @@ export default {
     multiplayer: {
       'Deconstructed': false,
       'Alert Glitch': false,
-      'Acid Drop': false,
+      'Acid Drip': false,
       'Red Admiral': false,
     },
 

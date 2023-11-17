@@ -2,7 +2,7 @@
   <div class="error container">
     <h1 class="error-title" data-shadow="404">404</h1>
     <p class="error-subtitle">
-      <i18n-t keypath="pages.404.description">
+      <i18n-t keypath="pages.404.description" scope="global">
         {{ $t(`pages.404.scenarios[${scenario}]`) }}
       </i18n-t>
     </p>

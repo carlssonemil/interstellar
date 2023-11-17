@@ -25,7 +25,14 @@
         </a>
         <router-link to="/about">{{ $t('general.about') }}</router-link>
         <router-link to="/requirements">{{ $tc('general.requirement', 2) }}</router-link>
-        <a href="https://github.com/carlssonemil/interstellar">GitHub</a>
+        <a href="https://github.com/carlssonemil/interstellar">
+          <IconComponent name="github" />
+          GitHub
+        </a>
+        <a href="https://discord.gg/kM3hmsZG">
+          <IconComponent name="discord" />
+          Discord
+        </a>
 
         <a href="https://www.buymeacoffee.com/emilcarlsson" class="button">
           {{ $t('general.mobile_nav_support_link') }}

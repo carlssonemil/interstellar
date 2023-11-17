@@ -8,8 +8,8 @@
       <slot name="modal-body" />
     </ModalComponent>
 
-    <transition name="slideup">
-      <div v-show="showBars" class="bars">
+    <Transition name="slide-up">
+      <div v-if="showBars" class="bars">
         <div
           class="progress"
           v-tippy="{
@@ -22,7 +22,7 @@
           </label>
         </div>
       </div>
-    </transition>
+    </Transition>
   </div>
 </template>
 
@@ -39,7 +39,7 @@ export default {
     styleName: {
       type: String,
       required: false,
-      default: "interstellar"
+      default: 'interstellar',
     },
 
     label: {
@@ -101,7 +101,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .bars {
   bottom: 0;
   left: 0;

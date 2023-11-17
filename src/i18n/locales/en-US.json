@@ -55,7 +55,29 @@
   },
   "pages": {
     "404": {
-      "description": "Dang, looks like you took a wrong turn and ended up on a missing page. 🤔",
+      "description": "Dang, looks like you {0}.",
+      "scenarios": [
+        "took a wrong turn at Nuketown and ended up on a missing page 🏘️",
+        "got stuck respawning and ended up on a missing page 💥",
+        "tried to quick-scope the URL and ended up on a missing page 🔭",
+        "used Dead Silence too effectively and ended up on a missing page 🚫🔊",
+        "dove into a glitch and ended up on a missing page 🕳️",
+        "got flashbanged in the menus and ended up on a missing page ⚡",
+        "were last seen dropping into Verdansk and ended up on a missing page 🪂",
+        "got trapped in a Gulag and ended up on a missing page 🚿",
+        "tried to wall-run on a flat page and ended up on a missing page 🏃‍♂️",
+        "hit the wrong loadout drop and ended up on a missing page 📦",
+        "got caught in a crossfire between pages and ended up on a missing page 🔫",
+        "followed Captain Price into a secret mission and ended up on a missing page 🕵️",
+        "didn't use your UAV and got lost and ended up on a missing page 🛰️",
+        "tried to exfil without a chopper and ended up on a missing page 🚁",
+        "took the secret tunnel to Zombies and ended up on a missing page 🧟‍♂️",
+        "missed the Call... of Duty and ended up on a missing page 📞",
+        "tried to loot a non-existent cache and ended up on a missing page 💼",
+        "parachuted into an uncharted territory and ended up on a missing page 🗺️",
+        "mistakenly tried to rendezvous with Ghost and ended up on a missing page 👻",
+        "looked for Easter eggs in the wrong spot and ended up on a missing page 🥚"
+      ],
       "link": "Return to home"
     },
     "about": {

@@ -2,13 +2,25 @@
   <div class="error container">
     <h1 class="error-title" data-shadow="404">404</h1>
     <p class="error-subtitle">
-      {{ $t('pages.404.description') }}
+      <i18n-t keypath="pages.404.description">
+        {{ $t(`pages.404.scenarios[${scenario}]`) }}
+      </i18n-t>
     </p>
     <router-link to="/" class="button">
       <IconComponent name="arrow-left" fill="black" />{{ $t('pages.404.link') }}
     </router-link>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      scenario: Math.floor(Math.random() * 20),
+    }
+  },
+}
+</script>
 
 <style lang="scss" scoped>
 .error {
@@ -51,7 +63,8 @@
     font-size: 22px;
     line-height: 1.4;
     margin: 35px auto 50px;
-    max-width: 500px;
+    max-width: 600px;
+    text-wrap: balance;
   }
 
   button {

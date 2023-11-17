@@ -194,7 +194,7 @@ export default {
     requirementListText(weapon, camouflage) {
       let requirement = 'TBA'
 
-      if (this.progressKey === 'progress') {
+      if (this.progressKey === 'mastery') {
         requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
       } else {
         requirement = this.weaponRequirements[weapon.name][camouflage]

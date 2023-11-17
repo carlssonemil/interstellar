@@ -155,7 +155,7 @@ a {
     }
 
     .icon {
-      background: $purple;
+      background: linear-gradient(45deg, $pink, $purple);
       border-radius: $border-radius * 2;
       display: inline-flex;
       margin-bottom: 15px;

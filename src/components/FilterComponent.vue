@@ -6,8 +6,7 @@
         <select
           :id="filter.key"
           :value="modelValue"
-          @input="$emit('input', $event.target.value)"
-          @change="$emit('update:modelValue')">
+          @change="$emit('update:modelValue', $event.target.value)">
           <template v-if="filter.nested_options">
             <option value="">{{ $t('general.all') }}</option>
             <optgroup
@@ -42,8 +41,7 @@
             :id="filter.key"
             type="checkbox"
             :checked="modelValue"
-            @input="$emit('input', $event.target.checked)"
-            @change="$emit('update:modelValue')" />
+            @change="$emit('update:modelValue', $event.target.checked)" />
           <span>{{ filter.label }}</span>
         </label>
       </div>
@@ -56,8 +54,7 @@
           :id="filter.key"
           type="text"
           :value="modelValue"
-          @input="$emit('input', $event.target.value)"
-          @change="$emit('update:modelValue')"
+          @change="$emit('update:modelValue', $event.target.value)"
           :placeholder="filter.placeholder" />
       </div>
     </template>

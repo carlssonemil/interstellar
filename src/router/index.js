@@ -19,11 +19,11 @@ const routes = [
     name: 'camouflages',
     component: () => import('../views/CamouflagesView.vue'),
   },
-  {
-    path: '/calling-cards',
-    name: 'calling-cards',
-    component: () => import('../views/CallingCardsView.vue'),
-  },
+  //{
+  //  path: '/calling-cards',
+  //  name: 'calling-cards',
+  //  component: () => import('../views/CallingCardsView.vue'),
+  //},
   {
     path: '/mastery',
     name: 'mastery',

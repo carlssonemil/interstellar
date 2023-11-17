@@ -64,6 +64,11 @@ export const useStore = defineStore({
             Object.keys(weapon.masteryProgress).forEach((camouflage) => {
               this.weapons[index].masteryProgress[camouflage] = weapon.masteryProgress[camouflage]
             })
+
+            // Set zombies progress
+            Object.keys(weapon.zombiesProgress).forEach((camouflage) => {
+              this.weapons[index].zombiesProgress[camouflage] = weapon.zombiesProgress[camouflage]
+            })
           }
         })
       }

@@ -39,7 +39,12 @@
           :key="camouflage.name"
           :class="['camouflage', `weapon-layout-${layout}`]"
           @click="
-            toggleCamouflageCompleted(weapon.name, camouflage.name, camouflage.completed, progressKey)
+            toggleCamouflageCompleted(
+              weapon.name,
+              camouflage.name,
+              camouflage.completed,
+              progressKey
+            )
           "
           :content="requirementTooltip(weapon, camouflage.name)"
           v-tippy="{ placement: 'bottom' }">
@@ -67,7 +72,10 @@
       icon-style="solid"
       size="25"
       @click="
-        toggleFavorite({ type: progressKey === 'progress' ? 'weapons' : progressKey, name: weapon.name })
+        toggleFavorite({
+          type: progressKey === 'progress' ? 'weapons' : progressKey,
+          name: weapon.name,
+        })
       "
       v-tippy="{
         content: $t('filters.toggle_favorite', {
@@ -115,7 +123,8 @@ export default {
     },
 
     progress() {
-      const progressType = this.progressKey === 'progress' ? 'progress' : `${this.progressKey}Progress`
+      const progressType =
+        this.progressKey === 'progress' ? 'progress' : `${this.progressKey}Progress`
       return this.weapon[progressType]
     },
 
@@ -161,7 +170,7 @@ export default {
     requirementTooltip(weapon, camouflage) {
       let requirement = 'TBA'
 
-      if (this.progressKey === 'progress') {
+      if (this.progressKey === 'mastery') {
         requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
       } else {
         requirement = this.weaponRequirements[weapon.name][camouflage]

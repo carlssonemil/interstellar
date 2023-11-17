@@ -39,7 +39,7 @@ export default {
     weapon: 'Riveter',
     level: '24',
     challenge: {
-      amount: 15,
+      amount: 10,
       type: 'double_kills',
     },
   },

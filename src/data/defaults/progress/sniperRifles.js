@@ -3,7 +3,7 @@ export default {
     multiplayer: {
       'Death 3D': false,
       'Topo Boulder': false,
-      'Palette Neopolitan': false,
+      'Palette Neapolitan': false,
       'Art Glass': false,
     },
 

@@ -62,7 +62,8 @@ export default {
 
     'Gilded': {
       amount: 2,
-      type: 'kills_shortly_after_sprinting_one_life',
+      times: 10,
+      type: 'kills_without_releasing_trigger',
     },
 
     'Forged': {
@@ -106,17 +107,18 @@ export default {
 
     'Gilded': {
       amount: 2,
-      type: 'kills_shortly_after_sprinting_one_life',
+      times: 10,
+      type: 'kills_without_releasing_trigger',
     },
 
     'Forged': {
       amount: 25,
-      type: 'kills_while_ads_and_moving',
+      type: 'kills_while_ads_and_strafing',
     },
 
     'Priceless': {
       amount: 25,
-      type: 'kills_while_hipfire_and_strafing',
+      type: 'kills_while_hipfire_and_moving',
     },
 
     'Golden Enigma': {
@@ -150,7 +152,8 @@ export default {
 
     'Gilded': {
       amount: 2,
-      type: 'kills_shortly_after_sprinting_one_life',
+      times: 10,
+      type: 'kills_without_releasing_trigger',
     },
 
     'Forged': {

@@ -16,11 +16,11 @@ export default {
 
     'Gilded': {
       amount: 10,
-      type: 'kills_with_laser_attachment',
+      type: 'kills_while_focused_down_sights',
     },
 
     'Forged': {
-      amount: 25,
+      amount: 15,
       type: 'penetration_kills',
     },
 
@@ -60,18 +60,18 @@ export default {
 
     'Gilded': {
       amount: 10,
-      type: 'kills_with_laser_attachment',
+      type: 'kills_while_focused_down_sights',
     },
 
     'Forged': {
-      amount: 3,
-      times: 10,
-      type: 'kills_with_one_mag',
+      amount: 25,
+      type: 'kills_while_ads_and_fully_loaded',
     },
 
     'Priceless': {
-      amount: 15,
-      type: 'one_shot_kills',
+      amount: 5,
+      times: 3,
+      type: 'kills_without_dying',
     },
 
     'Golden Enigma': {
@@ -105,7 +105,7 @@ export default {
 
     'Gilded': {
       amount: 10,
-      type: 'kills_with_laser_attachment',
+      type: 'kills_while_focused_down_sights',
     },
 
     'Forged': {

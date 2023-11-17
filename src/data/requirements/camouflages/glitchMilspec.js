@@ -48,7 +48,7 @@ export default {
     weapon: 'AMR9',
     level: '29',
     challenge: {
-      amount: 14,
+      amount: 15,
       type: 'kills_while_enemy_affected_by_tactical',
     },
   },

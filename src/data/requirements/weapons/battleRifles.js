@@ -51,7 +51,7 @@ export default {
     },
 
     'Forged': {
-      amount: 10,
+      amount: 25,
       type: 'one_shot_kills',
     },
 

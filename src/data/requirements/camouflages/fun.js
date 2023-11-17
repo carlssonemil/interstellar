@@ -12,7 +12,7 @@ export default {
     weapon: 'Bruen MK9',
     level: '14',
     challenge: {
-      amount: 10,
+      amount: 15,
       type: 'kills_with_full_attachments',
     },
   },

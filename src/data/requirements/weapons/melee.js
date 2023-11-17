@@ -20,7 +20,7 @@ export default {
     },
 
     'Priceless': {
-      amount: 25,
+      amount: 15,
       type: 'revenge_kills',
     },
 

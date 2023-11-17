@@ -17,7 +17,7 @@ export default {
 
   'DG-58 LSW': {
     multiplayer: {
-      'Psycheledic Sky': false,
+      'Psychedelic Sky': false,
       'Topo Reverb': false,
       'Cold Fall': false,
       'B&W Re-Fuzz': false,

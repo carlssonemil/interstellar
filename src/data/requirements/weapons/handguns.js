@@ -20,7 +20,7 @@ export default {
     },
 
     'Forged': {
-      amount: 25,
+      amount: 15,
       type: 'injured_enemy_kills',
     },
 

@@ -57,7 +57,7 @@ export default {
     weapon: 'Striker 9',
     level: '25',
     challenge: {
-      amount: 14,
+      amount: 15,
       type: 'kills_while_enemy_affected_by_tactical',
     },
   },

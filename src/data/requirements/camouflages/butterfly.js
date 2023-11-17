@@ -30,7 +30,7 @@ export default {
     weapon: 'WSP Swarm',
     level: '27',
     challenge: {
-      amount: 14,
+      amount: 15,
       type: 'kills_while_enemy_affected_by_tactical',
     },
   },
@@ -39,7 +39,7 @@ export default {
     weapon: 'WSP-9',
     level: '28',
     challenge: {
-      amount: 14,
+      amount: 15,
       type: 'kills_while_enemy_affected_by_tactical',
     },
   },

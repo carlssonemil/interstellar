@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <WeaponsComponent :weapons="filteredWeapons" :favorites="favorites" />
+    <WeaponsComponent :weapons="filteredWeapons" :favorites="favorites" progress-key="mastery" />
 
     <ProgressComponent
       :progress="masteryProgress"

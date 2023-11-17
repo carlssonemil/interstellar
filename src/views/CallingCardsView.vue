@@ -2,7 +2,7 @@
   <div class="container">
     <AlertComponent type="info" icon="info-circle">
       <p>
-        Looking for Modern Warfare II camouflages? You can find them in the
+        Looking for Modern Warfare II calling cards? You can find them in the
         <a href="https://orion.emca.app/camouflages">Orion tracker</a>.
       </p>
     </AlertComponent>

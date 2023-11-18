@@ -32,16 +32,19 @@ export default {
       required: false,
       default: true,
     },
+
     showHeader: {
       type: Boolean,
       required: false,
       default: true,
     },
+
     styleName: {
       type: String,
       required: false,
-      default: "interstellar"
+      default: undefined,
     },
+
     maxWidth: {
       type: Number,
       required: false,
@@ -110,7 +113,6 @@ export default {
     z-index: 2;
 
     .modal-header {
-
       &.interstellar {
         background-image: $interstellar-gradient-alt;
       }

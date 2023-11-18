@@ -67,11 +67,11 @@
       </template>
       <p>{{ $t('pages.settings.reset.confirm.body') }}</p>
       <template #footer>
-        <button @click="confirmReset()" class="danger">
-          {{ $t('pages.settings.reset.confirm.reset') }}
-        </button>
         <button @click="$refs.modal.close()" class="secondary">
           {{ $t('pages.settings.reset.confirm.cancel') }}
+        </button>
+        <button @click="confirmReset()" class="danger">
+          {{ $t('pages.settings.reset.confirm.reset') }}
         </button>
       </template>
     </ModalComponent>

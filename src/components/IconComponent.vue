@@ -68,7 +68,7 @@ export default {
 .icon-component {
   display: inline-flex;
 
-  .unicon {
+  :deep(.unicon) {
     display: inline-flex !important;
   }
 }

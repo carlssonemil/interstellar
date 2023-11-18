@@ -1,5 +1,5 @@
 <template>
-  <transition name="slidedown">
+  <transition name="slide-down">
     <div class="notice" v-if="showNotice">
       <i18n-t keypath="general.support_notice" tag="p" scope="global">
         <template #link>

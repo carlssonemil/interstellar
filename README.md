@@ -1,7 +1,5 @@
 # Interstellar
 
-> **WIP:** This tracker is still a work in progress as more information about how the new camouflage system will work is revealed. Join the [discussions](https://github.com/carlssonemil/interstellar/discussions/) if you want to help finish it faster!
-
 ## Simple, lightweight & intuitive camouflage tracker
 
 Interstellar is a Call of Duty Modern Warfare 3 (2023) camouflage tracker to easily manage your progress towards the Interstellar camouflage. This tool is a sequel to the tracker tools made for [Modern Warfare (2019)](https://damascus.vercel.app/), [Cold War (2020)](https://coldwar.vercel.app/), [Vanguard (2021)](https://vanguard.emca.app/) and [Modern Warfare II (2022)](https://orion.emca.app/).

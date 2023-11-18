@@ -14,8 +14,7 @@
       :progress="zombiesProgress"
       :label="$t('pages.zombies.progress.label')"
       :tooltip="$t('pages.zombies.progress.tooltip')"
-      style-name="borealis"
-    >
+      style-name="borealis">
       <template #modal-header>{{ $t('pages.zombies.completed_modal.title') }}</template>
       <template #modal-body>
         <i18n-t keypath="pages.zombies.completed_modal.body" tag="p" scope="global">
@@ -159,6 +158,16 @@ h2 {
       margin-bottom: 20px;
       margin-right: 0;
       width: 100%;
+    }
+
+    .toggles {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      > :first-child {
+        margin-right: 20px;
+      }
     }
   }
 }

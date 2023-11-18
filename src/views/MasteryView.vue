@@ -198,6 +198,16 @@ h2 {
       margin-right: 0;
       width: 100%;
     }
+
+    .toggles {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      > :first-child {
+        margin-right: 20px;
+      }
+    }
   }
 }
 

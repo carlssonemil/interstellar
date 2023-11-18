@@ -209,8 +209,8 @@
       "double_click_tooltip": "Double-click to {state} weapon",
       "finished_placeholder": "You have completed all camouflage challenges 👏",
       "info_link": "here",
-      "info_tooltip": "You only need to complete the number of base guns there are for each category to earn the Forged camouflage challenge. For example, the Assault Rifles requires a total of 8 Gilded camouflages to unlock the Forged camouflage challenge for all weapons in that category. Press this icon to read more.",
-      "info": "You only need to complete the number of base guns there are for each category to earn the Forged camouflage challenge. For example, the Assault Rifles requires a total of 8 Gilded camouflages to unlock the Forged camouflage challenge for all weapons in that category. Read more {link}.",
+      "info_tooltip": "You only need to complete the number of base guns there are for each category to earn the Forged camouflage challenge. For example, the Assault Rifles requires a total of 6 Gilded camouflages to unlock the Forged camouflage challenge for all weapons in that category. Press this icon to read more.",
+      "info": "You only need to complete the number of base guns there are for each category to earn the Forged camouflage challenge. For example, the Assault Rifles requires a total of 6 Gilded camouflages to unlock the Forged camouflage challenge for all weapons in that category. Read more {link}.",
       "progress": {
         "label": "Interstellar progress",
         "tooltip": "Progress towards the Interstellar camouflage"

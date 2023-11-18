@@ -68,8 +68,8 @@ export default {
 .icon-component {
   display: inline-flex;
 
-  > .unicon {
-    display: inline-flex;
+  .unicon {
+    display: inline-flex !important;
   }
 }
 </style>

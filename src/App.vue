@@ -5,15 +5,6 @@
     :show="showMobileNavigation"
     @toggleMobileNavigation="toggleMobileNavigation" />
 
-  <div class="container" style="margin-bottom: 50px">
-    <AlertComponent type="danger" icon="exclamation-triangle">
-      <p>
-        The app is still under development. You can use it, but there might be bugs and missing
-        features. The progress you make might be lost.
-      </p>
-    </AlertComponent>
-  </div>
-
   <main>
     <router-view v-slot="{ Component }">
       <transition name="page-fade" mode="out-in">

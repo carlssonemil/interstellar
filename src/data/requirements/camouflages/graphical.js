@@ -17,7 +17,7 @@ export default {
     },
   },
 
-  'Fractical Dirt': {
+  'Fractal Dirt': {
     weapon: 'Holger 556',
     level: '2',
     challenge: {

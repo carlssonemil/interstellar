@@ -1,7 +1,7 @@
 const multiplayer = [
   'Blue Tones',
   'Deconstructed',
-  'Fractical Dirt',
+  'Fractal Dirt',
   'Granite Pass',
   'Heat Map',
   'Orange Tones',

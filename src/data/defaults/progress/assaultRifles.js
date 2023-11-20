@@ -33,7 +33,7 @@ export default {
 
   'Holger 556': {
     multiplayer: {
-      'Fractical Dirt': false,
+      'Fractal Dirt': false,
       'Topo Glitch': false,
       'Palette Rosemary': false,
       'Magma Heat': false,

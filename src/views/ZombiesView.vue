@@ -119,14 +119,41 @@ export default {
     },
 
     zombiesProgress() {
-      const weapons = this.weapons.filter((weapon) => !weapon.comingSoon)
-      const total = weapons.length * 4
-      const completed = weapons.reduce(
-        (acc, weapon) => acc + Object.values(weapon.zombiesProgress).reduce((a, b) => a + b, 0),
-        0
-      )
+      return this.calculateProgress(this.weapons)
+    },
+  },
 
-      return roundToTwoDecimals((completed / total) * 100)
+  methods: {
+    calculateProgress(weapons) {
+      const requiredWeapons = 36
+
+      // Sort and filter out the weapons with the most progress
+      const mostProgressedWeapons = weapons
+        .map((weapon) => {
+          let totalCamouflages = Object.keys(weapon.zombiesProgress).length
+          let completedCamouflages = Object.values(weapon.zombiesProgress).reduce(
+            (a, b) => a + b,
+            0
+          )
+
+          return {
+            ...weapon,
+            completed: Object.values(weapon.zombiesProgress).reduce((a, b) => a + b, 0),
+            completedPercentage: completedCamouflages / totalCamouflages,
+          }
+        })
+        .sort((a, b) => b.completedPercentage - a.completedPercentage)
+        .splice(0, requiredWeapons)
+
+      // Count the amount of camouflages completed for the most progress weapons
+      const totalCamouflagesCompleted = mostProgressedWeapons.reduce((a, b) => a + b.completed, 0)
+
+      // Count the required amount of camouflages to complete the Interstellar camouflage
+      const requiredCamouflages = mostProgressedWeapons.reduce((a, b) => {
+        return a + Object.keys(b.zombiesProgress).length
+      }, 0)
+
+      return roundToTwoDecimals((totalCamouflagesCompleted / requiredCamouflages) * 100)
     },
   },
 }

@@ -13,7 +13,7 @@ export default {
     level: '8',
     challenge: {
       amount: 300,
-      type: 'pack_a_punched_kills',
+      type: 'critical_kills',
     },
   },
 }

@@ -58,7 +58,7 @@ export default {
     zombies: {
       'Wyvern': false,
       'Vehement Rage': false,
-      'Temultiplayerest Shards': false,
+      'Tempest Shards': false,
       'Toxic Spots': false,
     },
   },

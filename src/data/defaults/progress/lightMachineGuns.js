@@ -24,7 +24,7 @@ export default {
     },
 
     zombies: {
-      'Psycheledic Ridge': false,
+      'Psychedelic Ridge': false,
       'Topo Spirit': false,
       'Stonework': false,
       'Spectral Sight': false,

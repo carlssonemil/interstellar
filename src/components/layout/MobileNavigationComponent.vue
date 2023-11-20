@@ -9,7 +9,7 @@
         <IconComponent name="times" @click="$emit('toggleMobileNavigation')" />
       </div>
       <div>
-        <router-link to="/">{{ $tc('general.weapon', 2) }}</router-link>
+        <router-link to="/">{{ $t('general.multiplayer') }}</router-link>
         <router-link to="/camouflages">{{ $tc('general.camouflage', 2) }}</router-link>
         <router-link to="/zombies">{{ $t('general.zombies') }}</router-link>
         <router-link to="/calling-cards" class="coming-soon">

@@ -93,7 +93,7 @@ export default {
 
   'Holger 556': {
     // Multiplayer
-    'Fractical Dirt': requirements['Fractical Dirt'],
+    'Fractal Dirt': requirements['Fractal Dirt'],
     'Topo Glitch': requirements['Topo Glitch'],
     'Palette Rosemary': requirements['Palette Rosemary'],
     'Magma Heat': requirements['Magma Heat'],

@@ -44,6 +44,7 @@ export default {
   ...sprayPaint,
   ...topographic,
   ...twoToneBrushstrokes,
+  ...uncategorized,
   ...underTheMicroscope,
   ...wavelength,
   ...woodland,

@@ -29,6 +29,22 @@ export default {
       amount: 25,
       type: 'suppressed_clean_kills',
     },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+
   },
 
   'Sidewinder': {

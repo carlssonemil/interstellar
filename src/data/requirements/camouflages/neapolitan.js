@@ -74,6 +74,15 @@ export default {
     },
   },
 
+  'Palette Sands': {
+    weapon: 'TAQ Eradicator',
+    level: '15',
+    challenge: {
+      amount: 10,
+      type: 'kills_with_full_attachments',
+    },
+  },
+
   'Palette Rage': {
     weapon: 'Lockwood 680',
     level: '11',
@@ -143,6 +152,16 @@ export default {
     challenge: {
       amount: 250,
       type: 'kills_with_fire_damage',
+    },
+  },
+
+  'Palette Scorched': {
+    weapon: 'TAQ Eradicator',
+    level: '15',
+    challenge: {
+      amount: 10,
+      times: 10,
+      type: 'kills_without_reloading',
     },
   },
 }

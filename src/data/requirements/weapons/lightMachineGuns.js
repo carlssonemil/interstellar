@@ -182,4 +182,51 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'TAQ Eradicator': {
+    // Multiplayer
+    'Spreading': requirements['Spreading'],
+    'Light Vision': requirements['Light Vision'],
+    'Palette Sands': requirements['Palette Sands'],
+    'Pyramidical': requirements['Pyramidical'],
+
+    // Zombies
+    'Pestilence': requirements['Pestilence'],
+    'Unknown Visitor': requirements['Unknown Visitor'],
+    'Palette Scorched': requirements['Palette Scorched'],
+    'Mysterious': requirements['Mysterious'],
+
+    'Gilded': {
+      amount: 2,
+      times: 10,
+      type: 'kills_without_releasing_trigger',
+    },
+
+    'Forged': {
+      amount: 3,
+      times: 10,
+      type: 'kills_without_dying',
+    },
+
+    'Priceless': {
+      amount: 5,
+      times: 5,
+      type: 'kills_without_dying',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

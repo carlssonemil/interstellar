@@ -5,6 +5,7 @@ const multiplayer = [
   'Microscopic',
   'Overwhelmed',
   'Red Cells',
+  'Spreading',
   'Strain',
   'Viral Invasion',
   'Viral',
@@ -17,6 +18,7 @@ const zombies = [
   'Living Tissue',
   'New Strain',
   'Pathosis',
+  'Pestilence',
   'Riddled',
   'Symptomatic',
 ]

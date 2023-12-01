@@ -62,4 +62,20 @@ export default {
       'Shin Rippers': false,
     },
   },
+
+  'TAQ Eradicator': {
+    multiplayer: {
+      'Spreading': false,
+      'Light Vision': false,
+      'Palette Sands': false,
+      'Pyramidical': false,
+    },
+
+    zombies: {
+      'Pestilence': false,
+      'Unknown Visitor': false,
+      'Palette Scorched': false,
+      'Mysterious': false,
+    },
+  },
 }

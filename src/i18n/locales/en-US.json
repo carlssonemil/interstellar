@@ -42,6 +42,10 @@
     "hide_forged": "Hide Forged",
     "hide_priceless": "Hide Priceless",
     "hide_interstellar": "Hide Interstellar",
+    "hide_enigma": "Hide Golden Enigma",
+    "hide_scale": "Hide Zircon Scale",
+    "hide_serpentinite": "Hide Serpentinite",
+    "hide_borealis": "Hide Borealis",
     "toggle_favorite": "{state} favorites",
     "toggle_favorites": "Toggle favorites",
     "toggle_layout": "Toggle layout"

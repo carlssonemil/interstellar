@@ -34,7 +34,8 @@
     "translated_by": ", translated by {0}",
     "weapon": "Weapon | Weapons",
     "unlocked": "unlocked",
-    "zombies": "Zombies"
+    "zombies": "Zombies",
+    "schematics": "Schematics"
   },
   "filters": {
     "hide_completed": "Hide completed",

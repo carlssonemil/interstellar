@@ -2,11 +2,13 @@ import { defineStore } from 'pinia'
 import { notify } from '@kyvg/vue3-notification'
 import { filterObject } from '@/utils/utils'
 import defaultWeapons from '@/data/weapons'
+import defaultSchematics from '@/data/schematics'
 import defaultCallingCards from '@/data/defaults/calling_cards'
 import defaultFilters from '@/data/defaults/filters'
 import defaultPreferences from '@/data/defaults/preferences'
 import weaponRequirements from '@/data/requirements/weapons'
 import masteryRequirements from '@/data/masteryRequirements'
+import schematicRequirements from '@/data/requirements/schematics'
 import camouflageRequirements from '@/data/requirements/camouflages'
 import camouflageNameChanges from '@/data/camouflageNameChanges'
 
@@ -28,9 +30,11 @@ export const useStore = defineStore({
     filters: {},
     weaponRequirements: { ...weaponRequirements },
     masteryRequirements: { ...masteryRequirements },
+    schematicRequirements: { ...schematicRequirements },
     weapons: [],
     callingCards: {},
     preferences: { ...defaultPreferences },
+    schematics: []
   }),
 
   getters: {
@@ -39,6 +43,8 @@ export const useStore = defineStore({
     weaponCategories: (state) =>
       Array.from(new Set(state.weapons.map((weapon) => weapon.category))),
     callingCardCompleted: (state) => (card) => state.callingCards[card],
+    schematicCategories: (state) =>
+        Array.from(new Set(state.schematics.map((schematic) => schematic.category)))
   },
 
   actions: {
@@ -123,17 +129,31 @@ export const useStore = defineStore({
       }
     },
 
+    setSchematics(schematics) {
+      this.schematics = JSON.parse(JSON.stringify(defaultSchematics))
+
+
+      if (schematics) {
+        Object.keys(schematics).forEach((key) => {
+          if (key in defaultSchematics) {
+            this.schematics[key] = schematics[key]
+          }
+        })
+      }
+    },
+
     getStoredProgress() {
       const storage = localStorage.getItem(token)
 
       if (!storage) {
         this.setWeapons()
+        this.setSchematics()
         this.setCallingCards()
         this.setFilters()
         return
       }
 
-      const { weapons, callingCards, filters, beganGrind, favorites, preferences } =
+      const { weapons, callingCards, filters, beganGrind, favorites, preferences, schematics } =
         JSON.parse(storage)
 
       if (weapons) this.setWeapons(weapons)
@@ -142,6 +162,7 @@ export const useStore = defineStore({
       if (beganGrind) this.beganGrind = beganGrind
       if (favorites) this.setFavorites(favorites)
       if (preferences) this.setPreferences(preferences)
+      if (schematics) this.setSchematics(schematics)
     },
 
     storeProgress() {
@@ -154,6 +175,7 @@ export const useStore = defineStore({
           beganGrind: this.beganGrind || new Date(),
           favorites: this.favorites,
           preferences: this.preferences,
+          schematics: this.schematics
         })
       )
     },
@@ -162,6 +184,7 @@ export const useStore = defineStore({
       localStorage.removeItem(token)
       this.setWeapons()
       this.setCallingCards()
+      this.setSchematics()
       this.beganGrind = null
 
       notify({
@@ -235,6 +258,17 @@ export const useStore = defineStore({
 
     toggleCallingCardCompleted(card, current) {
       this.callingCards[card.name] = !current
+      this.storeProgress()
+    },
+
+    toggleSchematicAcquired(schematic, current) {
+      for (let category in this.schematics) {
+        for (let s in this.schematics[category]) {
+          if (this.schematics[category][s].name === schematic) {
+            this.schematics[category][s].acquired = !current
+          }
+        }
+      }
       this.storeProgress()
     },
   },

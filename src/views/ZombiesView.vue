@@ -1,5 +1,11 @@
 <template>
   <div class="container">
+    <AlertComponent type="info" icon="info-circle">
+      <p>
+        Want to track your Schematics? Check out the <router-link to="/zombies/schematics">Schematics Tracker</router-link>.
+      </p>
+    </AlertComponent>
+
     <div class="filter-container">
       <FiltersComponent :options="filterOptions" />
       <div class="toggles">
@@ -54,9 +60,11 @@ import ProgressComponent from '@/components/ProgressComponent.vue'
 import LayoutToggleComponent from '@/components/LayoutToggleComponent.vue'
 import FavoritesToggleComponent from '@/components/FavoritesToggleComponent.vue'
 import OverallProgressComponent from "@/components/OverallProgressComponent.vue";
+import AlertComponent from "@/components/AlertComponent.vue";
 
 export default {
   components: {
+    AlertComponent,
     OverallProgressComponent,
     FiltersComponent,
     WeaponsComponent,

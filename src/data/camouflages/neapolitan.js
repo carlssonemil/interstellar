@@ -5,6 +5,7 @@ const multiplayer = [
   'Palette Navy',
   'Palette Neapolitan',
   'Palette Rosemary',
+  'Palette Sands',
   'Palette Sunrise',
   'Palette Tropics',
 ]
@@ -18,6 +19,7 @@ const zombies = [
   'Palette Grove',
   'Palette Infected',
   'Palette Rage',
+  'Palette Scorched',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

@@ -72,7 +72,7 @@ export default {
 
     'Priceless': {
       amount: 10,
-      type: 'double_kills_with_akimbo',
+      type: 'double_kills_while_in_tac_stance',
     },
 
     'Golden Enigma': {

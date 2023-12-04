@@ -9,6 +9,7 @@ const multiplayer = [
   'Insectoid',
   'Mind Test',
   'Pabels',
+  'Pyramidical',
   'Upward Reverb',
 ]
 
@@ -21,6 +22,7 @@ const zombies = [
   'Inner Demon',
   'Magma Beast',
   'Melting Hope',
+  'Mysterious',
   'Oxidized',
   'Tempest Shards',
   'Unyielding',

@@ -80,6 +80,15 @@ export default {
     },
   },
 
+  'Spreading': {
+    weapon: 'TAQ Eradicator',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
   'Symptomatic': {
     weapon: 'KVD Enforcer',
     level: '2',
@@ -160,6 +169,15 @@ export default {
       amount: 20,
       times: 10,
       type: 'consecutive_kills_without_taking_damage',
+    },
+  },
+
+  'Pestilence': {
+    weapon: 'TAQ Eradicator',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
     },
   },
 }

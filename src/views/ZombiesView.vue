@@ -8,6 +8,8 @@
       </div>
     </div>
 
+    <OverallProgressComponent :options="overallProgress" :totalWeapons="this.weapons.length" />
+
     <WeaponsComponent :weapons="filteredWeapons" :favorites="favorites" progress-key="zombies" />
 
     <ProgressComponent
@@ -51,9 +53,11 @@ import WeaponsComponent from '@/components/WeaponsComponent.vue'
 import ProgressComponent from '@/components/ProgressComponent.vue'
 import LayoutToggleComponent from '@/components/LayoutToggleComponent.vue'
 import FavoritesToggleComponent from '@/components/FavoritesToggleComponent.vue'
+import OverallProgressComponent from "@/components/OverallProgressComponent.vue";
 
 export default {
   components: {
+    OverallProgressComponent,
     FiltersComponent,
     WeaponsComponent,
     ProgressComponent,
@@ -88,8 +92,18 @@ export default {
           options: this.weaponCategories,
         },
         {
-          label: this.$t('filters.hide_completed'),
-          key: 'hideCompleted',
+          label: this.$t('filters.hide_enigma'),
+          key: 'hideEnigma',
+          type: 'checkbox',
+        },
+        {
+          label: this.$t('filters.hide_scale'),
+          key: 'hideScale',
+          type: 'checkbox',
+        },
+        {
+          label: this.$t('filters.hide_serpentinite'),
+          key: 'hideSerpentinite',
           type: 'checkbox',
         },
       ]
@@ -97,12 +111,18 @@ export default {
 
     filteredWeapons() {
       let filteredWeapons = this.weapons
-      const { hideCompleted, weaponCategory } = this.filters
+      const { hideEnigma, hideScale, hideSerpentinite, weaponCategory } = this.filters
 
-      if (hideCompleted) {
-        filteredWeapons = filteredWeapons.filter((weapon) =>
-          Object.values(weapon.zombiesProgress).every(Boolean)
-        )
+      if (hideEnigma) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.zombiesProgress['Golden Enigma'])
+      }
+
+      if (hideScale) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.zombiesProgress['Zircon Scale'])
+      }
+
+      if (hideSerpentinite) {
+        filteredWeapons = filteredWeapons.filter((weapon) => !weapon.zombiesProgress['Serpentinite'])
       }
 
       if (weaponCategory && weaponCategory !== 'null') {
@@ -120,6 +140,14 @@ export default {
 
     zombiesProgress() {
       return this.calculateProgress(this.weapons)
+    },
+
+    overallProgress() {
+      return {
+        'Golden Enigma': this.weapons.filter((weapon) => weapon.zombiesProgress['Golden Enigma']).length,
+        'Zircon Scale': this.weapons.filter((weapon) => weapon.zombiesProgress['Zircon Scale']).length,
+        'Serpentinite': this.weapons.filter((weapon) => weapon.zombiesProgress['Serpentinite']).length,
+      }
     },
   },
 

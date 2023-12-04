@@ -9,6 +9,9 @@ export default {
   hideNonRequired: false,
   hidePriceless: false,
   hideInterstellar: false,
+  hideEnigma: false,
+  hideScale: false,
+  hideSerpentinite: false,
   search: '',
   weaponCategory: null,
 }

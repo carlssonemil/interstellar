@@ -80,6 +80,15 @@ export default {
     },
   },
 
+  'Light Vision': {
+    weapon: 'TAQ Eradicator',
+    level: '9',
+    challenge: {
+      amount: 10,
+      type: 'penetration_kills',
+    },
+  },
+
   'Royale Swirl': {
     weapon: 'TYR',
     level: '2',
@@ -160,6 +169,15 @@ export default {
     challenge: {
       amount: 10,
       type: 'disciple_kills',
+    },
+  },
+
+  'Unknown Visitor': {
+    weapon: 'TAQ Eradicator',
+    level: '9',
+    challenge: {
+      amount: 10,
+      type: 'mangler_kills',
     },
   },
 }

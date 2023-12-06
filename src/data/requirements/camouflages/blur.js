@@ -35,6 +35,15 @@ export default {
     },
   },
 
+  'Heat Waves': {
+    weapon: 'RAM-7',
+    level: '18',
+    challenge: {
+      amount: 15,
+      type: 'headshot_kills',
+    },
+  },
+
   'Pyro Filaments': {
     weapon: 'Renetti',
     level: '2',
@@ -106,4 +115,13 @@ export default {
       type: 'kills_with_electric_damage',
     },
   },
+
+  'Greed Blur': {
+    weapon: 'RAM-7',
+    level: '18',
+    challenge: {
+      amount: 100,
+      type: 'kills_shortly_after_field_upgrade'
+    }
+  }
 }

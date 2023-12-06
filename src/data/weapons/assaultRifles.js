@@ -5,6 +5,7 @@ import defaultMasteryProgress from '@/data/defaults/progress/mastery'
 // The order of the weapons in this array is the order they will appear in the app
 const weapons = [
   { name: 'SVA 545' },
+  { name: 'RAM-7' },
   { name: 'MTZ-556' },
   { name: 'Holger 556' },
   { name: 'MCW' },

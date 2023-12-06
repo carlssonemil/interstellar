@@ -17,6 +17,24 @@ export default {
     },
   },
 
+  'Fidget': {
+    weapon: 'XRK Stalker',
+    level: '21',
+    challenge: {
+      amount: 15,
+      type: 'one_shot_kills',
+    },
+  },
+
+  'Trapped': {
+    weapon: 'XRK Stalker',
+    level: '21',
+    challenge: {
+      amount: 200,
+      type: 'critical_kills',
+    },
+  },
+
   'Puzzled': {
     weapon: 'Longbow',
     level: '31',

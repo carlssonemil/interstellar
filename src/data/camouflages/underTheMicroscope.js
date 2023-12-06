@@ -1,5 +1,6 @@
 const multiplayer = [
   'Bacterial Decay',
+  'Deadly Spores',
   'Germ Factory',
   'Microbiology',
   'Microscopic',
@@ -15,6 +16,7 @@ const zombies = [
   'Black Plague',
   'Ferver',
   'Hemoglobin',
+  'Incurable',
   'Living Tissue',
   'New Strain',
   'Pathosis',

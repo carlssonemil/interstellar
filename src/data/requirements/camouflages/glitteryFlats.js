@@ -80,6 +80,15 @@ export default {
     },
   },
 
+  'Brown Sands': {
+    weapon: 'RAM-7',
+    level: '11',
+    challenge: {
+      amount: 50,
+      type: 'kills_while_ads',
+    },
+  },
+
   'Red Sands': {
     weapon: 'DM56',
     level: '15',
@@ -177,6 +186,15 @@ export default {
     challenge: {
       amount: 10,
       type: 'mangler_kills',
+    },
+  },
+
+  'Decayed Sands': {
+    weapon: 'RAM-7',
+    level: '11',
+    challenge: {
+      amount: 250,
+      type: 'hipfire_kills',
     },
   },
 }

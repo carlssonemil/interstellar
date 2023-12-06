@@ -8,4 +8,14 @@ export default {
       Pathosis: false,
     },
   },
+
+  'Stormender': {
+    multiplayer: {
+      'Spectral Overload': false,
+    },
+
+    zombies: {
+      'Deformed': false,
+    },
+  }
 }

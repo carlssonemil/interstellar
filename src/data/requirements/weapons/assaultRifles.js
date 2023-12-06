@@ -46,6 +46,51 @@ export default {
     },
   },
 
+  'RAM-7': {
+    // Multiplayer
+    'Skull Jumble': requirements['Skull Jumble'],
+    'Brown Sands': requirements['Brown Sands'],
+    'Heat Waves': requirements['Heat Waves'],
+    'Deadly Spores': requirements['Deadly Spores'],
+
+    // Zombies
+    'Harbinger': requirements['Harbinger'],
+    'Decayed Sands': requirements['Decayed Sands'],
+    'Greed Blur': requirements['Greed Blur'],
+    'Incurable': requirements['Incurable'],
+
+    'Gilded': {
+      amount: 3,
+      times: 10,
+      type: 'kills_with_one_mag',
+    },
+
+    'Forged': {
+      amount: 10,
+      type: 'kills_while_ads_and_sliding',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'kills_while_strafing_in_tac_stance',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
+
   'MTZ-556': {
     // Multiplayer
     'Orange Tones': requirements['Orange Tones'],

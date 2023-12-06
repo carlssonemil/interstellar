@@ -15,6 +15,22 @@ export default {
     },
   },
 
+  'RAM-7': {
+    multiplayer: {
+      'Skull Jumble': false,
+      'Brown Sands': false,
+      'Heat Waves': false,
+      'Deadly Spores': false,
+    },
+
+    zombies: {
+      'Harbinger': false,
+      'Decayed Sands': false,
+      'Greed Blur': false,
+      'Incurable': false,
+    }
+  },
+
   'MTZ-556': {
     multiplayer: {
       'Orange Tones': false,

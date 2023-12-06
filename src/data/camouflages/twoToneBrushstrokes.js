@@ -1,6 +1,6 @@
-const multiplayer = ['Sharp Brush', 'Thick Brush', 'Woods Brush']
+const multiplayer = ['Sharp Brush', 'Thick Brush', 'Woods Brush', 'Liquid Brush']
 
-const zombies = ['Blood Brush', 'Rusted Brush', 'Spirit Brush']
+const zombies = ['Blood Brush', 'Rusted Brush', 'Spirit Brush', 'Brimstone Brush']
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))
 

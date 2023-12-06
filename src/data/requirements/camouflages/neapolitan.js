@@ -17,6 +17,15 @@ export default {
     },
   },
 
+  'Palette Twilight': {
+    weapon: 'XRK Stalker',
+    level: '9',
+    challenge: {
+      amount: 50,
+      type: 'quickscope_kills',
+    },
+  },
+
   'Palette Rosemary': {
     weapon: 'Holger 556',
     level: '16',
@@ -143,6 +152,15 @@ export default {
     challenge: {
       amount: 250,
       type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
+
+  'Palette Sickly': {
+    weapon: 'XRK Stalker',
+    level: '9',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_frost_damage',
     },
   },
 

@@ -17,6 +17,15 @@ export default {
     },
   },
 
+  'Deadly Spores': {
+    weapon: 'RAM-7',
+    level: '27',
+    challenge: {
+      amount: 25,
+      type: 'kills_while_in_tac_stance'
+    },
+  },
+
   'Strain': {
     weapon: 'RGL-80',
     level: '4',
@@ -180,4 +189,13 @@ export default {
       type: 'kills',
     },
   },
+
+  'Incurable': {
+    weapon: 'RAM-7',
+    level: '27',
+    challenge: {
+      amount: 200,
+      type: 'critical_kills'
+    }
+  }
 }

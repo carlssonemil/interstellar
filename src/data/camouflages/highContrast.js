@@ -9,6 +9,8 @@ const multiplayer = [
   'Smooth Satin',
   'Warbled',
   'White Satin',
+  'Spectral Overload',
+  'Sprayed Lines',
 ]
 
 const zombies = [
@@ -22,6 +24,8 @@ const zombies = [
   'Royale Swirl',
   'Spectral Sight',
   'Unknown Visitor',
+  'Deformed',
+  'Blood Gutter',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

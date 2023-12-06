@@ -17,6 +17,16 @@ export default {
     },
   },
 
+  'Liquid Brush': {
+    weapon: 'XRK Stalker',
+    level: '14',
+    challenge: {
+      amount: 3,
+      times: 10,
+      type: 'kills_with_one_mag',
+    },
+  },
+
   'Thick Brush': {
     weapon: 'MTZ Interceptor',
     level: '8',
@@ -41,6 +51,15 @@ export default {
     challenge: {
       amount: 250,
       type: 'kills_with_full_attachments',
+    },
+  },
+  
+  'Brimstone Brush': {
+    weapon: 'XRK Stalker',
+    level: '14',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_four_active_perks',
     },
   },
 

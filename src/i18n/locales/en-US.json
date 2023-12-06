@@ -130,6 +130,11 @@
       "finished_placeholder": "You have completed all camouflage challenges 👏",
       "requirement_tooltip": "Get the {weapon} to level {level} - {challenge}"
     },
+    "schematics": {
+      "completed_in_category": "Schematics completed in category",
+      "finished_placeholder": "You have acquired all Schematics! 👏",
+      "check_out_tracker": "Want to track your Schematics? Check out the"
+    },
     "mastery": {
       "completed_modal": {
         "body": "Congratulations on finishing all mastery challenges! That's quite the feat! You first started tracking your grind here {duration} on {date}.",
@@ -698,5 +703,11 @@
     "Shotguns": "Shotguns",
     "Sniper Rifles": "Sniper Rifles",
     "Sub Machine Guns": "Sub Machine Guns"
+  },
+  "schematic_categories": {
+    "Aetherium": "Aetherium",
+    "Perk-A-Cola": "Perk-A-Cola",
+    "Ammo Mod": "Ammo Mod",
+    "Wonder Weapon": "Wonder Weapon"
   }
 }

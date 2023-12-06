@@ -2,7 +2,7 @@
   <div class="container">
     <AlertComponent type="info" icon="info-circle">
       <p>
-        Want to track your Schematics? Check out the <router-link to="/zombies/schematics">Schematics Tracker</router-link>.
+        {{$t('pages.schematics.check_out_tracker')}} <router-link to="/zombies/schematics">{{$t('general.schematics')}} Tracker</router-link>.
       </p>
     </AlertComponent>
 

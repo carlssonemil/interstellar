@@ -1,7 +1,18 @@
 <template>
+  <AlertComponent type="success" v-if="completionState" class="success-box">
+    <p>
+      {{$t('pages.schematics.finished_placeholder')}}
+    </p>
+  </AlertComponent>
+
+  <br/>
+
   <div v-for="schematic in schematics" :key="schematic.category" class="category">
     <h2>
-        <span>{{ schematic[0].category }}</span>
+      <span>{{ $t('schematic_categories.' + schematic[0].category) }}</span>
+      <span v-tippy :content="$t('pages.schematics.completed_in_category')">
+          {{ categoryProgress(schematic[0].category) }}
+        </span>
     </h2>
     <div :class="['schematics', {'grid' : layout === 'grid'}]">
       <SchematicComponent
@@ -43,7 +54,43 @@ export default {
     showFavorites() {
       return this.preferences.favorites
     },
+
+    completionState() {
+      return this.calculateCompletionState(this.schematics)
+    },
   },
+
+  methods: {
+    categoryProgress(category) {
+
+
+      let schematics = this.schematics[category][0]
+
+      let total = -1
+      let completed = 0
+      for (let s in schematics) {
+        if (schematics[s]) {
+          if (schematics[s].acquired) {
+            completed += 1;
+          }
+          total += 1;
+        }
+      }
+
+      return completed > total ? `${total}/${total}` : `${Math.floor(completed)}/${total}`
+    },
+
+    calculateCompletionState(schematics) {
+      for (let cat in schematics) {
+        for (let s in schematics[cat][0]) {
+          if (schematics[cat][0][s].acquired === false) {
+            return false
+          }
+        }
+      }
+      return true
+    }
+  }
 }
 </script>
 
@@ -118,4 +165,7 @@ export default {
   }
 }
 
+.success-box {
+  margin: 2ch 0;
+}
 </style>

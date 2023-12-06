@@ -100,7 +100,7 @@ export default {
   },
 
   methods: {
-    ...mapActions(useStore, ['setWeapons', 'storeProgress', 'resetProgress']),
+    ...mapActions(useStore, ['setWeapons', 'storeProgress', 'setSchematics', 'resetProgress']),
 
     confirmReset() {
       this.resetProgress()

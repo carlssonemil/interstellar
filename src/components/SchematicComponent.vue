@@ -4,7 +4,7 @@
        v-tippy="{ content: `${this.schematicRequirements[schematic.name]}. ${schematic.cooldown} cooldown.`, placement: 'bottom' }"
        @click="toggleSchematicAcquired(schematic.name, schematic.acquired)">
     <div class="icon"
-         :style="{ backgroundImage: 'url(https://emilcarlsson.se/interstellar/schematics/' + convertToKebabCase(schematic.name) + '.png)' }"></div>
+         :style="{ backgroundImage: `url(https://emilcarlsson.se/interstellar/schematics/${convertToKebabCase(schematic.name)}.png)` }"></div>
     <div class="label">{{ schematic.name }}</div>
     <div :class="['lockStatus', {'unlocked' : schematic.acquired}]"></div>
   </div>

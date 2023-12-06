@@ -13,7 +13,7 @@
        :class="['schematic', 'list', schematic.rarity, { label, 'coming-soon': schematic.comingSoon, 'unlocked' : completed }]"
        @click="toggleSchematicAcquired(schematic.name, schematic.acquired)">
     <div class="image-container">
-      <img :src="'https://emilcarlsson.se/interstellar/schematics/' + convertToKebabCase(schematic.name) + '.png'" :alt="schematic.name"/>
+      <img :src="`https://emilcarlsson.se/interstellar/schematics/${convertToKebabCase(schematic.name)}.png`" :alt="schematic.name"/>
       <div :class="['lockStatus', {'unlocked' : schematic.acquired}]"></div>
     </div>
     <div class="details">

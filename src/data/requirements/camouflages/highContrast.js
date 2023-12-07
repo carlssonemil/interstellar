@@ -8,6 +8,15 @@ export default {
     },
   },
 
+  'Sprayed Lines': {
+    weapon: 'XRK Stalker',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
   'Dark Vision': {
     weapon: 'Karambit',
     level: '4',
@@ -89,6 +98,24 @@ export default {
     },
   },
 
+  'Spectral Overload': {
+    weapon: 'Stormender',
+    level: '4',
+    challenge: {
+      amount: 25,
+      type: 'destroy_equipment',
+    },
+  },
+
+  'Deformed': {
+    weapon: 'Stormender',
+    level: '4',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
   'Royale Swirl': {
     weapon: 'TYR',
     level: '2',
@@ -151,6 +178,15 @@ export default {
     challenge: {
       amount: 5,
       type: 'mimic_kills',
+    },
+  },
+
+  'Blood Gutter': {
+    weapon: 'XRK Stalker',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
     },
   },
 

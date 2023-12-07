@@ -1,4 +1,20 @@
 export default {
+  'XRK Stalker': {
+    multiplayer: {
+      'Sprayed Lines': false,
+      'Palette Twilight': false,
+      'Liquid Brush': false,
+      'Fidget': false,
+    },
+
+    zombies: {
+      'Blood Gutter': false,
+      'Palette Sickly': false,
+      'Brimstone Brush': false,
+      'Trapped': false,
+    },
+  },
+
   'KATT-AMR': {
     multiplayer: {
       'Death 3D': false,

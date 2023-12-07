@@ -74,6 +74,15 @@ export default {
     },
   },
 
+  'Skull Jumble': {
+    weapon: 'RAM-7',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
   'Archfiend': {
     weapon: 'Holger 26',
     level: '2',
@@ -85,6 +94,15 @@ export default {
 
   'Ruination': {
     weapon: 'KATT-AMR',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Harbinger': {
+    weapon: 'RAM-7',
     level: '2',
     challenge: {
       amount: 250,

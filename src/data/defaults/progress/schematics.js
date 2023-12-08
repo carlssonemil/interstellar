@@ -1,0 +1,23 @@
+export default {
+    'Uncommon Aether Tool': false,
+    'Rare Aether Tool': false,
+    'Epic Aether Tool': false,
+    'Raw Aetherium Crystal': false,
+    'Refined Aetherium Crystal': false,
+    'Deadshot Daiquiri Can': false,
+    'Speed Cola Can': false,
+    'Death Perception Can': false,
+    'Elemental Pop Can': false,
+    'Jugger-Nog Can': false,
+    'PHD Flopper Can': false,
+    'Quick Revive Can': false,
+    'Stamin-Up Can': false,
+    'Tombstone Soda Can': false,
+    'Napalm Burst Ammo Mod': false,
+    'Shatter Blast Ammo Mod': false,
+    'Brain Rot Ammo Mod': false,
+    'Cryo Freeze Ammo Mod': false,
+    'Dead Wire Ammo Mod': false,
+    'Ray Gun': false,
+    'Wunderwaffe DG-2': false
+}

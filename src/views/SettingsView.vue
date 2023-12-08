@@ -100,7 +100,7 @@ export default {
   },
 
   methods: {
-    ...mapActions(useStore, ['setWeapons', 'storeProgress', 'resetProgress']),
+    ...mapActions(useStore, ['setWeapons', 'storeProgress', 'setSchematics', 'resetProgress']),
 
     confirmReset() {
       this.resetProgress()
@@ -133,6 +133,7 @@ export default {
         try {
           const parsedJson = JSON.parse(this.importJsonCode)
           await this.setWeapons(parsedJson)
+          await this.setSchematics(parsedJson)
           await this.storeProgress()
           this.$notify({
             type: 'success',

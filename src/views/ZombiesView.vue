@@ -1,5 +1,11 @@
 <template>
   <div class="container">
+    <AlertComponent type="info" icon="info-circle">
+      <p>
+        {{$t('pages.schematics.check_out_tracker')}} <router-link to="/zombies/schematics">{{$t('general.schematics')}} Tracker</router-link>.
+      </p>
+    </AlertComponent>
+
     <div class="filter-container">
       <FiltersComponent :options="filterOptions" />
       <div class="toggles">
@@ -54,9 +60,11 @@ import ProgressComponent from '@/components/ProgressComponent.vue'
 import LayoutToggleComponent from '@/components/LayoutToggleComponent.vue'
 import FavoritesToggleComponent from '@/components/FavoritesToggleComponent.vue'
 import OverallProgressComponent from "@/components/OverallProgressComponent.vue";
+import AlertComponent from "@/components/AlertComponent.vue";
 
 export default {
   components: {
+    AlertComponent,
     OverallProgressComponent,
     FiltersComponent,
     WeaponsComponent,

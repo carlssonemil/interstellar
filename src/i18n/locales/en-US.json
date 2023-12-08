@@ -34,7 +34,8 @@
     "translated_by": ", translated by {0}",
     "weapon": "Weapon | Weapons",
     "unlocked": "unlocked",
-    "zombies": "Zombies"
+    "zombies": "Zombies",
+    "schematics": "Schematics"
   },
   "filters": {
     "hide_completed": "Hide completed",
@@ -128,6 +129,11 @@
       "empty_search": "Your search didn't match any camouflages 🤔",
       "finished_placeholder": "You have completed all camouflage challenges 👏",
       "requirement_tooltip": "Get the {weapon} to level {level} - {challenge}"
+    },
+    "schematics": {
+      "completed_in_category": "Schematics completed in category",
+      "finished_placeholder": "You have acquired all Schematics! 👏",
+      "check_out_tracker": "Want to track your Schematics? Check out the"
     },
     "mastery": {
       "completed_modal": {
@@ -702,5 +708,11 @@
     "Shotguns": "Shotguns",
     "Sniper Rifles": "Sniper Rifles",
     "Sub Machine Guns": "Sub Machine Guns"
+  },
+  "schematic_categories": {
+    "Aetherium": "Aetherium",
+    "Perk-A-Cola": "Perk-A-Cola",
+    "Ammo Mod": "Ammo Mod",
+    "Wonder Weapon": "Wonder Weapon"
   }
 }

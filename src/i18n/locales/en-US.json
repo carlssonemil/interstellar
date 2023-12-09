@@ -504,7 +504,10 @@
         "wins_all": "Complete all Warzone Wins Mastery Challenges"
       }
     },
-    "mastery": "{amount} Kills while using the {camouflage} Camo",
+    "mastery": {
+      "kills": "{amount} Kills while using the {camouflage} Camo",
+      "equipment": "Destroy {amount} Killstreaks, Equipment, or Vehicles while using {camouflage} Camo"
+    },
     "types": {
       "akimbo_kills": "{amount} kills with Akimbo weapons",
       "consecutive_kills_without_taking_damage": "{amount} consecutive kills {times} times without taking damage",

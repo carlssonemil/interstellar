@@ -6,7 +6,7 @@ import defaultCallingCards from '@/data/defaults/calling_cards'
 import defaultFilters from '@/data/defaults/filters'
 import defaultPreferences from '@/data/defaults/preferences'
 import weaponRequirements from '@/data/requirements/weapons'
-import masteryRequirements from '@/data/masteryRequirements'
+import { masteryRequirements, stormenderRequirements } from '@/data/masteryRequirements'
 import camouflageRequirements from '@/data/requirements/camouflages'
 import camouflageNameChanges from '@/data/camouflageNameChanges'
 
@@ -28,6 +28,7 @@ export const useStore = defineStore({
     filters: {},
     weaponRequirements: { ...weaponRequirements },
     masteryRequirements: { ...masteryRequirements },
+    stormenderRequirements: {...stormenderRequirements},
     weapons: [],
     callingCards: {},
     preferences: { ...defaultPreferences },

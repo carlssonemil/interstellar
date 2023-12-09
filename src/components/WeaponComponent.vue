@@ -126,7 +126,7 @@ export default {
   },
 
   computed: {
-    ...mapState(useStore, ['weaponRequirements', 'masteryRequirements', 'preferences']),
+    ...mapState(useStore, ['weaponRequirements', 'masteryRequirements', 'preferences', 'stormenderRequirements']),
 
     layout() {
       return this.preferences.layout
@@ -173,7 +173,11 @@ export default {
       let requirement = 'TBA'
 
       if (this.progressKey === 'mastery') {
-        requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
+        if (weapon.name == "Stormender") {
+          requirement = this.translateChallenge(this.stormenderRequirements[camouflage], true)
+        } else {
+          requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
+        }
       } else {
         requirement = this.weaponRequirements[weapon.name][camouflage]
 
@@ -197,7 +201,11 @@ export default {
       let requirement = 'TBA'
 
       if (this.progressKey === 'mastery') {
-        requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
+        if (weapon.name == "Stormender") {
+          requirement = this.translateChallenge(this.stormenderRequirements[camouflage], true)
+        } else {
+          requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
+        }
       } else {
         requirement = this.weaponRequirements[weapon.name][camouflage]
 
@@ -221,7 +229,7 @@ export default {
       const { amount, type, seconds, times, camouflage } = challenge
 
       if (mastery) {
-        return this.$t('challenges.mastery', { amount, camouflage })
+        return this.$t(`challenges.mastery.${type}`, { amount, camouflage })
       }
 
       if (type === 'time_limit') {

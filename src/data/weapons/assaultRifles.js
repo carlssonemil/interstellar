@@ -9,7 +9,7 @@ const weapons = [
   { name: 'MTZ-556' },
   { name: 'Holger 556' },
   { name: 'MCW' },
-  { name: 'DG-58' },
+  { name: 'DG-56' },
   { name: 'FR 5.56' },
 ]
 

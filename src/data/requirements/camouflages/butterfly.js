@@ -18,7 +18,7 @@ export default {
   },
 
   'Oakleaf': {
-    weapon: 'DG-58',
+    weapon: 'DG-56',
     level: '25',
     challenge: {
       amount: 25,
@@ -72,7 +72,7 @@ export default {
   },
 
   'Petrified': {
-    weapon: 'DG-58',
+    weapon: 'DG-56',
     level: '25',
     challenge: {
       amount: 200,

@@ -36,7 +36,7 @@ export default {
   },
 
   'Twilight Glitch': {
-    weapon: 'DG-58',
+    weapon: 'DG-56',
     level: '17',
     challenge: {
       amount: 15,
@@ -108,7 +108,7 @@ export default {
   },
 
   'Hallowed Glitch': {
-    weapon: 'DG-58',
+    weapon: 'DG-56',
     level: '17',
     challenge: {
       amount: 100,

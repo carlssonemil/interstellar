@@ -1,10 +1,10 @@
 <template>
   <div v-if="schematic.name && layout !== 'list'"
        :class="['schematic', 'grid', schematic.rarity, { label, 'coming-soon': schematic.comingSoon, 'unlocked' : completed }]"
-       v-tippy="{ content: this.schematicRequirements[schematic.name] + '. ' + schematic.cooldown + ' cooldown.', placement: 'bottom' }"
+       v-tippy="{ content: `${this.schematicRequirements[schematic.name]}. ${schematic.cooldown} cooldown.`, placement: 'bottom' }"
        @click="toggleSchematicAcquired(schematic.name, schematic.acquired)">
     <div class="icon"
-         :style="{ backgroundImage: 'url(https://emilcarlsson.se/interstellar/schematics/' + convertToKebabCase(schematic.name) + '.png)' }"></div>
+         :style="{ backgroundImage: `url(https://emilcarlsson.se/interstellar/schematics/${convertToKebabCase(schematic.name)}.png)` }"></div>
     <div class="label">{{ schematic.name }}</div>
 
     <IconComponent v-if="schematic.acquired" class="lockStatus" name="unlock" />

@@ -9,27 +9,9 @@ const schematics = [
         cooldown: '3 hour'
     },
     {
-        name: 'Speed Cola Can',
-        rarity: 'epic',
-        description: 'Reload and replate amor faster.',
-        cooldown: '3 hour'
-    },
-    {
         name: 'Death Perception Can',
         rarity: 'epic',
         description: 'Obscured enemies, chests, resources, and item drops are keylined.',
-        cooldown: '3 hour'
-    },
-    {
-        name: 'Elemental Pop Can',
-        rarity: 'epic',
-        description: 'Every bullet you fire has a small chance to apply a random Ammo Mod effect.',
-        cooldown: '3 hour'
-    },
-    {
-        name: 'Jugger-Nog Can',
-        rarity: 'epic',
-        description: 'Increases max health.',
         cooldown: '3 hour'
     },
     {
@@ -45,9 +27,27 @@ const schematics = [
         cooldown: '3 hour'
     },
     {
+        name: 'Speed Cola Can',
+        rarity: 'epic',
+        description: 'Reload and replate amor faster.',
+        cooldown: '3 hour'
+    },
+    {
         name: 'Stamin-Up Can',
         rarity: 'epic',
         description: 'Increase run and sprint speed.',
+        cooldown: '3 hour'
+    },
+    {
+        name: 'Elemental Pop Can',
+        rarity: 'epic',
+        description: 'Every bullet you fire has a small chance to apply a random Ammo Mod effect.',
+        cooldown: '3 hour'
+    },
+    {
+        name: 'Jugger-Nog Can',
+        rarity: 'epic',
+        description: 'Increases max health.',
         cooldown: '3 hour'
     },
     {

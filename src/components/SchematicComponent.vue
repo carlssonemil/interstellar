@@ -6,7 +6,9 @@
     <div class="icon"
          :style="{ backgroundImage: 'url(https://emilcarlsson.se/interstellar/schematics/' + convertToKebabCase(schematic.name) + '.png)' }"></div>
     <div class="label">{{ schematic.name }}</div>
-    <div :class="['lockStatus', {'unlocked' : schematic.acquired}]"></div>
+
+    <IconComponent v-if="schematic.acquired" class="lockStatus" name="unlock" />
+    <IconComponent v-else class="lockStatus" name="lock" />
   </div>
 
   <div v-else-if="schematic.name && layout === 'list'"
@@ -14,7 +16,9 @@
        @click="toggleSchematicAcquired(schematic.name, schematic.acquired)">
     <div class="image-container">
       <img :src="'https://emilcarlsson.se/interstellar/schematics/' + convertToKebabCase(schematic.name) + '.png'" :alt="schematic.name"/>
-      <div :class="['lockStatus', {'unlocked' : schematic.acquired}]"></div>
+
+      <IconComponent v-if="schematic.acquired === true" class="lockStatus" name="unlock" />
+      <IconComponent v-else class="lockStatus" name="lock" />
     </div>
     <div class="details">
       <h2>{{ schematic.name }}</h2>
@@ -103,22 +107,12 @@ export default {
   .lockStatus {
     position: absolute;
     top: 0;
-    right: 16px;
-    width: 24px;
-    height: 24px;
+    right: 20px;
+    width: 16px;
+    height: 16px;
     padding: 1ch;
     color: rgba(255, 255, 255, .6);
     filter: saturate(0);
-
-    &:before {
-      content: '🔒';
-    }
-
-    &.unlocked {
-      &:before {
-        content: '🔓';
-      }
-    }
   }
 
   .icon {
@@ -221,24 +215,14 @@ export default {
 
   .lockStatus {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 64px;
-    height: 64px;
+    top: 4px;
+    left: 4px;
+    width: 42px;
+    height: 42px;
     padding: 1ch;
     color: rgba(0, 0, 0, 1);
     filter: saturate(0);
     font-size: 24px;
-
-    &:before {
-      content: '🔒';
-    }
-
-    &.unlocked {
-      &:before {
-        content: '🔓';
-      }
-    }
   }
 }
 </style>

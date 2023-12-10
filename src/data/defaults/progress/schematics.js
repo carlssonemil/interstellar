@@ -2,8 +2,10 @@ export default {
     'Uncommon Aether Tool': false,
     'Rare Aether Tool': false,
     'Epic Aether Tool': false,
+    'Legendary Aether Tool': false,
     'Raw Aetherium Crystal': false,
     'Refined Aetherium Crystal': false,
+    'Flawless Aetherium Crystal': false,
     'Deadshot Daiquiri Can': false,
     'Speed Cola Can': false,
     'Death Perception Can': false,
@@ -19,5 +21,9 @@ export default {
     'Cryo Freeze Ammo Mod': false,
     'Dead Wire Ammo Mod': false,
     'Ray Gun': false,
-    'Wunderwaffe DG-2': false
+    'Wunderwaffe DG-2': false,
+    'V-R11': false,
+    'Aether Blade Case': false,
+    'Dog Bone': false,
+    'Golden Armor Plate': false,
 }

@@ -9,6 +9,12 @@ const schematics = [
         cooldown: '48 hour'
     },
     {
+        name: 'The Scorcher',
+        rarity: 'ultra',
+        description: 'Scorcher Weapon Case that can be opened to equip the Scorcher Wonder Weapon.',
+        cooldown: '48 hour'
+    },
+    {
         name: 'Wunderwaffe DG-2',
         rarity: 'ultra',
         description: 'Wunderwaffe DG-2 Weapon Case that can be opened to equip the Wunderwaffe DG-2 Wonder Weapon.',

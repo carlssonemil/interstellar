@@ -2,8 +2,10 @@ export default {
     'Uncommon Aether Tool': "Act 1 Tier 5 Mission",
     'Rare Aether Tool': "Act 2 Tier 5 Mission",
     'Epic Aether Tool': "Contracts in High Threat Zone",
+    'Legendary Aether Tool': "???",
     'Raw Aetherium Crystal': "Contracts in Medium Threat Zone",
     'Refined Aetherium Crystal': "Contracts in High Threat Zone",
+    'Flawless Aetherium Crystal': "???",
     'Deadshot Daiquiri Can': "Contracts in Low Threat Zone",
     'Speed Cola Can': "Contracts in Low Threat Zone",
     'Death Perception Can': "Act 3 Tier 1 Mission",
@@ -19,5 +21,9 @@ export default {
     'Cryo Freeze Ammo Mod': "Act 2 Tier 2 Mission",
     'Dead Wire Ammo Mod': "Contracts in Medium Threat Zone",
     'Ray Gun': "Contracts in High Threat Zone",
-    'Wunderwaffe DG-2': "Contracts in High Threat Zone"
+    'Wunderwaffe DG-2': "Contracts in High Threat Zone",
+    'V-R11': "Dark Aether Rift",
+    'Aether Blade Case': "Dark Aether Rift",
+    'Dog Bone': "Dark Aether Rift",
+    'Golden Armor Plate': "Dark Aether Rift",
 }

@@ -36,7 +36,7 @@ export default {
   },
 
   'Heat Map': {
-    weapon: 'DG-58',
+    weapon: 'DG-56',
     level: '2',
     challenge: {
       amount: 50,
@@ -108,7 +108,7 @@ export default {
   },
 
   'Typhoon': {
-    weapon: 'DG-58',
+    weapon: 'DG-56',
     level: '2',
     challenge: {
       amount: 250,

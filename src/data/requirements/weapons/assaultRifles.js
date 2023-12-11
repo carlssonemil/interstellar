@@ -228,7 +228,7 @@ export default {
     },
   },
 
-  'DG-58': {
+  'DG-56': {
     // Multiplayer
     'Heat Map': requirements['Heat Map'],
     'Creeplines': requirements['Creeplines'],

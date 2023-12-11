@@ -1,6 +1,6 @@
 export default {
   'Creeplines': {
-    weapon: 'DG-58',
+    weapon: 'DG-56',
     level: '11',
     challenge: {
       amount: 50,
@@ -109,7 +109,7 @@ export default {
   },
 
   'Hysteria': {
-    weapon: 'DG-58',
+    weapon: 'DG-56',
     level: '11',
     challenge: {
       amount: 10,

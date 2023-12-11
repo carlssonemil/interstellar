@@ -79,7 +79,7 @@ export default {
     },
   },
 
-  'DG-58': {
+  'DG-56': {
     multiplayer: {
       'Heat Map': false,
       'Creeplines': false,

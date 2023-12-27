@@ -1,23 +1,46 @@
 export const masteryRequirements = {
-  Gilded: {
+  // Multiplayer
+  'Gilded': {
     amount: 100,
     type: 'kills',
     camouflage: 'Gilded',
   },
-  Forged: {
+  'Forged': {
     amount: 200,
     type: 'kills',
     camouflage: 'Forged',
   },
-  Priceless: {
+  'Priceless': {
     amount: 300,
     type: 'kills',
     camouflage: 'Priceless',
   },
-  Interstellar: {
+  'Interstellar': {
     amount: 400,
     type: 'kills',
     camouflage: 'Interstellar',
+  },
+
+  // Zombies
+  'Golden Enigma': {
+    amount: 300,
+    type: 'kills',
+    camouflage: 'Golden Enigma',
+  },
+  'Zircon Scale': {
+    amount: 600,
+    type: 'kills',
+    camouflage: 'Zircon Scale',
+  },
+  'Serpentinite': {
+    amount: 900,
+    type: 'kills',
+    camouflage: 'Serpentinite',
+  },
+  'Borealis': {
+    amount: 1200,
+    type: 'kills',
+    camouflage: 'Borealis',
   },
 }
 

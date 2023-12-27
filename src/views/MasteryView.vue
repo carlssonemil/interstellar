@@ -98,26 +98,6 @@ export default {
           type: 'select',
           options: this.weaponCategories,
         },
-        {
-          label: this.$t('filters.hide_gilded'),
-          key: 'hideGilded',
-          type: 'checkbox',
-        },
-        {
-          label: this.$t('filters.hide_forged'),
-          key: 'hideForged',
-          type: 'checkbox',
-        },
-        {
-          label: this.$t('filters.hide_priceless'),
-          key: 'hidePriceless',
-          type: 'checkbox',
-        },
-        {
-          label: this.$t('filters.hide_interstellar'),
-          key: 'hideInterstellar',
-          type: 'checkbox',
-        },
       ]
     },
 

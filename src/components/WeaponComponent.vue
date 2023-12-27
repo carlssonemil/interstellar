@@ -34,7 +34,11 @@
             layout === 'list' ? 'repeat(' + Object.keys(camouflages).length + ', 1fr)' : ''
           }`,
           'grid-template-columns': `${
-            layout === 'grid' ? 'repeat(' + Object.keys(camouflages).length + ', 1fr)' : ''
+            layout === 'grid'
+              ? 'repeat(' +
+                (progressKey === 'mastery' ? 4 : Object.keys(camouflages).length) +
+                ', 1fr)'
+              : ''
           }`,
         }">
         <div
@@ -126,7 +130,12 @@ export default {
   },
 
   computed: {
-    ...mapState(useStore, ['weaponRequirements', 'masteryRequirements', 'preferences', 'stormenderRequirements']),
+    ...mapState(useStore, [
+      'weaponRequirements',
+      'masteryRequirements',
+      'preferences',
+      'stormenderRequirements',
+    ]),
 
     layout() {
       return this.preferences.layout
@@ -173,7 +182,7 @@ export default {
       let requirement = 'TBA'
 
       if (this.progressKey === 'mastery') {
-        if (weapon.name == "Stormender") {
+        if (weapon.name == 'Stormender') {
           requirement = this.translateChallenge(this.stormenderRequirements[camouflage], true)
         } else {
           requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)
@@ -201,7 +210,7 @@ export default {
       let requirement = 'TBA'
 
       if (this.progressKey === 'mastery') {
-        if (weapon.name == "Stormender") {
+        if (weapon.name == 'Stormender') {
           requirement = this.translateChallenge(this.stormenderRequirements[camouflage], true)
         } else {
           requirement = this.translateChallenge(this.masteryRequirements[camouflage], true)

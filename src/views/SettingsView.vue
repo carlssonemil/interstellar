@@ -3,7 +3,7 @@
     <div class="setting">
       <h3>{{ $t('pages.settings.export.title') }}</h3>
       <p class="subtitle">{{ $t('pages.settings.export.description') }}</p>
-      <textarea v-model="weaponsJson" />
+      <textarea v-model="exportJson" />
       <div class="actions">
         <button @click="copyCodeToClipboard($event)">
           <IconComponent name="clipboard" color="black" size="18" />
@@ -92,15 +92,18 @@ export default {
   },
 
   computed: {
-    ...mapState(useStore, ['weapons']),
+    ...mapState(useStore, ['callingCards', 'weapons']),
 
-    weaponsJson() {
-      return JSON.stringify([...this.weapons])
+    exportJson() {
+      return JSON.stringify({
+        weapons: [...this.weapons],
+        callingCards: { ...this.callingCards },
+      })
     },
   },
 
   methods: {
-    ...mapActions(useStore, ['setWeapons', 'storeProgress', 'resetProgress']),
+    ...mapActions(useStore, ['setWeapons', 'setCallingCards', 'storeProgress', 'resetProgress']),
 
     confirmReset() {
       this.resetProgress()
@@ -111,7 +114,7 @@ export default {
       const button = e.target
       const buttonText = button.childNodes[1]
 
-      copyToClipboard(this.weaponsJson, () => {
+      copyToClipboard(this.exportJson, () => {
         button.style.backgroundColor = '#10ac84'
         button.style.width = `${button.scrollWidth}px`
         buttonText.innerHTML = 'Code Copied!'
@@ -125,14 +128,19 @@ export default {
     },
 
     exportProgressAsFile() {
-      downloadJsonFile(this.weaponsJson)
+      downloadJsonFile(this.exportJson)
     },
 
     async importProgressFromCode() {
       if (this.importJsonCode) {
         try {
           const parsedJson = JSON.parse(this.importJsonCode)
-          await this.setWeapons(parsedJson)
+
+          const { weapons, callingCards } = parsedJson
+
+          await this.setWeapons(weapons)
+          await this.setCallingCards(callingCards)
+
           await this.storeProgress()
           this.$notify({
             type: 'success',
@@ -167,7 +175,11 @@ export default {
             setTimeout(async () => {
               const store = useStore()
               try {
-                await store.setWeapons(JSON.parse(e.target.result))
+                const { callingCards, weapons } = JSON.parse(e.target.result)
+
+                await store.setWeapons(weapons)
+                await store.setCallingCards(callingCards)
+
                 await store.storeProgress()
                 this.uploading = false
                 event.target.value = null

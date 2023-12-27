@@ -12,6 +12,11 @@
     <div>
       <router-link to="/about">{{ $t('general.about') }}</router-link>
       <router-link to="/requirements">{{ $tc('general.requirement') }}</router-link>
+      <a
+        href="https://github.com/carlssonemil/interstellar/issues/new?title=[Bug]%20"
+        target="_blank">
+        Report an issue
+      </a>
       <a href="https://github.com/carlssonemil/interstellar" v-tippy="{ content: 'GitHub' }">
         <IconComponent name="github" />
       </a>

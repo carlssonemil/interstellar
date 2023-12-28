@@ -149,7 +149,7 @@ nav.mobile {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	padding: 30px 5% 100px;
+	padding: 30px 5% 50px;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
@@ -175,15 +175,12 @@ nav.mobile {
 
 		a {
 			font-size: 18px;
+			margin-bottom: 15px;
 			opacity: 1;
 			text-decoration: none;
 
-			+ a {
-				margin-top: 20px;
-			}
-
 			&.coming-soon {
-				margin-bottom: 15px;
+				margin-bottom: 25px;
 
 				&::after {
 					left: 0;

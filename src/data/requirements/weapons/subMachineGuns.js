@@ -266,4 +266,48 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'HRM-9': {
+    // Multiplayer
+    'Big Grins': requirements['Big Grins'],
+    'Lavender Sands': requirements['Lavender Sands'],
+    'Ocean Waves': requirements['Ocean Waves'],
+    'Overlayered': requirements['Overlayered'],
+
+    // Zombies
+    'Ceaseless Agony': requirements['Ceaseless Agony'],
+    'Crimson Sands': requirements['Crimson Sands'],
+    'Burning Blur': requirements['Burning Blur'],
+    'Empty Screams': requirements['Empty Screams'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'kills_without_damaged',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'kills_shortly_after_sprinting_ads',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'kills_while_hipfire_and_sliding',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

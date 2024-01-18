@@ -216,4 +216,22 @@ export default {
       type: 'mangler_kills',
     },
   },
+
+  'Broken Signal': {
+    weapon: 'TAQ Evolvere',
+    level: '19',
+    challenge: {
+      amount: 10,
+      type: 'double_kills',
+    },
+  },
+
+  'Fluctuation': {
+    weapon: 'TAQ Evolvere',
+    level: '19',
+    challenge: {
+      amount: 10,
+      type: 'kills_without_reloading',
+    },
+  },
 }

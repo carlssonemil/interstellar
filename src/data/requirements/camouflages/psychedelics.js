@@ -34,4 +34,22 @@ export default {
       type: 'kills',
     },
   },
+
+  'Psychedelic Pop': {
+    weapon: 'TAQ Evolvere',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Psychedelic Toxins': {
+    weapon: 'TAQ Evolvere',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

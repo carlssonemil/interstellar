@@ -20,7 +20,7 @@ const zombies = [
   'Ruination',
   'Thanatos',
   'Vehement Rage',
-  'Harbinger'
+  'Harbinger',
   'Ceaseless Agony',
 ]
 

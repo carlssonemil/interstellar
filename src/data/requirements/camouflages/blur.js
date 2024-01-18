@@ -123,7 +123,7 @@ export default {
       amount: 100,
       type: 'kills_shortly_after_field_upgrade'
     }
-  }
+  },
 
   'Ocean Waves': {
     weapon: 'HRM-9',

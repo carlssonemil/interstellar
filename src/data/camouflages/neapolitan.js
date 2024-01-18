@@ -6,6 +6,7 @@ const multiplayer = [
   'Palette Neapolitan',
   'Palette Rosemary',
   'Palette Sands',
+  'Palette Storm',
   'Palette Sunrise',
   'Palette Tropics',
   'Palette Twilight',
@@ -21,6 +22,7 @@ const zombies = [
   'Palette Infected',
   'Palette Rage',
   'Palette Scorched',
+  'Palette Shade',
   'Palette Sickly',
 ]
 

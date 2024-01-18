@@ -229,4 +229,51 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'TAQ Evolvere': {
+    // Multiplayer
+    'Psychedelic Pop': requirements['Psychedelic Pop'],
+    'Palette Storm': requirements['Palette Storm'],
+    'Swift Brush': requirements['Palette Sands'],
+    'Broken Signal': requirements['Broken Signal'],
+
+    // Zombies
+    'Psychedelic Toxins': requirements['Psychedelic Toxins'],
+    'Palette Shade': requirements['Palette Shade'],
+    'Mummified Brush': requirements['Mummified Brush'],
+    'Fluctuation': requirements['Fluctuation'],
+
+    'Gilded': {
+      amount: 2,
+      times: 10,
+      type: 'kills_without_releasing_trigger',
+    },
+
+    'Forged': {
+      amount: 3,
+      times: 10,
+      type: 'kills_without_dying',
+    },
+
+    'Priceless': {
+      amount: 5,
+      times: 5,
+      type: 'kills_without_dying',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

@@ -182,4 +182,22 @@ export default {
       type: 'kills_without_reloading',
     },
   },
+
+  'Palette Shade': {
+    weapon: 'TAQ Evolvere',
+    level: '8',
+    challenge: {
+      amount: 10,
+      type: 'consecutive_kills_without_taking_damage',
+    },
+  },
+
+  'Palette Storm': {
+    weapon: 'TAQ Evolvere',
+    level: '8',
+    challenge: {
+      amount: 10,
+      type: 'penetration_kills',
+    },
+  },
 }

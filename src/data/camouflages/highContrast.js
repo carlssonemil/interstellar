@@ -1,6 +1,7 @@
 const multiplayer = [
   'B&W Fuzz',
   'B&W Re-Fuzz',
+  'Broken Signal',
   'Blue Satin',
   'Dark Vision',
   'Light Vision',
@@ -18,6 +19,7 @@ const zombies = [
   'Blurred Myopia',
   'Dazed',
   'Green Satin',
+  'Fluctuation',
   'Inkblot',
   'Orange Satin',
   'Ripped',

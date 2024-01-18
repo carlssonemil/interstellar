@@ -71,4 +71,24 @@ export default {
       type: 'kills_shortly_after_field_upgrade',
     },
   },
+
+  'Mummified Brush': {
+    weapon: 'TAQ Evolvere',
+    level: '13',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_fire_damage',
+    },
+  },
+
+  'Swift Brush': {
+    weapon: 'TAQ Evolvere',
+    level: '13',
+    challenge: {
+      amount: 10,
+      type: 'kills_with_full_attachments',
+    },
+  },
+
+
 }

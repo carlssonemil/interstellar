@@ -78,4 +78,20 @@ export default {
       'Mysterious': false,
     },
   },
+
+  'TAQ Evolvere': {
+    multiplayer: {
+      'Psychedelic Pop': false,
+      'Palette Storm': false,
+      'Swift Brush': false,
+      'Broken Signal': false,
+    },
+
+    zombies: {
+      'Psychedelic Toxins': false,
+      'Palette Shade': false,
+      'Mummified Brush': false,
+      'Fluctuation': false,
+    },
+  },
 }

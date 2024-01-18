@@ -132,7 +132,7 @@ export default {
       amount: 100,
       type: 'kills_while_crouching_or_sliding',
     }
-  }
+  },
 
   'Burning Blur': {
     weapon: 'HRM-9',

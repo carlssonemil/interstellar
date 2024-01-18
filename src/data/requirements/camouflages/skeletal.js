@@ -164,4 +164,22 @@ export default {
       type: 'kills_at_rare_or_higher_rarity',
     },
   },
+
+  'Big Grins': {
+    weapon: 'HRM-9',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Ceaseless Agony': {
+    weapon: 'HRM-9',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

@@ -218,4 +218,23 @@ export default {
       type: 'kills_at_rare_or_higher_rarity',
     },
   },
+
+  'Overlayered': {
+    weapon: 'HRM-9',
+    level: '18',
+    challenge: {
+      amount: 10,
+      type: 'kills_while_enemy_affected_by_tactical',
+    },
+  },
+
+  'Empty Screams': {
+    weapon: 'HRM-9',
+    level: '18',
+    challenge: {
+      amount: 10,
+      times: 5,
+      type: 'time_limit_kills',
+    },
+  },
 }

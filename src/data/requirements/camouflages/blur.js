@@ -124,4 +124,22 @@ export default {
       type: 'kills_shortly_after_field_upgrade'
     }
   }
+
+  'Ocean Waves': {
+    weapon: 'HRM-9',
+    level: '12',
+    challenge: {
+      amount: 100,
+      type: 'kills_while_crouching_or_sliding',
+    }
+  }
+
+  'Burning Blur': {
+    weapon: 'HRM-9',
+    level: '12',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_frost_damage',
+    }
+  }
 }

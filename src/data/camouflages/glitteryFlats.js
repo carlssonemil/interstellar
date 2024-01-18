@@ -10,6 +10,7 @@ const multiplayer = [
   'Sea Green Sands',
   'Yellow Sands',
   'Brown Sands',
+  'Lavender Sands',
 ]
 
 const zombies = [
@@ -23,6 +24,7 @@ const zombies = [
   'Midnight Sands',
   'Toxic Sands',
   'Decayed Sands',
+  'Crimson Sands',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

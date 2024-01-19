@@ -197,4 +197,22 @@ export default {
       type: 'hipfire_kills',
     },
   },
+
+  'Lavender Sands': {
+    weapon: 'HRM-9',
+    level: '8',
+    challenge: {
+      amount: 25,
+      type: 'hipfire_kills',
+    },
+  },
+
+  'Crimson Sands': {
+    weapon: 'HRM-9',
+    level: '8',
+    challenge: {
+      amount: 50,
+      type: 'mercenary_kills',
+    },
+  },
 }

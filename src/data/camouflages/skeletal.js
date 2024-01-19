@@ -8,6 +8,7 @@ const multiplayer = [
   'Skullflagration',
   'Skullish',
   'Skull Jumble',
+  'Big Grins',
 ]
 
 const zombies = [
@@ -19,7 +20,8 @@ const zombies = [
   'Ruination',
   'Thanatos',
   'Vehement Rage',
-  'Harbinger'
+  'Harbinger',
+  'Ceaseless Agony',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

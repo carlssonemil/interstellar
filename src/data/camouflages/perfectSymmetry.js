@@ -11,6 +11,7 @@ const multiplayer = [
   'Pabels',
   'Pyramidical',
   'Upward Reverb',
+  'Overlayered',
 ]
 
 const zombies = [

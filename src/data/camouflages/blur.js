@@ -6,6 +6,7 @@ const multiplayer = [
   'Pyro Filaments',
   'Solar Flare',
   'Sunset Blur',
+  'Ocean Waves',
 ]
 
 const zombies = [
@@ -16,6 +17,7 @@ const zombies = [
   'Mist Filaments',
   'Moss Filaments',
   'Greed Blur',
+  'Burning Blur',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

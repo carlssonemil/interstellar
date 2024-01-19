@@ -94,4 +94,20 @@ export default {
       'Illusions': false,
     },
   },
+
+  'HRM-9': {
+    multiplayer: {
+      'Big Grins': false,
+      'Lavender Sands': false,
+      'Ocean Waves': false,
+      'Overlayered': false,
+    },
+
+    zombies: {
+      'Ceaseless Agony': false,
+      'Crimson Sands': false,
+      'Burning Blur': false,
+      'Empty Screams': false,
+    },
+  },
 }

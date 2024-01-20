@@ -129,7 +129,7 @@ export default {
     weapon: 'HRM-9',
     level: '12',
     challenge: {
-      amount: 100,
+      amount: 10,
       type: 'kills_while_crouching_or_sliding',
     }
   },

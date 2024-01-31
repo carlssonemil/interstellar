@@ -250,15 +250,13 @@ export default {
     },
 
     'Forged': {
-      amount: 3,
       times: 10,
-      type: 'kills_without_dying',
+      type: 'mounted_headshots',
     },
 
     'Priceless': {
-      amount: 5,
-      times: 5,
-      type: 'kills_without_dying',
+      times: 10,
+      type: 'double_kills_with_full_attachments',
     },
 
     'Golden Enigma': {

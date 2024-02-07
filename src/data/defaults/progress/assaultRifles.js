@@ -110,4 +110,20 @@ export default {
       'Anomaly': false,
     },
   },
+
+  'BP50': {
+    multiplayer: {
+      'Ice Cave': false,
+      'Coiled': false,
+      'Fairway': false,
+      'Firmicutes': false,
+    },
+
+    zombies: {
+      'Dissolver': false,
+      'Shadow Sting': false,
+      'Palette Diffusion': false,
+      'Microbial': false,
+    },
+  },
 }

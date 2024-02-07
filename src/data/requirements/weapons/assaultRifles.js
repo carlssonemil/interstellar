@@ -317,4 +317,49 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'BP50': {
+    // Multiplayer
+    'Ice Cave': requirements['Ice Cave'],
+    'Coiled': requirements['Coiled'],
+    'Fairway': requirements['Fairway'],
+    'Firmicutes': requirements['Firmicutes'],
+
+    // Zombies
+    'Dissolver': requirements['Dissolver'],
+    'Shadow Sting': requirements['Shadow Sting'],
+    'Palette Diffusion': requirements['Palette Diffusion'],
+    'Microbial': requirements['Microbial'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'kills_while_ads_and_strafing',
+    },
+
+    'Forged': {
+      amount: 3,
+      times: 15,
+      type: 'kills_with_one_mag',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'double_kills_while_in_tac_stance',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

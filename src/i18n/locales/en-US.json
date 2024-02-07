@@ -602,8 +602,8 @@
       "suppressed_headshots": "{amount} suppressed headshots",
       "suppressor_kills": "{amount} kills using a suppressor",
       "time_limit_kills": "{amount} kills within {seconds} seconds of each other {times} times",
-      "unknown": "Unknown {amount}",
-      "midair_kills": "{amount} kills while midair (jumping)"
+      "midair_kills": "{amount} kills while midair (jumping)",
+      "unknown": "Unknown {amount}"
     }
   },
   "camouflage_categories": {

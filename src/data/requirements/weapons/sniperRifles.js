@@ -109,7 +109,7 @@ export default {
 
     'Forged': {
       amount: 25,
-      type: 'kills_while_ads_and_fully_loaded',
+      type: 'kills_while_ads_and_full_attachments',
     },
 
     'Priceless': {

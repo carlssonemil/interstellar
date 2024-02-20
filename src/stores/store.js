@@ -28,7 +28,7 @@ export const useStore = defineStore({
     filters: {},
     weaponRequirements: { ...weaponRequirements },
     masteryRequirements: { ...masteryRequirements },
-    stormenderRequirements: {...stormenderRequirements},
+    stormenderRequirements: { ...stormenderRequirements },
     weapons: [],
     callingCards: {},
     preferences: { ...defaultPreferences },
@@ -146,13 +146,15 @@ export const useStore = defineStore({
     },
 
     storeProgress() {
+      if (this.beganGrind === null) this.beganGrind = new Date()
+
       localStorage.setItem(
         token,
         JSON.stringify({
           weapons: this.weapons,
           callingCards: this.callingCards,
           filters: this.filters,
-          beganGrind: this.beganGrind || new Date(),
+          beganGrind: this.beganGrind,
           favorites: this.favorites,
           preferences: this.preferences,
         })

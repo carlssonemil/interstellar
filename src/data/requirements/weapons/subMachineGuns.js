@@ -310,4 +310,48 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'RAM-9': {
+    // Multiplayer
+    'Scoured': requirements['Scoured'],
+    'Gradient Globs': requirements['Gradient Globs'],
+    'null': requirements['null'],
+    'Occult': requirements['Occult'],
+
+    // Zombies
+    'Sonic Glitch': requirements['Sonic Glitch'],
+    'Biomass': requirements['Biomass'],
+    'Putrid Locust': requirements['Putrid Locust'],
+    'Mystic Wither': requirements['Mystic Wither'],
+
+    'Gilded': {
+      amount: 15,
+      type: 'kills_while_in_tac_stance',
+    },
+
+    'Forged': {
+      amount: 15,
+      type: 'quickscope_kills',
+    },
+
+    'Priceless': {
+      amount: 10,
+      type: 'midair_kills',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

@@ -110,4 +110,20 @@ export default {
       'Empty Screams': false,
     },
   },
+
+  'RAM-9': {
+    multiplayer: {
+      'Scoured': false,
+      'Gradient Globs': false,
+      'null': false,
+      'Occult': false,
+    },
+
+    zombies: {
+      'Sonic Glitch': false,
+      'Biomass': false,
+      'Putrid Locust': false,
+      'Mystic Wither': false,
+    },
+  },
 }

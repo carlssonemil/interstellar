@@ -202,7 +202,7 @@ export default {
   },
 
   'Fairway': {
-    weapon: 'BP-50',
+    weapon: 'BP50',
     level: '14',
     challenge: {
       amount: 15,
@@ -211,7 +211,7 @@ export default {
   },
 
   'Palette Diffusion': {
-    weapon: 'BP-50',
+    weapon: 'BP50',
     level: '14',
     challenge: {
       amount: 250,

@@ -200,7 +200,7 @@ export default {
   },
 
   'Firmicutes': {
-    weapon: 'BP-50',
+    weapon: 'BP50',
     level: '20',
     challenge: {
       amount: 25,
@@ -209,7 +209,7 @@ export default {
   },
 
   'Microbial': {
-    weapon: 'BP-50',
+    weapon: 'BP50',
     level: '20',
     challenge: {
       amount: 50,

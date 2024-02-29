@@ -217,7 +217,7 @@ export default {
   },
 
   'Ice Cave': {
-    weapon: 'BP-50',
+    weapon: 'BP50',
     level: '2',
     challenge: {
       amount: 50,
@@ -226,7 +226,7 @@ export default {
   },
 
   'Dissolver': {
-    weapon: 'BP-50',
+    weapon: 'BP50',
     level: '2',
     challenge: {
       amount: 250,

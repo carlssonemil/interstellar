@@ -1,6 +1,6 @@
 export default {
   Coiled: {
-    weapon: 'BP-50',
+    weapon: 'BP50',
     level: '9',
     challenge: {
       amount: 50,
@@ -9,7 +9,7 @@ export default {
   },
 
   'Shadow Sting': {
-    weapon: 'BP-50',
+    weapon: 'BP50',
     level: '9',
     challenge: {
       amount: 250,

@@ -107,4 +107,22 @@ export default {
       type: 'kills_with_full_attachments',
     },
   },
+
+  'Imago': {
+    weapon: 'RAM-9',
+    level: '16',
+    challenge: {
+      amount: 10,
+      type: 'kills_while_crouching_or_sliding',
+    },
+  },
+
+  'Putrid Locust': {
+    weapon: 'RAM-9',
+    level: '16',
+    challenge: {
+      amount: 100,
+      type: 'kills_shortly_after_field_upgrade',
+    },
+  },
 }

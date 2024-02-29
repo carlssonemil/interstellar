@@ -197,5 +197,23 @@ export default {
       amount: 200,
       type: 'critical_kills'
     }
-  }
+  },
+
+  'Firmicutes': {
+    weapon: 'BP50',
+    level: '20',
+    challenge: {
+      amount: 25,
+      type: 'kills_while_in_tac_stance'
+    }
+  },
+
+  'Microbial': {
+    weapon: 'BP50',
+    level: '20',
+    challenge: {
+      amount: 50,
+      type: 'mercenary_kills'
+    }
+  },
 }

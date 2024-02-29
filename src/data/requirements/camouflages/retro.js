@@ -215,4 +215,22 @@ export default {
       type: 'kills_while_in_tac_stance',
     },
   },
+
+  'Ice Cave': {
+    weapon: 'BP50',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Dissolver': {
+    weapon: 'BP50',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

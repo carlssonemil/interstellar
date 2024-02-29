@@ -142,4 +142,22 @@ export default {
       type: 'kills_with_full_attachments',
     },
   },
+
+  'Scoured': {
+    weapon: 'RAM-9',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Sonic Glitch': {
+    weapon: 'RAM-9',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

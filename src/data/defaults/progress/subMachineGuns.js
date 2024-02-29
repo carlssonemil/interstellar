@@ -115,7 +115,7 @@ export default {
     multiplayer: {
       'Scoured': false,
       'Gradient Globs': false,
-      '?': false,
+      'Imago': false,
       'Occult': false,
     },
 

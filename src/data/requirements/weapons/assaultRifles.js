@@ -333,7 +333,7 @@ export default {
 
     'Gilded': {
       amount: 10,
-      type: 'kills_while_ads_and_strafing',
+      type: 'kills_while_strafing',
     },
 
     'Forged': {

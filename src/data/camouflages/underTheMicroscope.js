@@ -10,6 +10,7 @@ const multiplayer = [
   'Strain',
   'Viral Invasion',
   'Viral',
+  'Firmicutes',
 ]
 
 const zombies = [
@@ -23,6 +24,7 @@ const zombies = [
   'Pestilence',
   'Riddled',
   'Symptomatic',
+  'Microbial',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

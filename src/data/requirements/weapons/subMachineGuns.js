@@ -315,7 +315,7 @@ export default {
     // Multiplayer
     'Scoured': requirements['Scoured'],
     'Gradient Globs': requirements['Gradient Globs'],
-    '?': requirements['?'],
+    'Imago': requirements['Imago'],
     'Occult': requirements['Occult'],
 
     // Zombies

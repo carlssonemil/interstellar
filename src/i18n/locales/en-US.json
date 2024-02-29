@@ -580,6 +580,7 @@
       "kills_without_releasing_trigger": "{amount} kills without releasing the trigger {times} times",
       "kills_without_reloading": "{amount} kills without reloading {times} times",
       "kills": "{amount} kills",
+      "kills_while_strafing": "{amount} kills while strafing",
       "longshot_kills_while_mounted": "{amount} longshot kills while mounted",
       "longshot_kills": "{amount} longshot kills",
       "mangler_kills": "{amount} Mangler kills",

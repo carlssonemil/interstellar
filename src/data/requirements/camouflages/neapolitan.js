@@ -200,4 +200,22 @@ export default {
       type: 'penetration_kills',
     },
   },
+
+  'Fairway': {
+    weapon: 'BP-50',
+    level: '14',
+    challenge: {
+      amount: 15,
+      type: 'headshot_kills',
+    },
+  },
+
+  'Palette Diffusion': {
+    weapon: 'BP-50',
+    level: '14',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_frost_damage',
+    },
+  },
 }

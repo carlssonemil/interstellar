@@ -107,4 +107,22 @@ export default {
       type: 'hipfire_kills',
     },
   },
+
+  'Gradient Globs': {
+    weapon: 'RAM-9',
+    level: '10',
+    challenge: {
+      amount: 25,
+      type: 'hipfire_kills',
+    },
+  },
+
+  'Biomass': {
+    weapon: 'RAM-9',
+    level: '10',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_frost_damage',
+    },
+  },
 }

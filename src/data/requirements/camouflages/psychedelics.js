@@ -52,4 +52,22 @@ export default {
       type: 'kills',
     },
   },
+
+  'Occult': {
+    weapon: 'RAM-9',
+    level: '24',
+    challenge: {
+      amount: 10,
+      type: 'kills_while_enemy_affected_by_tactical',
+    },
+  },
+
+  'Mystic Wither': {
+    weapon: 'RAM-9',
+    level: '24',
+    challenge: {
+      amount: 10,
+      type: 'disciple_kills',
+    },
+  },
 }

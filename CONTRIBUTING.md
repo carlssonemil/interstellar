@@ -77,6 +77,25 @@ export default {
 
 We use the [flag-icons](https://flagicons.lipis.dev/) library by [lipis](https://github.com/lipis) for the flags, so make sure that your locale has a supported flag in the library.
 
+## Adding a new weapon
+
+Due to the dynamic data based nature of this project, there are several data files that must be edited for any new weapons to display correctly. Missing any of these files can cause parts of the app to break when it cannot find the data.
+
+> When adding a weapon please add the camo challenges for both multiplayer and zombies.
+
+1. Add the new weapon to `src/data/weapons/<weaponType>.js`. Follow the formatting of the other weapons in this file.
+2. Add the names of the new camos to `src/data/camouflages/<camoCategory>.js`. Make sure each new camo goes in the correct category. You may need to make a new file if a new weapon introduces a new category.
+3. Add the progression defaults to `src/data/defaults/progess/<weaponType>.js`. Follow the pattern used by all the other guns.
+4. Add the new camos for the weapon to `src/data/requirements/weapons/<weaponType>.js`. The unique camos will reference data in another file. Gilded, Forged etc can be defined directly in this file. Follow the pattern used by the other weapons.
+5. Add the requirements for the unique camos in the correct `src/data/requirements/camoufalges/<camoCategory>.js`. The category here is the same as the category used in step 2.
+6. Optional but preferred. Generate images for the camos [following the instruction below](https://github.com/carlssonemil/interstellar/blob/main/CONTRIBUTING.md#camouflage-images) and upload them to the `src/assets/camouflages/` folder ensuring the filenames follow the required format.
+
+> Note: the challenge text needed in steps 4 and 5 is provided via i18n. `src/i18n/locales/en-US.json` already has text for every existing challenge, and there is a high change you can find the text you need already defined in that file.
+>
+> If the exact wording is not available yet then create a new entry.
+>
+> Translations of that file into other languages is most welcome!
+
 ## Camouflage images
 
 If you want to help contribute some images for the camouflages, the process is the same as described above but with a few preferable additions:

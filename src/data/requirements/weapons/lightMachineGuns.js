@@ -250,12 +250,12 @@ export default {
     },
 
     'Forged': {
-      times: 10,
+      amount: 10,
       type: 'mounted_headshots',
     },
 
     'Priceless': {
-      times: 10,
+      amount: 10,
       type: 'double_kills_with_full_attachments',
     },
 

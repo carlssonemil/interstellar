@@ -1,6 +1,7 @@
 const multiplayer = [
   '80s Spheres',
   'Geofunk',
+  'Gradient Globs',
   'Heatwave',
   'Mind Peak',
   'Psychotropic',
@@ -9,7 +10,9 @@ const multiplayer = [
 
 const zombies = [
   'Alert',
+  'Biomass',
   'Cacophony',
+  'Empty Screams',
   'Global Panic',
   'Lost Transmission',
   'Purple Ooze',

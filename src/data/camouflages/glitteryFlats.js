@@ -1,16 +1,17 @@
 const multiplayer = [
   'Amaranth Sands',
   'Blue Sands',
+  'Brown Sands',
   'Cobalt Sands',
+  'Drowned Sands',
   'Green Sands',
+  'Lavender Sands',
   'Orange Sands',
   'Pink Sands',
   'Purple Sands',
   'Red Sands',
   'Sea Green Sands',
   'Yellow Sands',
-  'Brown Sands',
-  'Lavender Sands',
 ]
 
 const zombies = [

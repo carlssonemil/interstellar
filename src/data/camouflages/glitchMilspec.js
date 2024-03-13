@@ -6,6 +6,7 @@ const multiplayer = [
   'Oil Slick Glitch',
   'Phantom Glitch',
   'Rainfall Glitch',
+  'Scoured',
   'Twilight Glitch',
 ]
 
@@ -15,6 +16,7 @@ const zombies = [
   'Murk Glitch',
   'Pain Glitch',
   'Slash Glitch',
+  'Sonic Glitch',
   'Spirit Glitch',
   'Tomb Glitch',
   'Torment Glitch',

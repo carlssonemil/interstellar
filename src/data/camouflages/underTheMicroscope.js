@@ -1,5 +1,6 @@
 const multiplayer = [
   'Bacterial Decay',
+  'Cold Snap',
   'Deadly Spores',
   'Germ Factory',
   'Microbiology',

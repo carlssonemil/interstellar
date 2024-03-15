@@ -19,6 +19,7 @@ const zombies = [
   'Topo Gloom',
   'Topo Grave',
   'Topo Ooze',
+  'Topo Sickly',
   'Topo Spirit',
   'Topo Stone',
 ]

@@ -1,6 +1,6 @@
-const multiplayer = ['Orange', 'Purple', 'Red']
+const multiplayer = ['Orange', 'Purple', 'Red', 'Pink']
 
-const zombies = ['Mud', 'Oracle', 'Terracotta']
+const zombies = ['Mud', 'Oracle', 'Terracotta', 'Desolation']
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))
 

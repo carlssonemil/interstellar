@@ -46,4 +46,20 @@ export default {
       'Orange Satin': false,
     },
   },
+
+  'SOA Subverter': {
+    multiplayer: {
+      'Fjord': false,
+      'Pink': false,
+      'Tidepool': false,
+      'Dopamine': false,
+    },
+
+    zombies: {
+      'Gloom': false,
+      'Desolation': false,
+      'Piranha': false,
+      'Venom Prism': false,
+    },
+  },
 }

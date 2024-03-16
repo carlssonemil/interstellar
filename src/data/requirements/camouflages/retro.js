@@ -233,4 +233,22 @@ export default {
       type: 'kills',
     },
   },
+
+  'Fjord': {
+    weapon: 'SOA Subverter',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Gloom': {
+    weapon: 'SOA Subverter',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

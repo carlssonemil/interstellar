@@ -53,4 +53,23 @@ export default {
       type: 'consecutive_kills_without_taking_damage',
     },
   },
+
+  Pink: {
+    weapon: 'SOA Subverter',
+    level: '7',
+    challenge: {
+      amount: 50,
+      type: 'kills_while_using_full_auto',
+    },
+  },
+
+  Desolation: {
+    weapon: 'SOA Subverter',
+    level: '7',
+    challenge: {
+      amount: 3,
+      times: 30,
+      type: 'kills_in_a_single_shot',
+    },
+  },
 }

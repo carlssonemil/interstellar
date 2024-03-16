@@ -136,4 +136,50 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'SOA Subverter': {
+    // Multiplayer
+    'Fjord': requirements['Fjord'],
+    'Pink': requirements['Pink'],
+    'Tidepool': requirements['Tidepool'],
+    'Dopamine': requirements['Dopamine'],
+
+    // Zombies
+    'Gloom': requirements['Gloom'],
+    'Desolation': requirements['Desolation'],
+    'Piranha': requirements['Piranha'],
+    'Venom Prism': requirements['Vemon Prism'],
+
+    'Gilded': {
+      amount: 2,
+      times: 10,
+      type: 'headshot_kills',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'suppressed_clean_kills',
+    },
+
+    'Priceless': {
+      amount: 3,
+      times: 15,
+      type: 'kills_with_one_mag',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

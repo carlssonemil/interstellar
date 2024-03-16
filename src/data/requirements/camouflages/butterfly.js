@@ -125,4 +125,22 @@ export default {
       type: 'kills_shortly_after_field_upgrade',
     },
   },
+
+  'Dopamine': {
+    weapon: 'SOA Subverter',
+    level: '17',
+    challenge: {
+      amount: 15,
+      type: 'headshot_kills',
+    },
+  },
+
+  'Venom Prism': {
+    weapon: 'SOA Subverter',
+    level: '17',
+    challenge: {
+      amount: 5,
+      type: 'mimic_kills',
+    },
+  },
 }

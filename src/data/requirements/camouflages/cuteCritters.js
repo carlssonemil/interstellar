@@ -16,4 +16,22 @@ export default {
       type: 'kills_at_rare_or_higher_rarity',
     },
   },
+
+  'Tidepool': {
+    weapon: 'SOA Subverter',
+    level: '12',
+    challenge: {
+      amount: 10,
+      type: 'kills_with_magnification_scope',
+    },
+  },
+
+  'Piranha': {
+    weapon: 'SOA Subverter',
+    level: '12',
+    challenge: {
+      amount: 100,
+      type: 'kills_in_single_match',
+    },
+  },
 }

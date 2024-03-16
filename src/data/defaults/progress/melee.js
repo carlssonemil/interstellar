@@ -18,4 +18,14 @@ export default {
       Ripped: false,
     },
   },
+
+  'Soulrender': {
+    multiplayer: {
+      Omnigenesis: false,
+    },
+
+    zombies: {
+      Neuronic: false,
+    }
+  }
 }

@@ -142,4 +142,22 @@ export default {
       type: 'kills_in_single_match',
     },
   },
+
+  'Omnigenesis': {
+    weapon: 'Soulrender',
+    level: '4',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    }
+  },
+
+  'Neuronic': {
+    weapon: 'Soulrender',
+    level: '4',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    }
+  }
 }

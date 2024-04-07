@@ -70,4 +70,22 @@ export default {
       type: 'disciple_kills',
     },
   },
+
+  'The Horrors': {
+    weapon: 'MORS',
+    level: '19',
+    challenge: {
+      amount: 15,
+      type: 'one_shot_kills',
+    },
+  },
+
+  'Apparition': {
+    weapon: 'MORS',
+    level: '19',
+    challenge: {
+      amount: 100,
+      type: 'kills_while_enemy_affected_by_tactical',
+    },
+  },
 }

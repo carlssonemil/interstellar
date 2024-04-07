@@ -34,4 +34,22 @@ export default {
       type: 'kills_in_single_match',
     },
   },
+
+  'Shadow': {
+    weapon: 'MORS',
+    level: '8',
+    challenge: {
+      amount: 50,
+      type: 'quickscope_kills',
+    },
+  },
+
+  'Blight Hound': {
+    weapon: 'MORS',
+    level: '8',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_four_active_perks',
+    },
+  },
 }

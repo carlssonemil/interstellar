@@ -45,6 +45,50 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+  'MORS': {
+    // Multiplayer
+    'Whats Your Sign': requirements['Whats Your Sign'],
+    'Shadow': requirements['Shadow'],
+    'At Ease': requirements['At Ease'],
+    'The Horrors': requirements['The Horrors'],
+
+    // Zombies
+    'Necromancy': requirements['Necromancy'],
+    'Blight Hound': requirements['Blight Hound'],
+    'Apocalyptic': requirements['Apocalyptic'],
+    'Apparition': requirements['Apparition'],
+
+    'Gilded': {
+      amount: 50,
+      type: 'kills_with_magnification_scope',
+    },
+
+    'Forged': {
+      amount: 15,
+      type: 'headshots_with_MORS_dot_sight',
+    },
+
+    'Priceless': {
+      amount: 2,
+      times: 10,
+      type: 'headshots_in_one_life_times',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
   'KATT-AMR': {
     // Multiplayer
     'Death 3D': requirements['Death 3D'],

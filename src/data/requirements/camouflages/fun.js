@@ -43,4 +43,22 @@ export default {
       type: 'kills_with_fire_damage',
     },
   },
+
+  'Whats Your Sign': {
+    weapon: 'MORS',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Necromancy': {
+    weapon: 'MORS',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

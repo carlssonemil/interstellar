@@ -15,6 +15,22 @@ export default {
     },
   },
 
+  'MORS': {
+    multiplayer: {
+      'Whats Your Sign': false,
+      'Shadow': false,
+      'At Ease': false,
+      'The Horrors': false,
+    },
+
+    zombies: {
+      'Necromancy': false,
+      'Blight Hound': false,
+      'Apocalyptic': false,
+      'Apparition': false,
+    },
+  },
+
   'KATT-AMR': {
     multiplayer: {
       'Death 3D': false,

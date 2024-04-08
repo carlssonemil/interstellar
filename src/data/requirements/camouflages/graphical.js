@@ -159,5 +159,23 @@ export default {
       amount: 250,
       type: 'kills',
     }
+  },
+
+  'At Ease': {
+    weapon: 'MORS',
+    level: '13',
+    challenge: {
+      amount: 10,
+      type: 'longshot_kills',
+    }
+  },
+
+  'Apocalyptic': {
+    weapon: 'MORS',
+    level: '13',
+    challenge: {
+      amount: 50,
+      type: 'mercenary_kills',
+    }
   }
 }

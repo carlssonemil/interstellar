@@ -1,6 +1,7 @@
 import blur from './camouflages/blur'
 import bold from './camouflages/bold'
 import butterfly from './camouflages/butterfly'
+import cliffside from './camouflages/cliffside'
 import cuteCritters from './camouflages/cuteCritters'
 import digital from './camouflages/digital'
 import fun from './camouflages/fun'
@@ -28,6 +29,7 @@ export default [
   ...blur,
   ...bold,
   ...butterfly,
+  ...cliffside,
   ...cuteCritters,
   ...digital,
   ...fun,

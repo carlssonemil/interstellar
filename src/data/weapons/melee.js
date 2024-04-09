@@ -6,6 +6,7 @@ import defaultMasteryProgress from '@/data/defaults/progress/mastery'
 const weapons = [
   { name: 'Gutter Knife' },
   { name: 'Karambit' },
+  { name: 'Gladiator' },
   { name: 'Soulrender' },
 ]
 

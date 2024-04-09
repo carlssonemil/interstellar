@@ -104,7 +104,7 @@ If you want to help contribute some images for the camouflages, the process is t
 * No borders or background behind the camouflage, just the camouflage itself.
 * The naming of the files should follow the [slug-format](https://en.wikipedia.org/wiki/Clean_URL#Slug) (`Desert Hybrid` -> `desert-hybrid`).
 * The files should preferably be in `.png` file format.
-* Place the files in the `./public/assets/camouflages` folder.
+* Place the files in the `./src/assets/camouflages` folder.
 
 If you don't have access to any image editing software (besides Paint), [Photopea](https://www.photopea.com/) is an amazing and completely free Photoshop alternative. I will also happily accept any images, or in-game screenshots, of the camouflages on my email ([hello@emilcarlsson.se](hello@emilcarlsson.se)) and I can edit and add them to the site myself!
 

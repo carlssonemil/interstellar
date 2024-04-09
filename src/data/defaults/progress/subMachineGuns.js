@@ -15,6 +15,22 @@ export default {
     },
   },
 
+  'FJX Horus': {
+    multiplayer: {
+      'Blacklight': false,
+      'She Bites': false,
+      'Desert Veil': false,
+      'Penny': false,
+    },
+
+    zombies: {
+      'Spectral': false,
+      'Rabio': false,
+      'Crypt': false,
+      'Lurker': false,
+    },
+  },
+
   'WSP Swarm': {
     multiplayer: {
       'Phantasmal': false,

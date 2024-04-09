@@ -25,4 +25,6 @@ const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(
 export default camouflages.map((camouflage) => ({
   category: 'Butterfly',
   name: camouflage,
+  multiplayer: multiplayer.includes(camouflage),
+  zombies: zombies.includes(camouflage),
 }))

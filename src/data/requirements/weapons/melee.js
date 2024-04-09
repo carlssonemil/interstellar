@@ -40,6 +40,43 @@ export default {
     },
   },
 
+  'Gladiator': {
+    // Multiplayer
+    'Bullet Hell': requirements['Bullet Hell'],
+
+    // Zombies
+    'Caliber': requirements['Caliber'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'kills_from_behind',
+    },
+
+    'Forged': {
+      amount: 10,
+      type: 'revenge_kills',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'kills_without_damaged',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      type: 'polyatomic',
+    },
+  },
+
   'Karambit': {
     // Multiplayer
     'Dark Vision': requirements['Dark Vision'],

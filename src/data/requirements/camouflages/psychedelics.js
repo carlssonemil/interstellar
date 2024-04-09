@@ -88,4 +88,22 @@ export default {
       type: 'kills_while_enemy_affected_by_tactical',
     },
   },
+
+  'She Bites': {
+    weapon: 'FJX Horus',
+    level: '8',
+    challenge: {
+      amount: 50,
+      type: 'hipfire_kills',
+    },
+  },
+
+  'Rabio': {
+    weapon: 'FJX Horus',
+    level: '8',
+    challenge: {
+      amount: 10,
+      type: 'mangler_kills',
+    },
+  },
 }

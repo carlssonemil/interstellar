@@ -26,7 +26,7 @@ export default {
     zombies: {
       'Necromancy': false,
       'Blight Hound': false,
-      'Apocalyptic': false,
+      'Apocalyptic-MORS': false,
       'Apparition': false,
     },
   },

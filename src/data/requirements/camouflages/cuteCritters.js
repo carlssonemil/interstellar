@@ -52,4 +52,40 @@ export default {
       type: 'kills_with_four_active_perks',
     },
   },
+
+  'Blacklight': {
+    weapon: 'FJX Horus',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Penny': {
+    weapon: 'FJX Horus',
+    level: '18',
+    challenge: {
+      amount: 25,
+      type: 'kills_while_enemy_affected_by_tactical',
+    },
+  },
+
+  'Spectral': {
+    weapon: 'FJX Horus',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
+  'Lurker': {
+    weapon: 'FJX Horus',
+    level: '18',
+    challenge: {
+      amount: 250,
+      type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
 }

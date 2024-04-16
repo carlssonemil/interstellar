@@ -19,6 +19,16 @@ export default {
     },
   },
 
+  'Gladiator': {
+    multiplayer: {
+      'Bullet Hell': false,
+    },
+
+    zombies: {
+      'Caliber': false,
+    },
+  },
+
   'Soulrender': {
     multiplayer: {
       Omnigenesis: false,

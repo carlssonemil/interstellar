@@ -55,7 +55,7 @@ export default {
     // Zombies
     'Necromancy': requirements['Necromancy'],
     'Blight Hound': requirements['Blight Hound'],
-    'Apocalyptic': requirements['Apocalyptic'],
+    'Apocalyptic-MORS': requirements['Apocalyptic-MORS'],
     'Apparition': requirements['Apparition'],
 
     'Gilded': {

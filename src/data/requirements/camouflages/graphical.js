@@ -170,12 +170,30 @@ export default {
     }
   },
 
-  'Apocalyptic': {
+  'Apocalyptic-MORS': {
     weapon: 'MORS',
     level: '13',
     challenge: {
       amount: 50,
       type: 'mercenary_kills',
     }
-  }
+  },
+
+  'Bullet Hell': {
+    weapon: 'Gladiator',
+    level: '4',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    }
+  },
+
+  'Caliber': {
+    weapon: 'Gladiator',
+    level: '4',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    }
+  },
 }

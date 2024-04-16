@@ -47,6 +47,50 @@ export default {
     },
   },
 
+  'FJX Horus': {
+    // Multiplayer
+    'Blacklight': requirements['Blacklight'],
+    'She Bites': requirements['She Bites'],
+    'Desert Veil': requirements['Desert Veil'],
+    'Penny': requirements['Penny'],
+
+    // Zombies
+    'Spectral': requirements['Spectral'],
+    'Rabio': requirements['Rabio'],
+    'Crypt': requirements['Crypt'],
+    'Lurker': requirements['Lurker'],
+
+    'Gilded': {
+      amount: 50,
+      type: 'kills_while_ads_and_moving',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'kills_shortly_after_swapping',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'double_kills_without_tasking_damage',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
+
   'WSP Swarm': {
     // Multiplayer
     'Phantasmal': requirements['Phantasmal'],

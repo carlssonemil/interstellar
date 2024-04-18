@@ -22,7 +22,7 @@ export default {
     'Forged': {
       amount: 3,
       times: 10,
-      type: 'kills_with_one_mag',
+      type: 'kills_without_dying',
     },
 
     'Priceless': {

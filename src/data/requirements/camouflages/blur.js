@@ -55,7 +55,7 @@ export default {
 
   'Arctic Filaments': {
     weapon: 'WSP Stinger',
-    level: '7',
+    level: '6',
     challenge: {
       amount: 50,
       type: 'kills_while_ads',
@@ -109,7 +109,7 @@ export default {
 
   'Moss Filaments': {
     weapon: 'WSP Stinger',
-    level: '7',
+    level: '6',
     challenge: {
       amount: 250,
       type: 'kills_with_electric_damage',

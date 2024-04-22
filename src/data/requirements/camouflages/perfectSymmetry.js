@@ -92,7 +92,7 @@ export default {
 
   'Mind Test': {
     weapon: 'WSP Stinger',
-    level: '15',
+    level: '14',
     challenge: {
       amount: 15,
       type: 'akimbo_kills',
@@ -203,7 +203,7 @@ export default {
 
   'Apocalyptic': {
     weapon: 'WSP Stinger',
-    level: '15',
+    level: '14',
     challenge: {
       amount: 250,
       type: 'kills_with_full_attachments',

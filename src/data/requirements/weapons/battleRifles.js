@@ -153,7 +153,7 @@ export default {
     'Gilded': {
       amount: 2,
       times: 10,
-      type: 'headshot_kills',
+      type: 'headshots_in_one_life_times',
     },
 
     'Forged': {

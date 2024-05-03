@@ -1,4 +1,4 @@
-const multiplayer = ['Sharp Brush', 'Thick Brush', 'Woods Brush', 'Liquid Brush', 'Swift Brush']
+const multiplayer = ['Sharp Brush', 'Thick Brush', 'Woods Brush', 'Liquid Brush', 'Swift Brush', 'Simpler Times', 'Decoy Drizzle']
 
 const zombies = ['Blood Brush', 'Rusted Brush', 'Spirit Brush', 'Brimstone Brush', 'Mummified Brush']
 

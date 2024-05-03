@@ -89,6 +89,22 @@ export default {
       type: 'kills_with_full_attachments',
     },
   },
+  'Simpler Times': {
+    weapon: 'BAL-27',
+    level: '8',
+    challenge: {
+      amount: 50,
+      type: 'kills_while_ads',
+    },
+  },
+  'Decoy Drizzle': {
+    weapon: 'BAL-27',
+    level: '8',
+    challenge: {
+      amount: 10,
+      type: 'disciple_kills',
+    },
+  },
 
 
 }

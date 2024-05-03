@@ -8,6 +8,8 @@ const multiplayer = [
   'Rainfall Glitch',
   'Scoured',
   'Twilight Glitch',
+  'Electro Torrent',
+  'Ghostware',
 ]
 
 const zombies = [

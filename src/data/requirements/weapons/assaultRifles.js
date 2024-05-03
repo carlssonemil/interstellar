@@ -362,4 +362,50 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+  'BAL-27': {
+    // Multiplayer
+    'Sunset Waves': requirements['Sunset Waves'],
+    'Simpler Times': requirements['Simpler Times'],
+    'Electro Torrent': requirements['Electro Torrent'],
+    'Sunny Side': requirements['Sunny Side'],
+
+    // Zombies
+    'Ethereal Revolution': requirements['Ethereal Revolution'],
+    'Decoy Drizzle': requirements['Decoy Drizzle'],
+    'Ghostwave': requirements['Ghostwave'],
+    'Evil Spawn': requirements['Evil Spawn'],
+
+    'Gilded': {
+      amount: 50,
+      type: 'kills_while_ads_and_full_attachments',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'full_auto_clean_kills',
+    },
+
+    'Priceless': {
+      amount: 2,
+      seconds: 10,
+      times: 25,
+      type: 'time_limit_kills',
+      
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

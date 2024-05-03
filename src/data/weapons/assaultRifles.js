@@ -12,6 +12,7 @@ const weapons = [
   { name: 'DG-56' },
   { name: 'FR 5.56' },
   { name: 'BP50' },
+  { name: 'BAL-27'}
 ]
 
 export default weapons.map((weapon) => ({

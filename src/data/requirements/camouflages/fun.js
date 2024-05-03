@@ -61,4 +61,20 @@ export default {
       type: 'kills',
     },
   },
+  'Sunny Side': {
+    weapon: 'BAL-27',
+    level: '19',
+    challenge: {
+      amount: 25,
+      type: 'kills_while_in_tac_stance',
+    },
+  },
+  'Evil Spawn': {
+    weapon: 'BAL-27',
+    level: '19',
+    challenge: {
+      amount: 100,
+      type: 'kills_shortly_after_field_upgrade',
+    },
+  },
 }

@@ -160,4 +160,20 @@ export default {
       type: 'kills',
     },
   },
+  'Electro Torrent': {
+    weapon: 'BAL-27',
+    level: '13',
+    challenge: {
+      amount: 15,
+      type: 'headshot_kills',
+    },
+  },
+  'Ghostwave': {
+    weapon: 'BAL-27',
+    level: '13',
+    challenge: {
+      amount: 250,
+      type: 'kills_while_in_tac_stance',
+    },
+  },
 }

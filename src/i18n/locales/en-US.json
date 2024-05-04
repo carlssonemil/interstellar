@@ -525,6 +525,7 @@
       "kills_while_strafing_in_tac_stance": "{amount} kills while strafing in Tac Stance",
       "double_kills_with_akimbo": "{amount} double kills with Akimbo weapons",
       "double_kills": "{amount} double kills",
+      "full_auto_clean_kills": "{amount} full-auto clean kills",
       "focused_kills": "{amount} kills while focused",
       "headshot_kills": "{amount} headshot kills",
       "headshots_in_one_life": "{amount} headshots in one life",

@@ -34,20 +34,4 @@ export default {
       type: 'kills_at_rare_or_higher_rarity',
     },
   },
-  'Sunset Waves': {
-    weapon: 'BAL-27',
-    level: '2',
-    challenge: {
-      amount: 50,
-      type: 'kills',
-    },
-  },
-  'Ethereal Revolution': {
-    weapon: 'BAL-27',
-    level: '2',
-    challenge: {
-      amount: 250,
-      type: 'kills',
-    },
-  },
 }

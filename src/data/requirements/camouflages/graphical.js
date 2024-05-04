@@ -187,7 +187,6 @@ export default {
       type: 'kills',
     }
   },
-
   'Caliber': {
     weapon: 'Gladiator',
     level: '4',
@@ -195,5 +194,23 @@ export default {
       amount: 250,
       type: 'kills',
     }
+  },
+
+  'Sunset Waves': {
+    weapon: 'BAL-27',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+  
+  'Ethereal Revolution': {
+    weapon: 'BAL-27',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
   },
 }

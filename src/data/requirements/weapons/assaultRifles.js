@@ -372,7 +372,7 @@ export default {
     // Zombies
     'Ethereal Revolution': requirements['Ethereal Revolution'],
     'Decoy Drizzle': requirements['Decoy Drizzle'],
-    'Ghostwave': requirements['Ghostwave'],
+    'Ghostware': requirements['Ghostware'],
     'Evil Spawn': requirements['Evil Spawn'],
 
     'Gilded': {

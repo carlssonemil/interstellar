@@ -168,7 +168,7 @@ export default {
       type: 'headshot_kills',
     },
   },
-  'Ghostwave': {
+  'Ghostware': {
     weapon: 'BAL-27',
     level: '13',
     challenge: {

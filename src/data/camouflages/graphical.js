@@ -10,6 +10,8 @@ const multiplayer = [
   'Omnigenesis',
   'At Ease',
   'Bullet Hell',
+  'Sunset Waves',
+  'Ethereal Revolution',
 ]
 
 const zombies = [

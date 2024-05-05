@@ -3,6 +3,8 @@ const multiplayer = [
   'Gaggle', 
   'Tiger Blood',
   'Whats Your Sign',
+  'Sunny Side',
+  'Evil Spawn',
 ]
 
 const zombies = [

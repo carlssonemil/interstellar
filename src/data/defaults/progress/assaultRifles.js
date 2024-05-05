@@ -126,4 +126,19 @@ export default {
       'Microbial': false,
     },
   },
+  'BAL-27': {
+    multiplayer: {
+      'Sunset Waves': false,
+      'Simpler Times': false,
+      'Electro Torrent': false,
+      'Sunny Side': false,
+    },
+
+    zombies: {
+      'Ethereal Revolution': false,
+      'Decoy Drizzle': false,
+      'Ghostware': false,
+      'Evil Spawn': false,
+    },
+  },
 }

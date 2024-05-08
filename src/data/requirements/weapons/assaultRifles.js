@@ -390,7 +390,6 @@ export default {
       seconds: 10,
       times: 25,
       type: 'time_limit_kills',
-      
     },
 
     'Golden Enigma': {

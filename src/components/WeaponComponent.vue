@@ -241,7 +241,7 @@ export default {
         return this.$t(`challenges.mastery.${type}`, { amount, camouflage })
       }
 
-      if (type === 'time_limit') {
+      if (seconds) {
         return this.$t(`challenges.types.${type}`, { amount, seconds, times })
       } else if (times) {
         return this.$t(`challenges.types.${type}`, { amount, times })

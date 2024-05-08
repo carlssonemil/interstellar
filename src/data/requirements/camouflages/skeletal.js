@@ -133,6 +133,7 @@ export default {
     level: '12',
     challenge: {
       amount: 10,
+      seconds: 5,
       times: 10,
       type: 'time_limit_kills',
     },

@@ -113,6 +113,7 @@ export default {
     level: '11',
     challenge: {
       amount: 10,
+      seconds: 5,
       times: 10,
       type: 'time_limit_kills',
     },
@@ -150,6 +151,7 @@ export default {
     level: '20',
     challenge: {
       amount: 10,
+      seconds: 5,
       times: 10,
       type: 'time_limit_kills',
     },
@@ -196,6 +198,7 @@ export default {
     level: '26',
     challenge: {
       amount: 10,
+      seconds: 5,
       times: 10,
       type: 'time_limit_kills',
     },
@@ -233,6 +236,7 @@ export default {
     level: '18',
     challenge: {
       amount: 10,
+      seconds: 5,
       times: 5,
       type: 'time_limit_kills',
     },

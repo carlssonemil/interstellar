@@ -21,7 +21,7 @@ export default {
 
     'Forged': {
       amount: 15,
-      type: 'injured_enemy_kills',
+      type: 'hipfire_kills',
     },
 
     'Priceless': {

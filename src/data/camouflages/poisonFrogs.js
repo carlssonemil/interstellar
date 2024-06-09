@@ -1,5 +1,6 @@
 const multiplayer = [
-  'Ameerga', 'Dart',
+  'Ameerga',
+  'Dart',
   'Golden Poison',
   'Marbled',
   'Phantasmal',

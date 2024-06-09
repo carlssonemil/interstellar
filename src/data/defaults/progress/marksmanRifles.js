@@ -62,4 +62,20 @@ export default {
       'Destiny': false,
     },
   },
+
+  'Kar98k': {
+    multiplayer: {
+      'Popping Out': false,
+      'Delighted Liquification': false,
+      'Wild Lines And Wild Times': false,
+      'Hey, Boo!': false,
+    },
+
+    zombies: {
+      'Raising The Bar': false,
+      'Molten Blue': false,
+      'Viscose Violence': false,
+      'Ghosted': false,
+    },
+  },
 }

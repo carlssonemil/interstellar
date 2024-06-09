@@ -398,4 +398,49 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'Superi 46': {
+    // Multiplayer
+    'Illusive Neon': requirements['Illusive Neon'],
+    'And Then They All Fell Out...': requirements['And Then They All Fell Out...'],
+    'Lambent Streaks': requirements['Lambent Streaks'],
+    'Filed And Buffed': requirements['Filed And Buffed'],
+
+    // Zombies
+    'Optically Elusive': requirements['Optically Elusive'],
+    'Healthy Appetite': requirements['Healthy Appetite'],
+    'Do The Wave': requirements['Do The Wave'],
+    'Primed And Polished': requirements['Primed And Polished'],
+
+    'Gilded': {
+      amount: 2,
+      times: 15,
+      type: 'kills_without_releasing_trigger',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'kills_while_ads_and_strafing',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'headshots_while_moving',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

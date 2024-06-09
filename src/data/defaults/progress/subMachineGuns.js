@@ -142,4 +142,20 @@ export default {
       'Mystic Wither': false,
     },
   },
+
+  'Superi 46': {
+    multiplayer: {
+      'Illusive Neon': false,
+      'And Then They All Fell Out...': false,
+      'Lambent Streaks': false,
+      'Filed And Buffed': false,
+    },
+
+    zombies: {
+      'Optically Elusive': false,
+      'Healthy Appetite': false,
+      'Do The Wave': false,
+      'Primed And Polished': false,
+    },
+  },
 }

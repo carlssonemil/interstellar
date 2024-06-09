@@ -16,6 +16,7 @@ export default {
 
     'Gilded': {
       amount: 2,
+      times: 10,
       type: 'kills_shortly_after_sprinting_one_life',
     },
 
@@ -60,6 +61,7 @@ export default {
 
     'Gilded': {
       amount: 2,
+      times: 10,
       type: 'kills_shortly_after_sprinting_one_life',
     },
 
@@ -105,6 +107,7 @@ export default {
 
     'Gilded': {
       amount: 2,
+      times: 10,
       type: 'kills_shortly_after_sprinting_one_life',
     },
 

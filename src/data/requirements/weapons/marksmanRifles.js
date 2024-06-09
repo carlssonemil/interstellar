@@ -179,4 +179,49 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'Kar98k': {
+    // Multiplayer
+    'Popping Out': requirements['Popping Out'],
+    'Delighted Liquification': requirements['Delighted Liquification'],
+    'Wild Lines And Wild Times': requirements['Wild Lines And Wild Times'],
+    'Hey, Boo!': requirements['Hey, Boo!'],
+
+    // Zombies
+    'Raising The Bar': requirements['Raising The Bar'],
+    'Molten Blue': requirements['Molten Blue'],
+    'Viscose Violence': requirements['Viscose Violence'],
+    'Ghosted': requirements['Ghosted'],
+
+    'Gilded': {
+      amount: 50,
+      type: 'quickscope_kills',
+    },
+
+    'Forged': {
+      amount: 2,
+      times: 15,
+      type: 'kills_shortly_after_sprinting_one_life',
+    },
+
+    'Priceless': {
+      amount: 20,
+      type: 'ironsight_headshots',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

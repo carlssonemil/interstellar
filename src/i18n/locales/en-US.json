@@ -548,7 +548,7 @@
       "kills_in_medium_or_high_threat_zone": "{amount} kills in medium or high threat zones",
       "kills_in_single_match": "{amount} kills in a single match",
       "kills_shortly_after_field_upgrade": "{amount} kills shortly after using a field upgrade",
-      "kills_shortly_after_sprinting_one_life": "{amount} kills shortly after sprinting in one life",
+      "kills_shortly_after_sprinting_one_life": "{amount} kills shortly after sprinting in one life {times} times",
       "kills_shortly_after_sprinting": "{amount} kills shortly after sprinting",
       "kills_shortly_after_swapping": "{amount} kills shortly after swapping weapons",
       "kills_while_ads_and_full_attachments": "{amount} kills while aiming down sights and full attachments",

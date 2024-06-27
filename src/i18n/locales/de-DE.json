@@ -1,0 +1,773 @@
+{
+  "general": {
+    "about": "Über",
+    "add_to": "Hinzufügen",
+    "all": "Alle",
+    "calling_cards": "Visitenkarte | Visitenkarten",
+    "camouflage": "Tarnung | Tarnungen",
+    "category": "Kategorie | Kategorien",
+    "change_language": "Sprache ändern",
+    "close": "Schließen",
+    "coming_soon": "Kommt bald",
+    "complete": "Abgeschlossen",
+    "days_ago": "{0} Tag vergangen | {0} Tage vergangen",
+    "favorites": "Favoriten",
+    "filters": "Filter",
+    "grid": "Raster",
+    "hide": "Ausblenden",
+    "list": "Liste",
+    "made_by": "Erstellt von {0}",
+    "mastery": "Mastery",
+    "mobile_nav_support_link": "Unterstütze mich indem du mir ein Bier kaufst 🍺",
+    "multiplayer": "Mehrspieler",
+    "no_favorites_placeholder": "Du hast noch keine Favoriten. Klicke auf das {star} icon und eine {type} um welche hinzuzufügen.",
+    "remove_all": "Alle entfernen",
+    "remove_from": "Entfernen von",
+    "report_an_issue": "Fehler melden",
+    "requirement": "Anforderung | Anforderungen",
+    "reset": "Zurücksetzen",
+    "search": "Suchen",
+    "setting": "Einstellung | Einstellungen",
+    "show": "Anzeigen",
+    "support_notice_link": "kauf mir ein Bier",
+    "support_notice": "Wenn dir dieser Tracker gefällt, freue ich mich über eine Nett geste {link} 🍺",
+    "translated_by": ", Übersetzt von {0}",
+    "weapon": "Waffe | Waffen",
+    "unlocked": "freigeschaltet",
+    "zombies": "Zombies"
+  },
+  "filters": {
+    "hide_completed": "Abgeschlossene ausblenden",
+    "hide_gilded": "Vergolded ausblenden",
+    "hide_forged": "Geschmiedet ausblenden",
+    "hide_priceless": "Hide Priceless",
+    "hide_interstellar": "Unbezahlbar ausblenden",
+    "hide_enigma": "Goldennigma ausblenden",
+    "hide_scale": "Zirkonschuppe ausblenden",
+    "hide_serpentinite": "Serpentinit ausblenden",
+    "hide_borealis": "Borealis ausblenden",
+    "toggle_favorite": "{state} Favoriten",
+    "toggle_favorites": "Favoriten einblenden",
+    "toggle_layout": "Layout einblenden"
+  },
+  "locales": {
+    "en-US": "English",
+    "sv-SE": "Svenska",
+    "es-CO": "Español",
+    "de-DE": "Deutsch",
+    "fr-FR": "Français",
+    "uk-UA": "Українська"
+  },
+  "pages": {
+    "404": {
+      "description": "Mist, es sieht so aus, als {0}.",
+      "scenarios": [
+        "bist bei Nuketown falsch abgebogen und auf einer fehlenden Seite gelandet 🏘️",
+        "bist beim Wiederbeleben stecken geblieben und auf einer fehlenden Seite gelandet 💥",
+        "hast versucht, die URL quick zu scopen und bist auf einer fehlenden Seite gelandet 🔭",
+        "hast Dead Silence zu effektiv genutzt und bist auf einer fehlenden Seite gelandet 🚫🔊",
+        "bist in einen Glitch gesprungen und auf einer fehlenden Seite gelandet 🕳️",
+        "wurdest in den Menüs geblendet und bist auf einer fehlenden Seite gelandet ⚡",
+        "wurdest zuletzt dabei gesehen, in Verdansk zu landen und bist auf einer fehlenden Seite gelandet 🪂",
+        "bist in einem Gulag gefangen und auf einer fehlenden Seite gelandet 🚿",
+        "hast versucht, auf einer flachen Seite zu wallrunnen und bist auf einer fehlenden Seite gelandet 🏃‍♂️",
+        "hast den falschen Ausrüstungsnachschub genommen und bist auf einer fehlenden Seite gelandet 📦",
+        "bist zwischen Seiten in ein Kreuzfeuer geraten und bist auf einer fehlenden Seite gelandet 🔫",
+        "bist Captain Price in eine geheime Mission gefolgt und bist auf einer fehlenden Seite gelandet 🕵️",
+        "hast deinen UAV nicht genutzt, dich verlaufen und bist auf einer fehlenden Seite gelandet 🛰️",
+        "hast versucht, ohne Hubschrauber zu exfilen und bist auf einer fehlenden Seite gelandet 🚁",
+        "bist durch den geheimen Tunnel zu den Zombies gesprungen und bist auf einer fehlenden Seite gelandet 🧟‍♂️",
+        "hast den Anruf... der Pflicht verpasst und bist auf einer fehlenden Seite gelandet 📞",
+        "hast versucht, eine nicht vorhandene Beute zu plündern und bist auf einer fehlenden Seite gelandet 💼",
+        "bist in ein unerforschtes Gebiet abgesprungen und bist auf einer fehlenden Seite gelandet 🗺️",
+        "hast irrtümlich versucht, dich mit Ghost zu treffen, und bist auf einer fehlenden Seite gelandet 👻",
+        "hast an der falschen Stelle nach Easter-Eggs gesucht und bist auf einer fehlenden Seite gelandet 🥚"
+      ],
+      "link": "Zurück zur Startseite"
+    },
+    "about": {
+      "features": {
+        "autosaving": {
+          "title": "Automatisches Speichern",
+          "description": "Dein Fortschritt wird automatisch gespeichert und abgelegt. Kein Konto erforderlich."
+        },
+        "responsive": {
+          "title": "Responsiv",
+          "description": "Der Tracker funktioniert auf allen Geräten, vom Desktop bis zum Mobilgerät."
+        },
+        "export_import": {
+          "title": "Export/Import",
+          "description": "Exportiere deinen Fortschritt in eine Datei und importiere ihn auf einem anderen Gerät."
+        },
+        "filterable": {
+          "title": "Filterbar",
+          "description": "Wechsle mühelos zwischen Waffenkategorien und schalte abgeschlossene Aufgaben ein/aus."
+        },
+        "ad_free": {
+          "title": "Werbefrei",
+          "description": "Keine lästigen Anzeigen, die die Seite überfüllen. Weder jetzt noch später."
+        }
+      },
+      "open_source_description": "Erstellt mit {0}, gehostet bei {1} und analysiren mit {2}. Der Code ist hier verfügbar {3}.",
+      "open_source": "Open source",
+      "previous_trackers_description": "Suchst du Camo Tracker der alten Call of Duty Teilen bis 2019?",
+      "previous_trackers": "Vorheriger Tracker",
+      "subtitle": "Verfolge deinen Fortschritt der Interstellar Camo mit diesem einfachen Camo Tracker.",
+      "support_me_description": "Du kannst mich unterstützen indem du {0} 🍺, das wäre toll!",
+      "support_me_link": "mir ein Bier kaufst",
+      "support_me": "Unterstütze mich",
+      "title": "Einfach & leicht zu bedienen"
+    },
+    "calling_cards": {
+      "completed_in_category": "Visitenkarten in dieser Kategorie abgeschlossen",
+      "empty_search": "Deine Suche ergab keine Treffer in den Visitenkarten 🤔",
+      "finished_placeholder": "Du hast alle Visitenkarten-Challanges abgeschlossen 👏"
+    },
+    "camouflages": {
+      "completed_in_category": "Tarnungen in dieser Kategorie abgeschlossen",
+      "empty_search": "Deine Suche ergab keine Treffer in den Tarnungen 🤔",
+      "finished_placeholder": "Du hast alle Tarnungs-Challenges abgeschlossen 👏",
+      "requirement_tooltip": "Spiele die {weapon} auf Level {level} - {challenge}"
+    },
+    "mastery": {
+      "completed_modal": {
+        "body": "Glückwunsch zur Beendigung aller Meisterherausforderungen! Das ist wirklich eine Leistung! Du hast hier zum ersten Mal deinen Fortschritt verfolgt {duration} am {date}.",
+        "support_link": "mir ein Bier kaufen",
+        "support": "Wenn dir dieser Tracker gefällt, freue ich mich über eine Nett geste {link}. Wir sehen uns im Spiel! 🍺",
+        "title": "Mastery-Herausforderungen abgeschlossen 👏🥳"      
+      },
+      "info": "Sobald du jede Meister-Tarnung freigeschaltet hast, wird eine Meisterherausforderung freigeschaltet, die dich dazu auffordert, eine bestimmte Anzahl von Abschüssen zu erzielen, während du diese spezifische Tarnung verwendest, um sie abzuschließen.",
+      "progress": {
+        "label": "Meister-Fortschritt",
+        "tooltip": "Fortschritt zur Erfüllung aller Meisterherausforderungen"    
+      }
+    },
+    "requirements": {
+      "checklist": {
+        "base": "Basis-Tarnungen auf 36 Waffen",
+        "gilded": "Vergoldete Tarnung auf 36 Waffen",
+        "forged": "Geschmiedete Tarnung auf 36 Waffen",
+        "priceless": "Unbezahlbare Tarnung auf 36 Waffen"    
+      },
+      "description": "Das Tarnungssystem für Modern Warfare III ist im Grunde genau dasselbe wie das in Modern Warfare II. Um die Interstellar-Tarnung freizuschalten, müssen die folgenden Anforderungen erfüllt sein: {checklist} Während du durch die Tarnstufen fortschreitest, wirst du die nächste Stufe freischalten:",
+      "stages": {
+        "base": "Basis",
+        "forged": "Geschmiedet",
+        "gilded": "Vergoldet",
+        "interstellar": "Interstellar",
+        "priceless": "Unbezahlbar"    
+      },
+      "table": {
+        "headers": {
+          "requirement": "Anforderung",
+          "stage": "Stufe"    
+        },
+        "stage_requirements": {
+          "base": "Basis-Tarnungen werden entsprechend ihrer zugehörigen Waffenbasis-Herausforderung vergeben, die freigeschaltet wird, indem die spezifische Waffe verbessert wird.",
+          "gilded": "Sobald die Basis-Tarnungen freigeschaltet wurden, schaltest du die Vergoldet-Tarnungsherausforderung für diese spezifische Waffe frei.",
+          "interstellar": "Die Interstellar-Tarnung wird automatisch freigeschaltet, wenn du die Unbezahlbare Tarnung auf 36 Waffen freigeschaltet hast.",
+          "forged": "Nach Abschluss aller Vergoldet-Tarnungsherausforderungen für eine bestimmte Kategorie schaltest du die Geschmiedet-Tarnungsherausforderung für diese spezifische Waffe frei.",
+          "priceless": "Sobald du die Geschmiedet-Tarnung für alle Kategorien und Waffen freigeschaltet hast, schaltest du dann die Unbezahlbar-Tarnungsherausforderung für jede Waffe frei."
+        },
+        "subtitle": "Um zur nächsten Tarnstufe zu gelangen, musst du zuerst die vorherige Stufe freischalten:",
+        "title": "Wie schalte ich jede Tarnstufe frei?"      
+    },
+    "settings": {
+      "export": {
+        "copy_to_clipboard": "In die Zwischenablage kopieren",
+        "description": "Exportiere deinen Fortschritt auf ein anderes Gerät oder einen anderen Browser.",
+        "download_as_file": "Als Datei herunterladen",
+        "title": "Fortschritt exportieren"    
+      },
+      "import": {
+        "description": "Importiere deinen Fortschritt von einem anderen Gerät oder Browser, indem du entweder den exportierten Code einfügst oder die exportierte Datei hochlädst.",
+        "import_code": "Code importieren",
+        "import_disabled_tooltip": "Du musst den Code im obigen Feld eingeben.",
+        "import_from_file": "Von Datei importieren",
+        "placeholder": "Füge den Code hier ein oder importiere ihn aus der Datei unten.",
+        "title": "Fortschritt importieren"    
+      },
+      "reset": {
+        "confirm": {
+          "body": "Bist du sicher, dass du deinen gesamten Fortschritt zurücksetzen möchtest?",
+          "cancel": "Abbrechen",
+          "reset": "Zurücksetzen",
+          "title": "Gesamten Fortschritt zurücksetzen"
+        },
+        "description": "Diese Aktion wird deinen gesamten Fortschritt zurücksetzen und von Null beginnen.",
+        "reset_my_progress": "Meinen Fortschritt zurücksetzen",
+        "title": "Gesamten Fortschritt zurücksetzen",
+        "warning": "Diese Aktion ist nicht rückgängig zu machen, wenn du deinen Fortschritt nicht exportiert hast."    
+      }
+    },
+    "weapons": {
+      "completed_in_category": "Waffen abgeschlossen in Kategorie",
+      "completed_modal": {
+        "body": "Herzlichen Glückwunsch zum Abschluss des Interstellar-Grinds! Es war eine langer Weg! Du hast hier zum ersten Mal deinen Fortschritt verfolgt {duration} am {date}.",
+        "support_link": "Kauf mir ein Bier!",
+        "support": "Wenn dir dieser Tracker gefallen hat, zeige deine Wertschätzung, indem du anderen davon erzählst überlege und wenn du Lust hast kannst du {0} als Dank zu spenden. Hoffentlich sehe ich dich auf dem Schlachtfeld! Prost! 🍺",
+        "title": "Interstellar freigeschaltet! 👏🥳"    
+      },
+      "double_click_category_tooltip": "Doppelklicken, um die Kategorie als abgeschlossen zu markieren",
+      "double_click_tooltip": "Doppelklicken, um die Waffe zu {state}",
+      "finished_placeholder": "Du hast alle Tarnungsherausforderungen abgeschlossen 👏",
+      "info_link": "hier",
+      "info_tooltip": "Du musst nur die Anzahl der Basiswaffen in jeder Kategorie abschließen, um die Geschmiedet-Tarnungsherausforderung zu erhalten. Zum Beispiel erfordern die Sturmgewehre insgesamt 6 vergoldete Tarnungen, um die Geschmiedet-Tarnungsherausforderung für alle Waffen in dieser Kategorie freizuschalten. Drücke dieses Symbol, um mehr zu erfahren.",
+      "info": "Du musst nur die Anzahl der Basiswaffen in jeder Kategorie abschließen, um die Geschmiedet-Tarnungsherausforderung zu erhalten. Zum Beispiel erfordern die Sturmgewehre insgesamt 6 vergoldete Tarnungen, um die Geschmiedet-Tarnungsherausforderung für alle Waffen in dieser Kategorie freizuschalten. Erfahre mehr {link}.",
+      "progress": {
+        "label": "Interstellar-Fortschritt",
+        "tooltip": "Fortschritt zur Interstellar-Tarnung"    
+      }
+    },
+    "zombies": {
+      "completed_modal": {
+        "body": "Herzlichen Glückwunsch zum Abschluss aller Zombie-Tarnungen! Das ist wirklich eine Leistung! Du hast hier zum ersten Mal deinen Fortschritt verfolgt {duration} am {date}.",
+        "support_link": "mir ein Bier kaufen",
+        "support": "Wenn dir dieser Tracker gefallen hat, zeige deine Wertschätzung, indem du anderen davon erzählst überlege und wenn du Lust hast kannst du {0} als Dank zu spenden. Hoffentlich sehe ich dich auf dem Schlachtfeld! Prost! 🍺",
+        "title": "Zombie-Tarnungen abgeschlossen 👏🥳"
+      },
+      "progress": {
+        "label": "Borealis-Fortschritt",
+        "tooltip": "Fortschritt zur Erfüllung aller Zombie-Tarnungen"    
+      }
+    }
+  },
+  "challenges": {
+    "calling_cards": {
+      "campaign": {
+        "chainlinked": "Schlage die Grenzlinie-Mission der Kampagne auf beliebiger Schwierigkeitsstufe",
+        "gaz": "Schlage die Recon by Fire-Mission der Kampagne auf beliebiger Schwierigkeitsstufe",
+        "shadow_company_ops": "Al Qatala",
+        "soaps_determination": "Schließe die Strike-Kampagnenmission ab"
+      },
+      "dmz": {
+        "activate_uav": "Aktiviere {amount} UAV-Türme in der DMZ",
+        "activate_uav_all": "Schließe alle UAV-Turm-Herausforderungen ab",
+        "agent_kills": "Töte {amount} Agenten in der DMZ",
+        "agent_kills_all": "Schließe alle Agenten-Herausforderungen ab",
+        "armored_agent_kills": "Töte {amount} gepanzerte Agenten in der DMZ",
+        "armored_agent_kills_all": "Schließe alle gepanzerten Agenten-Herausforderungen ab",
+        "clear_strongholds": "Räume {amount} Festungen in der DMZ",
+        "clear_strongholds_all": "Schließe alle Festungs-Herausforderungen ab",
+        "complete_contracts": "Schließe {amount} Verträge in der DMZ ab",
+        "complete_contracts_all": "Schließe alle Vertrags-Herausforderungen ab",
+        "defeat_bosses": "Besiege {amount} Festungsbosse in der DMZ",
+        "defeat_bosses_all": "Schließe alle Festungsbossherausforderungen ab",
+        "exfil": "Exfil aus der DMZ {times} Mal",
+        "exfil_all": "Schließe alle Exfil-Herausforderungen ab",
+        "exfil_cash": "Exfil {amount} Bargeld aus der DMZ",
+        "exfil_cash_all": "Schließe alle Bargeld-Extraktions-Herausforderungen ab",
+        "exfil_final_helicopter": "Exfil mit dem letzten Hubschrauber verwenden {times} Mal",
+        "exfil_final_helicopter_all": "Schließe alle Herausforderungen für den letzten Exfil ab",
+        "extract_valuables": "Extrahiere {amount} Wertsachen aus der DMZ",
+        "extract_valuables_all": "Schließe alle Herausforderungen für die Wertextraktion ab",
+        "loot_caches": "Plündere {amount} Caches in der DMZ",
+        "loot_caches_all": "Schließe alle Cache-Herausforderungen ab",
+        "operator_kills": "Töte {amount} Operator in der DMZ",
+        "operator_kills_all": "Schließe alle Operator-Herausforderungen ab",
+        "unlock_spaces": "Entsperre {amount} gesperrte Bereiche in der DMZ",
+        "unlock_spaces_all": "Schließe alle Entsperren-Herausforderungen ab"
+      },
+      "multiplayer": {
+        "accumulate_stars": "Sammle {amount} Sterne aus kooperativen Spielmodi",
+        "assault_kills": "Erhalte {amount} Zielangriffstötungen in Mehrspieler-Zielmodi",
+        "assault_kills_all": "Schließe alle Herausforderungen für Zielangriffstötungen ab",
+        "defender_kills": "Erhalte {amount} Zielverteidigerstötungen in Mehrspieler-Zielmodi",
+        "defender_kills_all": "Schließe alle Herausforderungen für Zielverteidigerstötungen ab",
+        "gather_intel": "Sammle {amount} Intel-Fragmente in Spec Ops",
+        "gazs_gaze": "Beende Atomgraid-Razzia mindestens einmal",
+        "occupying_vehicles": "Töte {amount} Feinde, die Fahrzeuge besetzen",
+        "occupying_vehicles_all": "Schließe alle Herausforderungen für feindliche Fahrzeuge ab",
+        "wins": "Gewinne {amount} Matches in Mehrspieler-Modi",
+        "wins_all": "Schließe alle Gewinn-Herausforderungen ab"
+      },
+      "operator": {
+        "operator_assists": "Erhalte {amount} Operator-Unterstützungen",
+        "operator_assists_all": "Schließe alle Operator-Unterstützungsherausforderungen ab",
+        "operator_double_kills": "Erhalte {amount} Operator-Doppelabschüsse",
+        "operator_double_kills_all": "Schließe alle Herausforderungen für Operator-Doppelabschüsse ab",
+        "operator_finishing_moves": "Führe {amount} Abschlussbewegungen an Operatoren aus",
+        "operator_finishing_moves_all": "Schließe alle Herausforderungen für Abschlussbewegungen an Operatoren ab",
+        "operator_headshots": "Erhalte {amount} Operator-Kopfschüsse",
+        "operator_headshots_all": "Schließe alle Herausforderungen für Operator-Kopfschüsse ab",
+        "operator_hipfire_kills": "Erhalte {amount} Operator-Hüftfeuer-Tötungen",
+        "operator_hipfire_kills_all": "Schließe alle Herausforderungen für Operator-Hüftfeuer-Tötungen ab",
+        "operator_kills": "Erhalte {amount} Operator-Tötungen",
+        "operator_kills_all": "Schließe alle Herausforderungen für Operator-Tötungen ab",
+        "operator_kills_lethals": "Erhalte {amount} Operator-Tötungen mit tödlichen Waffen",
+        "operator_kills_lethals_all": "Schließe alle Herausforderungen für Operator-Tötungen mit tödlichen Waffen ab",
+        "operator_longshots": "Erhalte {amount} Operator-Fernschüsse",
+        "operator_longshots_all": "Schließe alle Herausforderungen für Operator-Fernschüsse ab",
+        "operator_melee": "Erhalte {amount} Operator-Melee-Tötungen",
+        "operator_melee_all": "Schließe alle Herausforderungen für Operator-Melee-Tötungen ab",
+        "operator_without_dying": "Erhalte {amount} Operator-Tötungen, ohne {times} Mal zu sterben",
+        "operator_without_dying_all": "Schließe alle Herausforderungen für Operator-Tötungen ohne zu sterben ab"
+         },
+        "prestige 1": {
+          "tagged_up": "Erhalte 25 Operator Triple Kills",
+          "fists_in_overdrive": "Erhalte 100 Operator Kopfschüsse mit Sturmgewehren",
+          "frag_finds_a_way": "Erhalte 25 Operator Kills mit Splittergranaten",
+          "colorful_shine": "Erhalte 50 Operator Longshot Kills mit SMGs",
+          "cyber_assassin": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 2": {
+          "cinco_skully": "Erhalte 25 Operator Kills mit Bohrladung",
+          "black_and_gold": "Erhalte 200 Operator Kills aus der Hüfte mit Sturmgewehren",
+          "the_perch": "Erhalte 50 Operator Kills mit Totenstille",
+          "drench_in_gold": "Erhalte 100 Operator Kills mit Schrotflinten während du durch Visier ziels",
+          "join_us": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 3": {
+          "cretaceous_us_creation": "Erhalte 50 Operator Kills mit Raketenwerfern",
+          "winged_terror": "Führe 10 Endbewegungen aus",
+          "worm_devour": "Erhalte 5 Operator Kills ohne 15-mal zu sterben",
+          "dragon_in_downtown": "Erhalte 30 Operator Kills mit Wurfmessern",
+          "money_fight": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 4": {
+          "masked_excitement": "Erhalte 100 Operator Kopfschüsse mit LMGs",
+          "spilled_milk": "Schockiere 25 Operatoren mit Schockstock",
+          "enraged_cycle": "Erhalte Operator Kills mit Wutrausch",
+          "flaming_last_stand": "Erhalte 100 Hüftfeuer-Operator-Kills mit Pistolen",
+          "ocular_revenge": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 5": {
+          "oneman_charge_2": "Erhalte 100 Kills mit Sekundärwaffen",
+          "professional": "Verwende 50 Abschussserien",
+          "blinding_decent": "Erhalte 100 Königstöter-Kills",
+          "by_fire": "Zerstöre 25 Fahrzeuge",
+          "i_got_your_back": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 6": {
+          "sirens_appearance": "Erhalte 150 Operator Kills bei niedriger Gesundheit",
+          "flaming_ouroboros": "Erhalte 150 Operator One Shot One Kills mit Scharfschützengewehren",
+          "warlocks_entrance": "Markiere 100 Feinde mit taktischen Kameras",
+          "depths_of_hell": "Alle Prestige-Herausforderungen abschließen",
+          "eternal_torment": "Erhalte 50 Operator Kills mit Molotow-Cocktails"
+        },
+        "prestige 7": {
+          "spray_and_pray": "Erhalte 50 Nahkampf-Operator-Kills",
+          "masked_marauder": "Erhalte 50 Longshot-Operator-Kills mit Sturmgewehren",
+          "gamma_radiance": "Töte 50 Operatoren von hinten mit dem Tracker-Perk",
+          "dive_into_battle": "Betäube 100 Operatoren mit Blendgranaten",
+          "ghosts_gaze": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 8": {
+          "grim_fate": "Erhalte 15 Quad-Kills",
+          "joust": "Erhalte 100 Operator Kills mit dem Riot-Schild",
+          "symbolic_end": "50-mal mit taktischer Einsetzung respawnen",
+          "chattering_soldier": "Erhalte 100 Operator Kopfschüsse mit Scharfschützengewehren",
+          "the_inevitable": "Alle Prestige-Herausforderungen abschließen"      
+        },
+        "prestige 9": {
+          "goggles_on": "Erhalte 100 Buzzkills",
+          "downed": "Erhalte 50 Operator-Prone-Kills mit Pistolen",
+          "rider": "Versorge 100 Spieler mit Munitionskiste",
+          "hold_your_fire": "Erhalte 10 Operator-Kills ohne 10-mal zu sterben",
+          "over_yonder": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 10": {
+          "explosive_supreme": "Erhalte 150 Hüftfeuer-Operator-Kills mit LMGs",
+          "bright_blue": "Erhalte 25 Operator-Kills mit Semtex",
+          "blinding_soldiers": "Rufe 20 Mörserangriffe herbei",
+          "abstract_geometry": "Erhalte 10 Hüftfeuer-Operator-Kills in einem einzigen Match 10-mal",
+          "windows": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 11": {
+          "in_the_zone": "Erhalte 100 Operator-Kopfschüsse mit SMGs",
+          "the_other_side": "Blende 25 Operatoren mit Blendgranaten",
+          "strength_and_grit": "Erhalte 100 Kills mit Abschussserien",
+          "right_down_the_middle": "Erhalte 10 Montierte Operator-Kills in einem einzigen Match 10-mal",
+          "konigs_sights": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 12": {
+          "it_begins_here": "Erhalte 100 Operator One Shot One Kills mit Schrotflinten",
+          "rusher_mentality": "Störe 50 Operator-Ausrüstungen mit DDoS",
+          "duty": "Erhalte 50 Operator-Kills mit Nahkampfwaffen",
+          "search_party": "Erhalte 20 Operator-Kills in einem einzigen Match 10-mal",
+          "ghost_on_point": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 13": {
+          "prime_time": "Erhalte 50 Operator Double Kills mit Sturmgewehren",
+          "shell_of_a_man": "Erhalte 25 Operator-Kills von hinten",
+          "x_marks_the_spot": "Erhalte 25 Operator-Kills mit deinem letzten Schuss",
+          "seeing_green": "Erhalte 10 Kopfschuss-Kills mit Operatoren in einem einzigen Match 10-mal",
+          "red_ghost": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 14": {
+          "never_back_down": "Erhalte 30 Point Blank Operator-Kills mit Scharfschützengewehren",
+          "pseudo_power": "Erhalte 10 Operator Double Kills mit Splittergranaten",
+          "against_the_odds": "Verletze 50 Operatoren mit Tränengas",
+          "this_is_it": "Erhalte 100 Rache-Kills",
+          "against_the_wall": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 15": {
+          "stars": "Erhalte 150 Hocke-Kills",
+          "exes": "Erhalte 20 Buzzkills mit tödlichen Waffen",
+          "stars_beta": "Erhalte 50 Operator-Kills mit Sekundärwaffe unter Verwendung des Overkill-Perks",
+          "circles": "Verwende 50 Feld-Upgrades mit dem Overclock-Perk",
+          "zap": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 16": {
+          "slithering": "Erhalte 25 Operator Triple Kills mit Sturmgewehren",
+          "venom_splash": "Erhalte 15 Operator-Kills ohne 5-mal zu sterben",
+          "blue_unholy": "Töte 30 sprintende Operatoren mit Nahkampfwaffen",
+          "8legged_nightmare": "Erhalte 50 Operator-Kills nachdem du kürzlich eine Waffe aufgenommen hast",
+          "bloody_growl": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 17": {
+          "the_membrane": "Erhalte 50 Operator-Kills mit Raketenwerfern",
+          "enraged_monkey": "Gewinne 50 Matches",
+          "insane_even": "Erhalte 100 Operator-Kills bei niedriger Gesundheit",
+          "the_fear_in_your_eyes": "Erhalte 50 Kills mit Wurfsternen",
+          "skull_face_off": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 18": {
+          "fluff_assault": "Erhalte 200 Operator-Kills, ohne Schaden von diesem Operator zu nehmen",
+          "seasoned_campers": "Erhalte 15 Operator-Kills mit Annäherungsmine",
+          "serious_combat": "Erhalte 10 Operator-Kills ohne 10-mal zu sterben mit Battle Rifles",
+          "windy_wonders": "Erhalte 25 Operator-Kills nach dem kürzlichen Nachladen",
+          "prestige_18": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 19": {
+          "feral_house_cat": "Erhalte 25 Operator-Kills, die von Rauchgranaten betroffen sind",
+          "sea_rage": "Erhalte 30 Sekundärwaffen-Operator-Kopfschuss-Kills",
+          "fight_the_tiger": "Erhalte 50 Wanddurchschuss-Operator-Kills",
+          "locked_in_battle": "Erhalte 20 Operator-Triple-Kills mit LMGs",
+          "prestige_19": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 20": {
+          "heavy_gunning": "Spotte 25 Operatoren mit Schnappschuss-Granate",
+          "slope_killers": "Erhalte 10 Afterlife-Kills",
+          "sud_buds": "Erhalte 50 Kills mit Marksman-Gewehr",
+          "ghost_grind": "Erhalte 50 Operator-Double-Kills mit SMGs",
+          "prestige_20": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 21": {
+          "ravens_cry": "Erhalte 15 Operator-Kills",
+          "snake_soul": "Erhalte 30 Operator-Kills durch Feuer",
+          "letting_the_lion_out": "Erhalte 100 Operator-Kills, während das gegnerische Team eine aktive UAV hat",
+          "unbearable": "Erhalte 100 Operator-Hüftfeuer-Kills mit Pistolen",
+          "prestige_21": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 22": {
+          "infinity_calling": "Erhalte 100 ADS-Operator-Kills mit Pistolen",
+          "wolfs_wrath": "Absolviere 75 Basis-Tagesherausforderungen in Multiplayer oder Warzone",
+          "endless_battle": "Erhalte 50 Operator-Kills kurz nach dem Waffenwechsel",
+          "hogs_hell": "Erhalte 25 Operator-Kills beim Schwimmen",
+          "animal_instinct": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 23": {
+          "beautiful_distraction": "Erhalte 100 montierte Operator-Kills mit Scharfschützengewehren",
+          "money_blaster": "Erhalte 50 Operator-Kills mit Claymore",
+          "smoke_tricks": "Erhalte 100 Longshots",
+          "king_ham": "Erhalte 50 Nahkampf-Operator-Kills mit Nicht-Nahkampfwaffen",
+          "eat_lead": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 24": {
+          "swirling_crimson": "Erhalte 25 Operator-Quad-Kills mit Schrotflinten",
+          "gotchya": "Erhalte 25 Operator-Kills, indem du sie mit Thermite beklebst",
+          "the_knight": "Erhalte 50 Low-Blow-Operator-Kills mit Nahkampfwaffen",
+          "babel_brawl": "Erhalte 150 Rächer-Operator-Kills",
+          "the_record": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 25": {
+          "deep_in_thought": "Erhalte 25 Operator-Triple-Kills mit SMGs",
+          "no_more_practice": "Spotte 100 Operatoren mit dem Spotter Scope",
+          "ride_and_fire": "Erhalte 30 Extreme Longshot-Operator-Kills",
+          "unspent_shells": "Fange 50 Ausrüstungen mit dem Trophy System ab",
+          "ghost_provides_cover": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 17": {
+          "the_membrane": "Erhalte 50 Operator-Kills mit Raketenwerfern",
+          "enraged_monkey": "Gewinne 50 Matches",
+          "insane_even": "Erhalte 100 Operator-Kills bei niedriger Gesundheit",
+          "the_fear_in_your_eyes": "Erhalte 50 Kills mit Wurfsternen",
+          "skull_face_off": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 18": {
+          "fluff_assault": "Erhalte 200 Operator-Kills, ohne Schaden von diesem Operator zu nehmen",
+          "seasoned_campers": "Erhalte 15 Operator-Kills mit Annäherungsmine",
+          "serious_combat": "Erhalte 10 Operator-Kills ohne 10-mal zu sterben mit Battle Rifles",
+          "windy_wonders": "Erhalte 25 Operator-Kills nach dem kürzlichen Nachladen",
+          "prestige_18": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 19": {
+          "feral_house_cat": "Erhalte 25 Operator-Kills, die von Rauchgranaten betroffen sind",
+          "sea_rage": "Erhalte 30 Sekundärwaffen-Operator-Kopfschuss-Kills",
+          "fight_the_tiger": "Erhalte 50 Wanddurchschuss-Operator-Kills",
+          "locked_in_battle": "Erhalte 20 Operator-Triple-Kills mit LMGs",
+          "prestige_19": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 20": {
+          "heavy_gunning": "Spotte 25 Operatoren mit Schnappschuss-Granate",
+          "slope_killers": "Erhalte 10 Afterlife-Kills",
+          "sud_buds": "Erhalte 50 Kills mit Marksman-Gewehr",
+          "ghost_grind": "Erhalte 50 Operator-Double-Kills mit SMGs",
+          "prestige_20": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 21": {
+          "ravens_cry": "Erhalte 15 Operator-Kills",
+          "snake_soul": "Erhalte 30 Operator-Kills durch Feuer",
+          "letting_the_lion_out": "Erhalte 100 Operator-Kills, während das gegnerische Team eine aktive UAV hat",
+          "unbearable": "Erhalte 100 Operator-Hüftfeuer-Kills mit Pistolen",
+          "prestige_21": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 22": {
+          "infinity_calling": "Erhalte 100 ADS-Operator-Kills mit Pistolen",
+          "wolfs_wrath": "Absolviere 75 Basis-Tagesherausforderungen in Multiplayer oder Warzone",
+          "endless_battle": "Erhalte 50 Operator-Kills kurz nach dem Waffenwechsel",
+          "hogs_hell": "Erhalte 25 Operator-Kills beim Schwimmen",
+          "animal_instinct": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 23": {
+          "beautiful_distraction": "Erhalte 100 montierte Operator-Kills mit Scharfschützengewehren",
+          "money_blaster": "Erhalte 50 Operator-Kills mit Claymore",
+          "smoke_tricks": "Erhalte 100 Longshots",
+          "king_ham": "Erhalte 50 Nahkampf-Operator-Kills mit Nicht-Nahkampfwaffen",
+          "eat_lead": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 24": {
+          "swirling_crimson": "Erhalte 25 Operator-Quad-Kills mit Schrotflinten",
+          "gotchya": "Erhalte 25 Operator-Kills, indem du sie mit Thermite beklebst",
+          "the_knight": "Erhalte 50 Low-Blow-Operator-Kills mit Nahkampfwaffen",
+          "babel_brawl": "Erhalte 150 Rächer-Operator-Kills",
+          "the_record": "Alle Prestige-Herausforderungen abschließen"
+        },
+        "prestige 25": {
+          "deep_in_thought": "Erhalte 25 Operator-Triple-Kills mit SMGs",
+          "no_more_practice": "Spotte 100 Operatoren mit dem Spotter Scope",
+          "ride_and_fire": "Erhalte 30 Extreme Longshot-Operator-Kills",
+          "unspent_shells": "Fange 50 Ausrüstungen mit dem Trophy System ab",
+          "ghost_provides_cover": "Alle Prestige-Herausforderungen abschließen"
+        },
+      "season": {
+        "aerial_entrance": "Belohnung für Sektor A1 des Battlepasses der Saison 01",
+        "corner_cover": "Belohnung für Sektor A17 des Battlepasses der Saison 01",
+        "gathered_gents": "Belohnung für Sektor A2 des Battlepasses der Saison 01",
+        "hired_sniper": "Belohnung für Sektor A5 des Battlepasses der Saison 01",
+        "plane_sight": "Belohnung für Sektor A14 des Battlepasses der Saison 01",
+        "scaling_assassin": "Belohnung für Sektor A8 des Battlepasses der Saison 01",
+        "sole_survivor": "Belohnung für Sektor A18 des Battlepasses der Saison 01"
+      },
+      "twitch": {
+        "death_wrap": "Schauen Sie sich berechtigte Twitch-Streams an",
+        "deaths_angel": "Schauen Sie sich berechtigte Twitch-Streams an"
+      },
+      "warzone": {
+        "containers": "Öffne {amount} Container in Warzone",
+        "containers_all": "Vervollständige alle Warzone Loot Mastery-Herausforderungen",
+        "contracts": "Vervollständige {amount} Verträge in Warzone",
+        "contracts_all": "Vervollständige alle Warzone Contract Mastery-Herausforderungen",
+        "kills": "Erhalte {amount} Kills in Warzone",
+        "kills_all": "Vervollständige alle Warzone Kills Mastery-Herausforderungen",
+        "wins": "Gewinne {amount} Matches in Warzone",
+        "wins_all": "Vervollständige alle Warzone Wins Mastery-Herausforderungen"
+      }
+    },
+    "mastery": {
+      "kills": "{amount} Kills während Verwendung des {camouflage} Tarnmusters",
+      "equipment": "Zerstöre {amount} Killstreaks, Ausrüstung oder Fahrzeuge während Verwendung des {camouflage} Tarnmusters"
+    },
+    "types": {
+      "akimbo_kills": "{amount} Kills mit Akimbo-Waffen",
+      "consecutive_kills_without_taking_damage": "{amount} aufeinanderfolgende Kills {times} Mal, ohne Schaden zu nehmen",
+      "critical_kills": "{amount} kritische Kills",
+      "destroy_equipment": "Zerstöre {amount} feindliche Ausrüstung",
+      "destroy_streaks_equipment_or_vehicles": "Zerstöre {amount} feindliche Serien, Ausrüstung oder Fahrzeuge",
+      "destroy_streaks": "Zerstöre {amount} feindliche Serien",
+      "affect_with_emp": "Beeinflusse {amount} Feinde mit dem EMP",
+      "direct_impact_kills": "{amount} Kills durch direkten Treffer",
+      "disciple_kills": "{amount} Disciple-Kills",
+      "double_kills_while_in_tac_stance": "{amount} Doppelmorde im TAC-Modus",
+      "kills_while_ads_and_sliding": "{amount} Kills beim Zielen und Rutschen",
+      "kills_while_strafing_in_tac_stance": "{amount} Kills beim Ausweichen im TAC-Modus",
+      "double_kills_with_akimbo": "{amount} Doppelmorde mit Akimbo-Waffen",
+      "double_kills": "{amount} Doppelmorde",
+      "focused_kills": "{amount} Kills im fokussierten Modus",
+      "headshot_kills": "{amount} Kopfschuss-Kills",
+      "headshots_while_moving": "{amount} Kopfschüsse während der Bewegung",
+      "headshots_with_magnification_scope": "{amount} Kopfschüsse mit Vergrößerungsoptik",
+      "hellhound_kills": "{amount} Hellhound-Kills",
+      "hipfire_kills_while_enemy_affected_by_tactical": "{amount} Hüftfeuer-Kills, während der Feind von einer taktischen Aktion betroffen ist",
+      "hipfire_kills_while_moving": "{amount} Hüftfeuer-Kills während der Bewegung",
+      "hipfire_kills_with_one_mag": "{amount} Hüftfeuer-Kills mit einem Magazin {times} Mal",
+      "hipfire_kills": "{amount} Hüftfeuer-Kills",
+      "injured_enemy_kills": "{amount} Kills an verletzten Feinden",
+      "ironsight_headshots": "{amount} Kopfschüsse mit Kimme und Korn",
+      "kills_and_successfully_extract_in_a_single_deployment": "{amount} Kills und erfolgreiche Extraktion in einem einzigen Einsatz",
+      "kills_at_rare_or_higher_rarity": "{amount} Kills in seltener oder höherer Seltenheitsstufe",
+      "kills_from_behind": "{amount} Kills von hinten",
+      "kills_in_a_single_shot": "{amount} Kills mit einem einzigen Schuss {times} Mal",
+      "kills_in_medium_or_high_threat_zone": "{amount} Kills in mittleren oder hohen Bedrohungszonen",
+      "kills_in_single_match": "{amount} Kills in einem einzelnen Match",
+      "kills_shortly_after_field_upgrade": "{amount} Kills kurz nach Verwendung eines Feld-Upgrades",
+      "kills_shortly_after_sprinting_one_life": "{amount} Kills kurz nach dem Sprinten in einem Leben",
+      "kills_shortly_after_sprinting": "{amount} Kills kurz nach dem Sprinten",
+      "kills_while_ads_and_fully_loaded": "{amount} Kills beim Zielen und voll geladen",
+      "kills_while_ads_and_moving": "{amount} Kills beim Zielen und Bewegen",
+      "kills_while_ads_and_strafing": "{amount} Kills beim Zielen und Ausweichen",
+      "kills_while_ads": "{amount} Kills beim Zielen",
+      "kills_shortly_after_sprinting_ads": "{amount} Kills beim Zielen kurz nach dem Sprinten",
+      "kills_while_crouched": "{amount} Kills im Hocken",
+      "kills_while_crouching_or_sliding": "{amount} Kills im Hocken oder Rutschen",
+      "kills_while_enemy_affected_by_tactial_and_in_tac_stance": "{amount} Kills, während der Feind von einer taktischen Aktion betroffen ist und im TAC-Modus ist",
+      "kills_while_enemy_affected_by_tactical": "{amount} Kills, während der Feind von einer taktischen Aktion betroffen ist",
+      "kills_while_focused_down_sights": "{amount} Kills beim fokussierten Zielen",
+      "kills_while_hipfire_and_sliding": "{amount} Kills beim Hüftfeuer und Rutschen",
+      "kills_while_hipfire_and_moving": "{amount} Kills beim Hüftfeuer und Bewegen",
+      "kills_while_hipfire_and_strafing": "{amount} Kills beim Hüftfeuer und Ausweichen",
+      "kills_while_in_tac_stance": "{amount} Kills im TAC-Modus",
+      "kills_while_moving_and_in_tac_stance": "{amount} Kills beim Bewegen und im TAC-Modus",
+      "kills_while_outside_line_of_sight": "{amount} Kills, während du außerhalb des Sichtfelds des Feindes bist",
+      "kills_while_prone": "{amount} Kills im Liegen",
+      "kills_while_using_full_auto": "{amount} Kills beim Verwenden von Vollautomatik",
+      "kills_with_akimbo_while_enemy_affected_by_tactical": "{amount} Kills mit Akimbo-Waffen, während der Feind von einer taktischen Aktion betroffen ist",
+      "kills_with_electric_damage": "{amount} Kills mit elektrischem Schaden",
+      "kills_with_extreme_magnification": "{amount} Kills mit extremer Vergrößerung (8-fache Vergrößerung oder höher)",
+      "kills_with_fire_damage": "{amount} Kills mit Feuerschaden",
+      "kills_with_four_active_perks": "{amount} Kills mit mindestens vier aktiven Perks",
+      "kills_with_frost_damage": "{amount} Kills mit Frostschaden",
+      "kills_with_full_attachments": "{amount} Kills mit vollständigen Anhängen",
+      "kills_with_laser_attachment": "{amount} Kills mit einem Laseranhang",
+      "kills_with_magnification_scope": "{amount} Kills mit Vergrößerungsoptik",
+      "kills_with_no_attachments": "{amount} Kills ohne Anhänge",
+      "kills_with_one_mag": "{amount} Kills mit einem Magazin {times} Mal",
+      "kills_with_toxic_damage": "{amount} Kills mit Giftschaden",
+      "kills_with_underbarrel_attachments": "{amount} Kills mit Unterlaufenanhang",
+      "kills_without_damaged": "{amount} Kills, ohne dass der Feind dich beschädigt",
+      "kills_without_dying": "{amount} Kills ohne zu sterben {times} Mal",
+    "kills_without_releasing_trigger": "{amount} Kills ohne den Abzug loszulassen {times} Mal",
+    "kills_without_reloading": "{amount} Kills ohne nachzuladen {times} Mal",
+    "kills": "{amount} Kills",
+    "longshot_kills_while_mounted": "{amount} Longshot-Kills während montiert",
+    "longshot_kills": "{amount} Longshot-Kills",
+    "mangler_kills": "{amount} Mangler-Kills",
+    "mercenary_kills": "{amount} Söldner-Kills",
+    "mimic_kills": "{amount} Mimic-Kills",
+    "mounted_kills": "{amount} Kills während montiert",
+    "moving_kills": "{amount} Kills während der Bewegung",
+    "multikills": "{amount} Multikills",
+    "one_burst_kills": "{amount} Ein-Schuss-Kills",
+    "one_shot_kills_while_ads": "{amount} Ein-Schuss-Kills beim Zielen",
+    "one_shot_kills": "{amount} Ein-Schuss-Kills",
+    "pack_a_punched_kills": "{amount} Pack-A-Punched-Kills",
+    "penetration_kills": "{amount} Durchschuss-Kills",
+    "point_blank_kills": "{amount} Nahkampf-Kills",
+    "quickscope_kills": "{amount} Kills kurz nach dem Anvisieren",
+    "revenge_kills": "{amount} Rachekills",
+    "semi_auto_headshots_with_magnification_scope": "{amount} Halbautomatische Kopfschüsse mit Vergrößerungsoptik",
+    "special_or_elite_zombie_kills": "{amount} Spezial- oder Elite-Zombie-Kills",
+    "suppressed_clean_kills": "{amount} unterdrückte saubere Kills",
+    "suppressed_double_kills": "{amount} unterdrückte Doppelmorde",
+    "suppressed_headshots": "{amount} unterdrückte Kopfschüsse",
+    "suppressor_kills": "{amount} Kills unter Verwendung eines Schalldämpfers",
+    "time_limit_kills": "{amount} Kills innerhalb von {seconds} Sekunden voneinander {times} Mal",
+    "unknown": "Unbekannt {amount}"
+    }
+  },
+  "camouflage_categories": {
+    "Blur": "Verschwommen",
+    "Bold": "Fett",
+    "Butterfly": "Schmetterling",
+    "Digital": "Digital",
+    "Fun": "Spaß",
+    "Geometric": "Geometrisch",
+    "Glitch Milspec": "Glitch Milspec",
+    "Glittery Flats": "Glitzernde Flächen",
+    "Graphical": "Grafisch",
+    "High Contrast": "Hoher Kontrast",
+    "Neapolitan": "Neapolitaner",
+    "Perfect Symmetry": "Perfekte Symmetrie",
+    "Poison Frogs": "Giftfrösche",
+    "Psychedelics": "Psychedelisch",
+    "Puzzle": "Rätsel",
+    "Retro": "Retro",
+    "Skeletal": "Skelett",
+    "Spray Paint": "Sprühfarbe",
+    "Topographic": "Topografisch",
+    "Two Tone Brushstrokes": "Zweifarbige Pinselstriche",
+    "Uncategorized": "Nicht kategorisiert",
+    "Under the Microscope": "Unter dem Mikroskop",
+    "Wavelength": "Wellenlänge",
+    "Woodland": "Wald"
+  },
+  "calling_card_categories": {
+    "campaign": "Kampagne",
+  "multiplayer": "Mehrspieler",
+  "dmz": "DMZ",
+  "dmz_activate_uav": "UAVs aktivieren",
+  "dmz_agent_kills": "Agentenabschüsse",
+  "dmz_armored_agent_kills": "Gepanzerte Agentenabschüsse",
+  "dmz_clear_strongholds": "Festungen säubern",
+  "dmz_complete_contracts": "Verträge abschließen",
+  "dmz_defeat_bosses": "Bosse besiegen",
+  "dmz_exfil": "Exfiltration",
+  "dmz_exfil_cash": "Exfiltrationsgeld",
+  "dmz_exfil_final_helicopter": "Endhubschrauber für die Exfiltration",
+  "dmz_extract_valuables": "Wertgegenstände extrahieren",
+  "dmz_loot_caches": "Beutekisten plündern",
+  "dmz_operator_kills": "Operatorabschüsse",
+  "dmz_unlock_spaces": "Räume freischalten",
+  "multiplayer_assault_kills": "Angriffsabschüsse",
+  "multiplayer_defender_kills": "Verteidigungsabschüsse",
+  "multiplayer_misc": "Sonstiges",
+  "multiplayer_occupying_vehicles": "Besetzte Fahrzeuge",
+  "multiplayer_wins": "Gewinne",
+  "operator": "Operator",
+  "operator_assists": "Assists",
+  "operator_double_kills": "Doppelte Abschüsse",
+  "operator_finishing_moves": "Abschlussbewegungen",
+  "operator_headshots": "Kopfschüsse",
+  "operator_hipfire_kills": "Hüftfeuerabschüsse",
+  "operator_kills": "Abschüsse",
+  "operator_kills_lethals": "Abschüsse mit tödlichen Waffen",
+  "operator_longshots": "Fernschüsse",
+  "operator_melee": "Nahkampfabschüsse",
+  "operator_without_dying": "Abschüsse ohne zu sterben",
+  "prestige 1": "Prestige 1",
+  "prestige 2": "Prestige 2",
+  "prestige 3": "Prestige 3",
+  "prestige 4": "Prestige 4",
+  "prestige 5": "Prestige 5",
+  "prestige 6": "Prestige 6",
+  "prestige 7": "Prestige 7",
+  "prestige 8": "Prestige 8",
+  "prestige 9": "Prestige 9",
+  "prestige 10": "Prestige 10",
+  "prestige 11": "Prestige 11",
+  "prestige 12": "Prestige 12",
+  "prestige 13": "Prestige 13",
+  "prestige 14": "Prestige 14",
+  "prestige 15": "Prestige 15",
+  "prestige 16": "Prestige 16",
+  "prestige 17": "Prestige 17",
+  "prestige 18": "Prestige 18",
+  "prestige 19": "Prestige 19",
+  "prestige 20": "Prestige 20",
+  "prestige 21": "Prestige 21",
+  "prestige 22": "Prestige 22",
+  "prestige 23": "Prestige 23",
+  "prestige 24": "Prestige 24",
+  "prestige 25": "Prestige 25",
+  "season": "Saison",
+  "twitch": "Twitch",
+  "warzone": "Warzone",
+  "warzone_containers": "Container",
+  "warzone_contracts": "Verträge",
+  "warzone_kills": "Abschüsse",
+  "warzone_wins": "Warzone Siege"
+  },
+  "weapon_categories": {
+    "Assault Rifles": "Sturmgewehre",
+    "Battle Rifles": "Kampfgewehre",
+    "Handguns": "Pistolen",
+    "Launchers": "Werfer",
+    "Light Machine Guns": "Leichte Maschinengewehre",
+    "Marksman Rifles": "DMR",
+    "Melee": "Nahkampf",
+    "Shotguns": "Schrotflinten",
+    "Sniper Rifles": "Scharfschützengewehre",
+    "Sub Machine Guns": "Maschinenpistolen"
+  }
+}

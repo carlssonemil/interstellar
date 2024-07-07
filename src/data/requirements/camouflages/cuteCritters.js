@@ -88,4 +88,22 @@ export default {
       type: 'kills_at_rare_or_higher_rarity',
     },
   },
+
+  'Bugged Out': {
+    weapon: 'Reclaimer 18',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Dead Creeper': {
+    weapon: 'Reclaimer 18',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

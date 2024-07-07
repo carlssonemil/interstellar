@@ -34,4 +34,22 @@ export default {
       type: 'kills_at_rare_or_higher_rarity',
     },
   },
+
+  'Azure Refract': {
+    weapon: 'Reclaimer 18',
+    level: '10',
+    challenge: {
+      amount: 10,
+      type: 'kills_while_ads',
+    },
+  },
+
+  'Crystalized': {
+    weapon: 'Reclaimer 18',
+    level: '10',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_electric_damage',
+    },
+  },
 }

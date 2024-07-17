@@ -4,6 +4,7 @@ import butterfly from './camouflages/butterfly'
 import cliffside from './camouflages/cliffside'
 import cuteCritters from './camouflages/cuteCritters'
 import digital from './camouflages/digital'
+import dragon from './camouflages/dragon'
 import fun from './camouflages/fun'
 import geometric from './camouflages/geometric'
 import glitchMilspec from './camouflages/glitchMilspec'
@@ -32,6 +33,7 @@ export default [
   ...cliffside,
   ...cuteCritters,
   ...digital,
+  ...dragon,
   ...fun,
   ...geometric,
   ...glitchMilspec,

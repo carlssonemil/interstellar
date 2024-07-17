@@ -15,7 +15,7 @@ export default {
     },
 
     zombies: {
-      Ripped: false,
+      'Ripped': false,
     },
   },
 
@@ -31,11 +31,21 @@ export default {
 
   'Soulrender': {
     multiplayer: {
-      Omnigenesis: false,
+      'Omnigenesis': false,
     },
 
     zombies: {
-      Neuronic: false,
+      'Neuronic': false,
     }
-  }
+  },
+
+  'Sledgehammer': {
+    multiplayer: {
+      'Dubs Dubs Dubs': false,
+    },
+
+    zombies: {
+      'Retrowave': false,
+    }
+  },
 }

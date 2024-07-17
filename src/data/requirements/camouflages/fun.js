@@ -61,6 +61,7 @@ export default {
       type: 'kills',
     },
   },
+
   'Sunny Side': {
     weapon: 'BAL-27',
     level: '19',
@@ -69,12 +70,50 @@ export default {
       type: 'kills_while_in_tac_stance',
     },
   },
+
   'Evil Spawn': {
     weapon: 'BAL-27',
     level: '19',
     challenge: {
       amount: 100,
       type: 'kills_shortly_after_field_upgrade',
+    },
+  },
+
+  'Donut Worry': {
+    weapon: 'Reclaimer 18',
+    level: '15',
+    challenge: {
+      amount: 10,
+      type: 'double_kills',
+    },
+  },
+
+  'Tangy Donut': {
+    weapon: 'Reclaimer 18',
+    level: '15',
+    challenge: {
+      amount: 20,
+      times: 10,
+      type: 'consecutive_kills_without_taking_damage',
+    },
+  },
+
+  'Dubs Dubs Dubs': {
+    weapon: 'Sledgehammer',
+    level: '4',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Retrowave': {
+    weapon: 'Sledgehammer',
+    level: '4',
+    challenge: {
+      amount: 250,
+      type: 'kills',
     },
   },
 }

@@ -362,6 +362,7 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
   'BAL-27': {
     // Multiplayer
     'Sunset Waves': requirements['Sunset Waves'],
@@ -390,6 +391,50 @@ export default {
       seconds: 10,
       times: 25,
       type: 'time_limit_kills',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
+
+  'STG44': {
+    // Multiplayer
+    'Flit And Float': requirements['Flit And Float'],
+    'Forms And Features': requirements['Forms And Features'],
+    'Out Of Sorts': requirements['Out Of Sorts'],
+    'White': requirements['White'],
+
+    // Zombies
+    'Globular Neon': requirements['Globular Neon'],
+    'Maps And Mazes': requirements['Maps And Mazes'],
+    'Overstretched': requirements['Overstretched'],
+    'Black': requirements['Black'],
+
+    'Gilded': {
+      amount: 50,
+      type: 'kills_while_strafing',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'kills_while_ads_and_moving',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'kills_without_damaged',
     },
 
     'Golden Enigma': {

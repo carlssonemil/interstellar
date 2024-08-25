@@ -15,7 +15,7 @@ export default {
     },
 
     zombies: {
-      'Ripped': false,
+      Ripped: false,
     },
   },
 
@@ -39,13 +39,13 @@ export default {
     }
   },
 
-  'Sledgehammer': {
+  'Spear': {
     multiplayer: {
-      'Dubs Dubs Dubs': false,
+      'Color Wave': false,
     },
 
     zombies: {
-      'Retrowave': false,
+      'Glitch': false,
     }
   },
 }

@@ -4,13 +4,13 @@ import butterfly from './camouflages/butterfly'
 import cliffside from './camouflages/cliffside'
 import cuteCritters from './camouflages/cuteCritters'
 import digital from './camouflages/digital'
-import dragon from './camouflages/dragon'
 import fun from './camouflages/fun'
 import geometric from './camouflages/geometric'
 import glitchMilspec from './camouflages/glitchMilspec'
 import glitteryFlats from './camouflages/glitteryFlats'
 import graphical from './camouflages/graphical'
 import highContrast from './camouflages/highContrast'
+import lines from './camouflages/lines'
 import neapolitan from './camouflages/neapolitan'
 import perfectSymmetry from './camouflages/perfectSymmetry'
 import poisonFrogs from './camouflages/poisonFrogs'
@@ -33,13 +33,13 @@ export default {
   ...cuteCritters,
   ...cliffside,
   ...digital,
-  ...dragon,
   ...fun,
   ...geometric,
   ...glitchMilspec,
   ...glitteryFlats,
   ...graphical,
   ...highContrast,
+  ...lines,
   ...neapolitan,
   ...perfectSymmetry,
   ...poisonFrogs,

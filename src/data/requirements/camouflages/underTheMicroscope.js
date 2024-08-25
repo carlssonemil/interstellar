@@ -58,7 +58,7 @@ export default {
     level: '23',
     challenge: {
       amount: 15,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 
@@ -76,7 +76,7 @@ export default {
     level: '20',
     challenge: {
       amount: 15,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 
@@ -214,6 +214,24 @@ export default {
     challenge: {
       amount: 50,
       type: 'mercenary_kills'
+    }
+  },
+
+  'Flit And Float': {
+    weapon: 'STG44',
+    level: '3',
+    challenge: {
+      amount: 50,
+      type: 'kills'
+    }
+  },
+
+  'Globular Neon': {
+    weapon: 'STG44',
+    level: '3',
+    challenge: {
+      amount: 250,
+      type: 'kills'
     }
   },
 }

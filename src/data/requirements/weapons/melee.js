@@ -10,7 +10,7 @@ export default {
 
     'Gilded': {
       amount: 10,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
 
     'Forged': {
@@ -86,7 +86,7 @@ export default {
 
     'Gilded': {
       amount: 10,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
 
     'Forged': {
@@ -153,27 +153,26 @@ export default {
     },
   },
 
-  'Sledgehammer': {
+  'Spear': {
     // Multiplayer
-    'Dubs Dubs Dubs': requirements['Dubs Dubs Dubs'],
+    'Color Wave': requirements['Color Wave'],
 
     // Zombies
-    'Retrowave': requirements['Retrowave'],
+    'Glitch': requirements['Glitch'],
 
     'Gilded': {
-      amount: 10,
-      type: 'kills_without_damaged',
+      amount: 15,
+      type: 'kills_from_behind',
     },
 
     'Forged': {
       amount: 10,
-      type: 'kills_from_behind',
+      type: 'kills_shortly_after_sprinting',
     },
 
     'Priceless': {
-      amount: 2,
-      times: 15,
-      type: 'kills_without_dying',
+      amount: 10,
+      type: 'one_shot_kills',
     },
 
     'Golden Enigma': {

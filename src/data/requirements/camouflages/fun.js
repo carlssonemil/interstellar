@@ -80,27 +80,8 @@ export default {
     },
   },
 
-  'Donut Worry': {
-    weapon: 'Reclaimer 18',
-    level: '15',
-    challenge: {
-      amount: 10,
-      type: 'double_kills',
-    },
-  },
-
-  'Tangy Donut': {
-    weapon: 'Reclaimer 18',
-    level: '15',
-    challenge: {
-      amount: 20,
-      times: 10,
-      type: 'consecutive_kills_without_taking_damage',
-    },
-  },
-
-  'Dubs Dubs Dubs': {
-    weapon: 'Sledgehammer',
+  'The Last Post': {
+    weapon: 'Torque 35',
     level: '4',
     challenge: {
       amount: 50,
@@ -108,8 +89,8 @@ export default {
     },
   },
 
-  'Retrowave': {
-    weapon: 'Sledgehammer',
+  'Forum Chaser': {
+    weapon: 'Torque 35',
     level: '4',
     challenge: {
       amount: 250,

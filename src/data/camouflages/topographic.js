@@ -9,6 +9,7 @@ const multiplayer = [
   'Topo Regal',
   'Topo Reverb',
   'Topo Sandrock',
+  'Forms And Features',
 ]
 
 const zombies = [
@@ -22,6 +23,7 @@ const zombies = [
   'Topo Sickly',
   'Topo Spirit',
   'Topo Stone',
+  'Maps And Mazes',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

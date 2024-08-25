@@ -126,4 +126,22 @@ export default {
       type: 'kills_with_frost_damage',
     },
   },
+
+  'Shapely Print': {
+    weapon: 'Static-HV',
+    level: '3',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Neo-Geo': {
+    weapon: 'Static-HV',
+    level: '3',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

@@ -72,4 +72,22 @@ export default {
       type: 'kills_in_a_single_shot',
     },
   },
+
+  White: {
+    weapon: 'STG44',
+    level: '20',
+    challenge: {
+      amount: 25,
+      type: 'kills_while_in_tac_stance',
+    },
+  },
+
+  Black: {
+    weapon: 'STG44',
+    level: '20',
+    challenge: {
+      amount: 250,
+      type: 'point_blank_kills',
+    },
+  },
 }

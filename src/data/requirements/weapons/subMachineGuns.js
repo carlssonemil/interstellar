@@ -443,4 +443,50 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'Static-HV': {
+    // Multiplayer
+    'Shapely Print': requirements['Shapely Print'],
+    'Garden Of Eyes': requirements['Garden Of Eyes'],
+    'Cacophonous Collision': requirements['Cacophonous Collision'],
+    'No-Fly Zone': requirements['No-Fly Zone'],
+
+    // Zombies
+    'Neo-Geo': requirements['Neo-Geo'],
+    'Eye Love You': requirements['Eye Love You'],
+    'Calamitous Collision': requirements['Calamitous Collision'],
+    'Flightless Bird': requirements['Flightless Bird'],
+
+    'Gilded': {
+      amount: 2,
+      times: 10,
+      type: 'kills_without_releasing_trigger',
+    },
+
+    'Forged': {
+      amount: 15,
+      type: 'kills_while_ads_and_full_attachments',
+    },
+
+    'Priceless': {
+      amount: 2,
+      times: 10,
+      type: 'kills_shortly_after_sprinting_one_life',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

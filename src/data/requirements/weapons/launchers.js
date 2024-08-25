@@ -75,5 +75,45 @@ export default {
       amount: 10,
       type: 'special_or_elite_zombie_kills',
     },
-  }
+  },
+
+  'Torque 35': {
+    // Multiplayer
+    'The Last Post': requirements['The Last Post'],
+
+    // Zombies
+    'Forum Chaser': requirements['Forum Chaser'],
+
+    'Gilded': {
+      amount: 50,
+      type: 'hipfire_kills',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'one_shot_kills',
+    },
+
+    'Priceless': {
+      amount: 2,
+      seconds: 10,
+      times: 10,
+      type: 'time_limit_kills',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

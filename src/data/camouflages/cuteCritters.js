@@ -4,7 +4,7 @@ const multiplayer = [
   'Tidepool',
   'Blacklight',
   'Penny',
-  'Bugged Out',
+  'No-Fly Zone',
 ]
 
 const zombies = [
@@ -13,7 +13,7 @@ const zombies = [
   'Blight Hound',
   'Spectral',
   'Lurker',
-  'Dead Creeper',
+  'Flightless Bird',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

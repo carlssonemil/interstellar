@@ -72,10 +72,10 @@ export default {
     },
 
     zombies: {
-      Perilous: false,
-      Splintered: false,
-      Oracle: false,
-      Decrepit: false,
+      'Perilous': false,
+      'Splintered': false,
+      'Oracle': false,
+      'Decrepit': false,
     },
   },
 
@@ -156,6 +156,22 @@ export default {
       'Healthy Appetite': false,
       'Do The Wave': false,
       'Primed And Polished': false,
+    },
+  },
+
+  'Static-HV': {
+    multiplayer: {
+      'Shapely Print': false,
+      'Garden Of Eyes': false,
+      'Cacophonous Collision': false,
+      'No-Fly Zone': false,
+    },
+
+    zombies: {
+      'Neo-Geo': false,
+      'Eye Love You': false,
+      'Calamitous Collision': false,
+      'Flightless Bird': false,
     },
   },
 }

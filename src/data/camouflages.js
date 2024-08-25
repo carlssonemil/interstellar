@@ -21,7 +21,6 @@ import skeletal from './camouflages/skeletal'
 import sprayPaint from './camouflages/sprayPaint'
 import topographic from './camouflages/topographic'
 import twoToneBrushstrokes from './camouflages/twoToneBrushstrokes'
-import uncategorized from './camouflages/uncategorized'
 import underTheMicroscope from './camouflages/underTheMicroscope'
 import wavelength from './camouflages/wavelength'
 import woodland from './camouflages/woodland'
@@ -50,7 +49,6 @@ export default [
   ...sprayPaint,
   ...topographic,
   ...twoToneBrushstrokes,
-  ...uncategorized,
   ...underTheMicroscope,
   ...wavelength,
   ...woodland,

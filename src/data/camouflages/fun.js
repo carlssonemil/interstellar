@@ -11,6 +11,7 @@ const multiplayer = [
 const zombies = [
   'Avaricious', 
   'Shin Rippers',
+  'Anomaly',
   'Necromancy',
   'Forum Chaser',
 ]

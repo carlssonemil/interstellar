@@ -46,20 +46,4 @@ export default {
       'Melting Hope': false,
     },
   },
-
-  'Reclaimer 18': {
-    multiplayer: {
-      'Bugged Out': false,
-      'He\'s Looking At You': false,
-      'Azure Refract': false,
-      'Donut Worry': false,
-    },
-
-    zombies: {
-      'Dead Creeper': false,
-      'Evil-Eye-Ris': false,
-      'Crystalized': false,
-      'Tangy Donut': false,
-    },
-  },
 }

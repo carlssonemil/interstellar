@@ -126,6 +126,7 @@ export default {
       'Microbial': false,
     },
   },
+
   'BAL-27': {
     multiplayer: {
       'Sunset Waves': false,
@@ -139,6 +140,22 @@ export default {
       'Decoy Drizzle': false,
       'Ghostware': false,
       'Evil Spawn': false,
+    },
+  },
+
+  'STG44': {
+    multiplayer: {
+      'Flit And Float': false,
+      'Forms And Features': false,
+      'Out Of Sorts': false,
+      'White': false,
+    },
+
+    zombies: {
+      'Globular Neon': false,
+      'Maps And Mazes': false,
+      'Overstretched': false,
+      'Black': false,
     },
   },
 }

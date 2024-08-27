@@ -49,7 +49,7 @@ export default {
     level: '29',
     challenge: {
       amount: 15,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 
@@ -160,6 +160,7 @@ export default {
       type: 'kills',
     },
   },
+
   'Electro Torrent': {
     weapon: 'BAL-27',
     level: '13',
@@ -168,12 +169,31 @@ export default {
       type: 'headshot_kills',
     },
   },
+
   'Ghostware': {
     weapon: 'BAL-27',
     level: '13',
     challenge: {
       amount: 250,
       type: 'kills_while_in_tac_stance',
+    },
+  },
+
+  'Color Wave': {
+    weapon: 'Spear',
+    level: '4',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Glitch': {
+    weapon: 'Spear',
+    level: '4',
+    challenge: {
+      amount: 250,
+      type: 'kills',
     },
   },
 }

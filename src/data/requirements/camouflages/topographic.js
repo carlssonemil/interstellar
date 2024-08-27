@@ -181,4 +181,22 @@ export default {
       type: 'kills_with_frost_damage',
     },
   },
+
+  'Forms And Features': {
+    weapon: 'STG44',
+    level: '9',
+    challenge: {
+      amount: 50,
+      type: 'kills_while_ads',
+    },
+  },
+
+  'Maps And Mazes': {
+    weapon: 'STG44',
+    level: '9',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_frost_damage',
+    },
+  },
 }

@@ -1,25 +1,15 @@
 const multiplayer = [
-  'Drip', 
-  'Gaggle', 
-  'Tiger Blood',
-  'Whats Your Sign',
-  'Sunny Side',
-  'Evil Spawn',
-  'The Last Post',
+  'Out Of Sorts',
 ]
 
 const zombies = [
-  'Avaricious', 
-  'Shin Rippers',
-  'Anomaly',
-  'Necromancy',
-  'Forum Chaser',
+  'Overstretched',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))
 
 export default camouflages.map((camouflage) => ({
-  category: 'Fun',
+  category: 'Lines',
   name: camouflage,
   multiplayer: multiplayer.includes(camouflage),
   zombies: zombies.includes(camouflage),

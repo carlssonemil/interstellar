@@ -1,11 +1,11 @@
 export default {
   'RGL-80': {
     multiplayer: {
-      Strain: false,
+      'Strain': false,
     },
 
     zombies: {
-      Pathosis: false,
+      'Pathosis': false,
     },
   },
 
@@ -17,5 +17,15 @@ export default {
     zombies: {
       'Deformed': false,
     },
-  }
+  },
+
+  'Torque 35': {
+    multiplayer: {
+      'The Last Post': false,
+    },
+
+    zombies: {
+      'Forum Chaser': false,
+    },
+  },
 }

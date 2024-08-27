@@ -67,7 +67,7 @@ export default {
     level: '18',
     challenge: {
       amount: 25,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 
@@ -89,21 +89,21 @@ export default {
     },
   },
 
-  'Bugged Out': {
-    weapon: 'Reclaimer 18',
-    level: '2',
+  'No-Fly Zone': {
+    weapon: 'Static-HV',
+    level: '17',
     challenge: {
-      amount: 50,
-      type: 'kills',
+      amount: 10,
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 
-  'Dead Creeper': {
-    weapon: 'Reclaimer 18',
-    level: '2',
+  'Flightless Bird': {
+    weapon: 'Static-HV',
+    level: '17',
     challenge: {
       amount: 250,
-      type: 'kills',
+      type: 'kills_in_medium_or_high_threat_zone',
     },
   },
 }

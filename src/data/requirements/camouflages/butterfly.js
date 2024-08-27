@@ -31,7 +31,7 @@ export default {
     level: '27',
     challenge: {
       amount: 15,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 
@@ -40,7 +40,7 @@ export default {
     level: '28',
     challenge: {
       amount: 15,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 

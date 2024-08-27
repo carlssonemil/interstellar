@@ -58,7 +58,7 @@ export default {
     level: '24',
     challenge: {
       amount: 10,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 
@@ -104,6 +104,42 @@ export default {
     challenge: {
       amount: 10,
       type: 'mangler_kills',
+    },
+  },
+
+  'Garden Of Eyes': {
+    weapon: 'Static-HV',
+    level: '8',
+    challenge: {
+      amount: 25,
+      type: 'hipfire_kills',
+    },
+  },
+
+  'Eye Love You': {
+    weapon: 'Static-HV',
+    level: '8',
+    challenge: {
+      amount: 100,
+      type: 'kills_in_single_match',
+    },
+  },
+
+  'Cacophonous Collision': {
+    weapon: 'Static-HV',
+    level: '12',
+    challenge: {
+      amount: 10,
+      type: 'kills_while_crouching_or_sliding',
+    },
+  },
+
+  'Calamitous Collision': {
+    weapon: 'Static-HV',
+    level: '12',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_fire_damage',
     },
   },
 }

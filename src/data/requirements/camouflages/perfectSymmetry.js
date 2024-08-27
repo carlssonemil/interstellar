@@ -227,7 +227,7 @@ export default {
     level: '18',
     challenge: {
       amount: 10,
-      type: 'kills_while_enemy_affected_by_tactical',
+      type: 'kills_while_enemy_stunned_or_blinded',
     },
   },
 

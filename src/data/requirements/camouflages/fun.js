@@ -106,4 +106,23 @@ export default {
       type: 'kills',
     },
   },
+
+  'Donut Worry': {
+    weapon: 'Reclaimer 18',
+    level: '15',
+    challenge: {
+      amount: 10,
+      type: 'double_kills',
+    },
+  },
+
+  'Tangy Donut': {
+    weapon: 'Torque 35',
+    level: '15',
+    challenge: {
+      amount: 20,
+      times: 10,
+      type: 'consecutive_kills_without_taking_damage',
+    },
+  },
 }

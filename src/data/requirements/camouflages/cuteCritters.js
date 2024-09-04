@@ -106,4 +106,22 @@ export default {
       type: 'kills_in_medium_or_high_threat_zone',
     },
   },
+
+  'Bugged Out': {
+    weapon: 'Reclaimer 18',
+    level: '2',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Dead Creeper': {
+    weapon: 'Reclaimer 18',
+    level: '2',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

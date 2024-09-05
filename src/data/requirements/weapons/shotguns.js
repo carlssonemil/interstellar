@@ -1,6 +1,53 @@
 import requirements from '@/data/requirements/camouflages'
 
 export default {
+  'Reclaimer 18': {
+    // Multiplayer
+    'Bugged Out': requirements['Bugged Out'],
+    'He\'s Looking At You': requirements['He\'s Looking At You'],
+    'Azure Refract': requirements['Azure Refract'],
+    'Donut Worry': requirements['Donut Worry'],
+
+    // Zombies
+    'Dead Creeper': requirements['Dead Creeper'],
+    'Evil-Eye-Ris': requirements['Evil-Eye-Ris'],
+    'Crystalized': requirements['Crystalized'],
+    'Tangy Donut': requirements['Tangy Donut'],
+
+    'Gilded': {
+      amount: 2,
+      times: 10,
+      type: 'kills_shortly_after_sprinting_one_life',
+    },
+
+    'Forged': {
+      amount: 2,
+      seconds: 10,
+      times: 15,
+      type: 'time_limit_kills',
+    },
+
+    'Priceless': {
+      amount: 10,
+      type: 'hipfire_kills_while_strafing',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
+
   'Lockwood 680': {
     // Multiplayer
     'Blue Sands': requirements['Blue Sands'],

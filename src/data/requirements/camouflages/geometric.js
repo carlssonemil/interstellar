@@ -17,6 +17,15 @@ export default {
     },
   },
 
+  'Azure Refract': {
+    weapon: 'Reclaimer 18',
+    level: '10',
+    challenge: {
+      amount: 10,
+      type: 'kills_while_ads',
+    },
+  },
+
   'Puncture': {
     weapon: 'FR 5.56',
     level: '2',
@@ -32,6 +41,15 @@ export default {
     challenge: {
       amount: 250,
       type: 'kills_at_rare_or_higher_rarity',
+    },
+  },
+
+  'Crystalized': {
+    weapon: 'Reclaimer 18',
+    level: '10',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_electric_damage',
     },
   },
 }

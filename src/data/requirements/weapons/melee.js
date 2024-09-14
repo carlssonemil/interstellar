@@ -153,6 +153,45 @@ export default {
     },
   },
 
+  'Sledgehammer': {
+    // Multiplayer
+    'Dubs Dubs Dubs': requirements['Dubs Dubs Dubs'],
+
+    // Zombies
+    'Retrowave': requirements['Retrowave'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'kills_without_damaged',
+    },
+
+    'Forged': {
+      amount: 10,
+      type: 'kills_from_behind',
+    },
+
+    'Priceless': {
+      amount: 2,
+      times: 15,
+      type: 'kills_without_dying',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
+
   'Spear': {
     // Multiplayer
     'Color Wave': requirements['Color Wave'],

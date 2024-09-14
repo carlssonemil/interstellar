@@ -89,6 +89,43 @@ export default {
     },
   },
 
+  'Donut Worry': {
+    weapon: 'Reclaimer 18',
+    level: '15',
+    challenge: {
+      amount: 10,
+      type: 'double_kills',
+    },
+  },
+
+  'Tangy Donut': {
+    weapon: 'Reclaimer 18',
+    level: '15',
+    challenge: {
+      amount: 20,
+      times: 10,
+      type: 'consecutive_kills_without_taking_damage',
+    },
+  },
+
+  'Dubs Dubs Dubs': {
+    weapon: 'Sledgehammer',
+    level: '4',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Retrowave': {
+    weapon: 'Sledgehammer',
+    level: '4',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
+
   'The Last Post': {
     weapon: 'Torque 35',
     level: '4',
@@ -104,25 +141,6 @@ export default {
     challenge: {
       amount: 250,
       type: 'kills',
-    },
-  },
-
-  'Donut Worry': {
-    weapon: 'Reclaimer 18',
-    level: '15',
-    challenge: {
-      amount: 10,
-      type: 'double_kills',
-    },
-  },
-
-  'Tangy Donut': {
-    weapon: 'Torque 35',
-    level: '15',
-    challenge: {
-      amount: 20,
-      times: 10,
-      type: 'consecutive_kills_without_taking_damage',
     },
   },
 }

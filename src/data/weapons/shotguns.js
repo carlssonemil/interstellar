@@ -3,7 +3,12 @@ import defaultCompletionistProgress from '@/data/defaults/progress/completionist
 import defaultMasteryProgress from '@/data/defaults/progress/mastery'
 
 // The order of the weapons in this array is the order they will appear in the app
-const weapons = [{ name: 'Reclaimer 18' }, { name: 'Lockwood 680' }, { name: 'Haymaker' }, { name: 'Riveter' }]
+const weapons = [
+  { name: 'Reclaimer 18' },
+  { name: 'Lockwood 680' },
+  { name: 'Haymaker' },
+  { name: 'Riveter' },
+]
 
 export default weapons.map((weapon) => ({
   category: 'Shotguns',

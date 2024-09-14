@@ -89,24 +89,6 @@ export default {
     },
   },
 
-  'No-Fly Zone': {
-    weapon: 'Static-HV',
-    level: '17',
-    challenge: {
-      amount: 10,
-      type: 'kills_while_enemy_stunned_or_blinded',
-    },
-  },
-
-  'Flightless Bird': {
-    weapon: 'Static-HV',
-    level: '17',
-    challenge: {
-      amount: 250,
-      type: 'kills_in_medium_or_high_threat_zone',
-    },
-  },
-
   'Bugged Out': {
     weapon: 'Reclaimer 18',
     level: '2',
@@ -122,6 +104,24 @@ export default {
     challenge: {
       amount: 250,
       type: 'kills',
+    },
+  },
+
+  'No-Fly Zone': {
+    weapon: 'Static-HV',
+    level: '17',
+    challenge: {
+      amount: 10,
+      type: 'kills_while_enemy_stunned_or_blinded',
+    },
+  },
+
+  'Flightless Bird': {
+    weapon: 'Static-HV',
+    level: '17',
+    challenge: {
+      amount: 250,
+      type: 'kills_in_medium_or_high_threat_zone',
     },
   },
 }

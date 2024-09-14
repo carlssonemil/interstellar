@@ -15,7 +15,7 @@ export default {
     },
 
     zombies: {
-      Ripped: false,
+      'Ripped': false,
     },
   },
 
@@ -36,6 +36,16 @@ export default {
 
     zombies: {
       'Neuronic': false,
+    }
+  },
+
+  'Sledgehammer': {
+    multiplayer: {
+      'Dubs Dubs Dubs': false,
+    },
+
+    zombies: {
+      'Retrowave': false,
     }
   },
 

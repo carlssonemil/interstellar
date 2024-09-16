@@ -8,6 +8,7 @@ const weapons = [
   { name: 'Karambit' },
   { name: 'Gladiator' },
   { name: 'Soulrender' },
+  { name: 'Sledgehammer' },
   { name: 'Spear' },
 ]
 

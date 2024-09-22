@@ -12,6 +12,7 @@ const multiplayer = [
   'Bullet Hell',
   'Sunset Waves',
   'Ethereal Revolution',
+  'Atoms Abound',
 ]
 
 const zombies = [
@@ -26,6 +27,7 @@ const zombies = [
   'Neuronic',
   'Apocalyptic-MORS',
   'Caliber',
+  'Atomic Structure',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

@@ -62,4 +62,20 @@ export default {
       'Venom Prism': false,
     },
   },
+
+  'DTIR 30-06': {
+    multiplayer: {
+      'Cursed Photocopy': false,
+      'Atoms Abound': false,
+      'Peaks And Valleys': false,
+      'Star Light, Star Bright': false,
+    },
+
+    zombies: {
+      'Photocopied Horror': false,
+      'Atomic Structure': false,
+      'Highs And Lows': false,
+      'Trouble-Shoot': false,
+    },
+  },
 }

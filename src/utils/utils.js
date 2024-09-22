@@ -1,7 +1,7 @@
 const convertToKebabCase = (string) => {
   return string
     .replace(/\s+/g, '-')
-    .replace(/[\s.;,?'%]/, '')
+    .replace(/[\s.;,?'%]/g, '')
     .toLowerCase()
 }
 

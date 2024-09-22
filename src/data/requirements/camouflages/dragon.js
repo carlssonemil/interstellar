@@ -16,4 +16,22 @@ export default {
       type: 'hipfire_kills',
     },
   },
+
+  'All-Consuming': {
+    weapon: 'Kastov LSW',
+    level: '3',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Devouring Demons': {
+    weapon: 'Kastov LSW',
+    level: '3',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

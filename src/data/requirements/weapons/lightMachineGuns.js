@@ -274,4 +274,49 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'Kastov LSW': {
+    // Multiplayer
+    'All-Consuming': requirements['All-Consuming'],
+    'Finger Trap': requirements['Finger Trap'],
+    'Hit \'OK\'': requirements['Hit \'OK\''],
+    'Shifting Legacy': requirements['Shifting Legacy'],
+
+    // Zombies
+    'Devouring Demons': requirements['Devouring Demons'],
+    'Finger Garden': requirements['Finger Garden'],
+    'Failure To Launch': requirements['Failure To Launch'],
+    'Pixel Perfect': requirements['Pixel Perfect'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'full_auto_clean_kills',
+    },
+
+    'Forged': {
+      amount: 25,
+      type: 'moving_kills',
+    },
+
+    'Priceless': {
+      amount: 2,
+      times: 25,
+      type: 'kills_without_releasing_trigger',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

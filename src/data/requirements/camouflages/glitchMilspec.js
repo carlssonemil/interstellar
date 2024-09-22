@@ -196,4 +196,22 @@ export default {
       type: 'kills',
     },
   },
+
+  'Shifting Legacy': {
+    weapon: 'Kastov LSW',
+    level: '17',
+    challenge: {
+      amount: 10,
+      type: 'double_kills',
+    },
+  },
+
+  'Pixel Perfect': {
+    weapon: 'Kastov LSW',
+    level: '17',
+    challenge: {
+      amount: 250,
+      type: 'kills_with_fire_damage',
+    },
+  },
 }

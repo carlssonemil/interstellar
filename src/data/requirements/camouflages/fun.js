@@ -143,4 +143,24 @@ export default {
       type: 'kills',
     },
   },
+
+  'Hit \'OK\'': {
+    weapon: 'Kastov LSW',
+    level: '12',
+    challenge: {
+      amount: 10,
+      type: 'kills_with_full_attachments',
+    },
+  },
+
+  'Failure To Launch': {
+    weapon: 'Kastov LSW',
+    level: '12',
+    challenge: {
+      amount: 10,
+      seconds: 5,
+      times: 10,
+      type: 'time_limit_kills',
+    },
+  },
 }

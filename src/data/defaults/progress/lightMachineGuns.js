@@ -94,4 +94,20 @@ export default {
       'Fluctuation': false,
     },
   },
+
+  'Kastov LSW': {
+    multiplayer: {
+      'All-Consuming': false,
+      'Finger Trap': false,
+      'Hit \'OK\'': false,
+      'Shifting Legacy': false,
+    },
+
+    zombies: {
+      'Devouring Demons': false,
+      'Finger Garden': false,
+      'Failure To Launch': false,
+      'Pixel Perfect': false,
+    },
+  },
 }

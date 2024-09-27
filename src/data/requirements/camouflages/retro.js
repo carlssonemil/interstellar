@@ -252,4 +252,22 @@ export default {
       type: 'kills',
     },
   },
+
+  'Star Light, Star Bright': {
+    weapon: 'DTIR 30-06',
+    level: '19',
+    challenge: {
+      amount: 15,
+      type: 'headshot_kills',
+    },
+  },
+
+  'Trouble-Shoot': {
+    weapon: 'DTIR 30-06',
+    level: '19',
+    challenge: {
+      amount: 10,
+      type: 'disciple_kills',
+    },
+  },
 }

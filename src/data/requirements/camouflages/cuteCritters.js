@@ -124,4 +124,22 @@ export default {
       type: 'kills_in_medium_or_high_threat_zone',
     },
   },
+
+  'Cursed Photocopy': {
+    weapon: 'DTIR 30-06',
+    level: '3',
+    challenge: {
+      amount: 50,
+      type: 'kills',
+    },
+  },
+
+  'Photocopied Horror': {
+    weapon: 'DTIR 30-06',
+    level: '3',
+    challenge: {
+      amount: 250,
+      type: 'kills',
+    },
+  },
 }

@@ -213,4 +213,22 @@ export default {
       type: 'kills',
     },
   },
+
+  'Atoms Abound': {
+    weapon: 'DTIR 30-06',
+    level: '9',
+    challenge: {
+      amount: 50,
+      type: 'kills_while_using_full_auto',
+    },
+  },
+
+  'Atomic Structure': {
+    weapon: 'DTIR 30-06',
+    level: '9',
+    challenge: {
+      amount: 250,
+      type: 'kills_in_medium_or_high_threat_zone',
+    },
+  },
 }

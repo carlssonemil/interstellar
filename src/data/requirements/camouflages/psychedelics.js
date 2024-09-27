@@ -142,4 +142,22 @@ export default {
       type: 'kills_with_fire_damage',
     },
   },
+
+  'Finger Trap': {
+    weapon: 'Kastov LSW',
+    level: '8',
+    challenge: {
+      amount: 10,
+      type: 'penetration_kills',
+    },
+  },
+
+  'Finger Garden': {
+    weapon: 'Kastov LSW',
+    level: '8',
+    challenge: {
+      amount: 100,
+      type: 'kills_in_single_match',
+    },
+  },
 }

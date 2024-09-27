@@ -182,4 +182,49 @@ export default {
       type: 'special_or_elite_zombie_kills',
     },
   },
+
+  'DTIR 30-06': {
+    // Multiplayer
+    'Cursed Photocopy': requirements['Cursed Photocopy'],
+    'Atoms Abound': requirements['Atoms Abound'],
+    'Peaks And Valleys': requirements['Peaks And Valleys'],
+    'Star Light, Star Bright': requirements['Star Light, Star Bright'],
+
+    // Zombies
+    'Photocopied Horror': requirements['Photocopied Horror'],
+    'Atomic Structure': requirements['Atomic Structure'],
+    'Highs And Lows': requirements['Highs And Lows'],
+    'Trouble-Shoot': requirements['Trouble-Shoot'],
+
+    'Gilded': {
+      amount: 10,
+      type: 'headshots_while_moving',
+    },
+
+    'Forged': {
+      amount: 2,
+      times: 25,
+      type: 'kills_without_dying',
+    },
+
+    'Priceless': {
+      amount: 15,
+      type: 'quickscope_kills',
+    },
+
+    'Golden Enigma': {
+      amount: 100,
+      type: 'kills_and_successfully_extract_in_a_single_deployment',
+    },
+
+    'Zircon Scale': {
+      amount: 300,
+      type: 'pack_a_punched_kills',
+    },
+
+    'Serpentinite': {
+      amount: 10,
+      type: 'special_or_elite_zombie_kills',
+    },
+  },
 }

@@ -1,9 +1,11 @@
 const multiplayer = [
   'He\'s Looking At You',
+  'All-Consuming',
 ]
 
 const zombies = [
   'Evil-Eye-Ris',
+  'Devouring Demons',
 ]
 
 const camouflages = [...multiplayer, ...zombies].sort((a, b) => a.localeCompare(b))

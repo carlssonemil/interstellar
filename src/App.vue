@@ -6,6 +6,13 @@
     @toggleMobileNavigation="toggleMobileNavigation" />
 
   <main>
+    <div class="container" style="margin-bottom: 1.5rem">
+      <AlertComponent>
+        Looking for the tracker for Black Ops 6?
+        <a href="https://nebula.emca.app">You can find it here</a>! Good luck with the grind! 🚀
+      </AlertComponent>
+    </div>
+
     <router-view v-slot="{ Component }">
       <transition name="page-fade" mode="out-in">
         <component :is="Component" />
